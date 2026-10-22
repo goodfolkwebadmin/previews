@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>A-1 Property Management | Property Management in Hermiston, Oregon</title>
+<meta name="description" content="Family owned and operated for over 30 years. A-1 Property Management screens tenants, collects rent, and manages rental properties in Hermiston, Stanfield, Echo, and Umatilla, Oregon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Marcellus&family=Libre+Caslon+Text:wght@700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/columbia.webp">
+<link rel="icon" href="img/a1-mark.svg" type="image/svg+xml">
+<meta property="og:title" content="A-1 Property Management | Website preview">
+<meta property="og:description" content="A concept website designed for A-1 Property Management in Hermiston, Oregon.">
+<style>
+:root{
+  --river:#0e2a44; --river-2:#163a5c; --river-3:#21507c;
+  --sage:#8d9b7e; --sage-l:#e8ece2;
+  --gold:#e3ac35; --gold-d:#c9921f; --gold-l:#f8ebcf; --logo-ink:#1d1b18;
+  --bg:#f6f5f1; --card:#fff; --ink:#15202b; --muted:#5d6874; --rule:#e1e3df;
+  --h:"Plus Jakarta Sans",system-ui,sans-serif; --b:Inter,system-ui,sans-serif;
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--b);color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1180px,100% - 40px);margin:0 auto}
+.wrap>*,.trust .wrap>div,.info span{min-width:0}
+.info b{overflow-wrap:anywhere}
+section,[id]{scroll-margin-top:90px}
+.preview{background:#0a1520;color:#cfd6dd;font-size:13px;text-align:center;padding:8px 16px}
+.preview b{color:var(--gold)}
+
+/* header */
+header.top{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:78px;gap:20px}
+.logo{display:flex;align-items:center;gap:13px}
+.mark{width:68px;height:68px;flex:none;margin:-4px 0}
+.logo img{height:66px;width:auto}
+footer .logo img{height:65px}
+.logo .wm{font-family:Marcellus,serif;color:var(--logo-ink);font-size:27px;line-height:.98;letter-spacing:.005em;-webkit-text-stroke:.35px currentColor}
+.logo .wm span{display:block}
+.nav{display:flex;align-items:center;gap:30px;font-family:var(--h);font-weight:600;font-size:15px;color:#33404c}
+.nav a:not(.btn):hover{color:var(--river-3)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:700 15px var(--h);border-radius:12px;padding:15px 24px;border:0;cursor:pointer;transition:transform .2s,background .2s,box-shadow .2s;white-space:nowrap}
+.btn:hover{transform:translateY(-2px)}
+.btn svg{width:18px;height:18px}
+.btn-river{background:var(--river);color:#fff}
+.btn-river:hover{background:var(--river-2);box-shadow:0 12px 24px -12px rgba(14,42,68,.6)}
+.btn-gold{background:var(--gold);color:#1b1408}
+.btn-gold:hover{background:#eab84a}
+.btn-glass{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.35);backdrop-filter:blur(6px)}
+
+/* hero */
+.hero{position:relative;color:#fff;overflow:hidden;background:var(--river)}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 70%}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(95deg,rgba(14,42,68,.94) 0%,rgba(14,42,68,.82) 38%,rgba(14,42,68,.25) 75%,rgba(14,42,68,.1) 100%)}
+.hero .wrap{position:relative;z-index:2;padding:clamp(80px,11vw,140px) 0 clamp(120px,13vw,170px)}
+.kicker{display:inline-flex;align-items:center;gap:10px;font-family:var(--h);font-weight:700;font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.kicker i{width:30px;height:2px;background:currentColor;display:block}
+h1{font-family:var(--h);font-weight:800;font-size:clamp(40px,5.6vw,72px);line-height:1.04;letter-spacing:-.03em;max-width:760px;margin:20px 0 22px}
+h1 span{color:var(--gold)}
+.hero p{font-size:clamp(17px,1.5vw,20px);max-width:560px;color:rgba(255,255,255,.86)}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}
+.credit{position:absolute;right:16px;bottom:12px;font-size:11px;color:rgba(255,255,255,.55);z-index:3}
+
+/* trust strip */
+.trust{position:relative;z-index:2;margin-top:-64px}
+.trust .wrap{background:var(--card);border-radius:22px;box-shadow:0 30px 60px -30px rgba(14,42,68,.35);display:grid;grid-template-columns:repeat(4,1fr)}
+.trust div{padding:28px 28px;border-left:1px solid var(--rule)}
+.trust div:first-child{border-left:0}
+.trust b{display:block;font-family:var(--h);font-weight:800;font-size:30px;color:var(--river);letter-spacing:-.02em;line-height:1.1}
+.trust span{font-size:14px;color:var(--muted)}
+
+/* sections */
+section{padding:clamp(80px,9vw,120px) 0}
+.sh{max-width:720px;margin-bottom:52px}
+.sh.c{margin-left:auto;margin-right:auto;text-align:center}
+.eyebrow{font-family:var(--h);font-weight:700;font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--sage)}
+h2{font-family:var(--h);font-weight:800;font-size:clamp(32px,3.8vw,48px);line-height:1.1;letter-spacing:-.025em;color:var(--river);margin-top:12px}
+.sh p{color:var(--muted);font-size:18px;margin-top:16px}
+
+/* services */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.svc article{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);padding:34px 30px 30px;transition:transform .3s,box-shadow .3s,border-color .3s;position:relative;overflow:hidden}
+.svc article::after{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .4s}
+.svc article:hover{transform:translateY(-6px);box-shadow:0 26px 44px -30px rgba(14,42,68,.5);border-color:transparent}
+.svc article:hover::after{transform:scaleX(1)}
+.ic{width:56px;height:56px;border-radius:14px;background:var(--gold-l);display:grid;place-items:center;margin-bottom:24px}
+.ic svg{width:27px;height:27px;stroke:var(--river)}
+.svc h3{font-family:var(--h);font-weight:700;font-size:22px;color:var(--river);margin-bottom:10px}
+.svc p{color:var(--muted)}
+
+/* why */
+.why{background:var(--card);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.why .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:72px;align-items:center}
+.media{position:relative}
+.media .main{width:100%;aspect-ratio:4/4.4;object-fit:cover;border-radius:24px}
+.media .inset{position:absolute;right:-28px;bottom:-28px;width:44%;aspect-ratio:1;object-fit:cover;border-radius:20px;border:8px solid var(--card);box-shadow:0 20px 40px -20px rgba(0,0,0,.35)}
+.media .badge{position:absolute;left:-22px;top:32px;background:var(--river);color:#fff;border-radius:18px;padding:20px 22px;box-shadow:0 20px 40px -20px rgba(14,42,68,.7)}
+.media .badge b{display:block;font-family:var(--h);font-weight:800;font-size:44px;line-height:1;color:var(--gold);letter-spacing:-.03em}
+.media .badge span{font-size:13px;color:#c7d3df;letter-spacing:.04em}
+.why p.lead{color:var(--muted);font-size:17.5px;margin-top:18px}
+.pts{display:grid;gap:22px;margin-top:34px}
+.pts>div{display:grid;grid-template-columns:48px 1fr;gap:16px}
+.pts .n{width:48px;height:48px;border-radius:12px;background:var(--gold);color:var(--logo-ink);display:grid;place-items:center;font-family:var(--h);font-weight:800;font-size:15px}
+.pts h4{font-family:var(--h);font-size:18px;color:var(--river)}
+.pts p{color:var(--muted);font-size:15px}
+
+/* area band */
+.area{position:relative;color:#fff;padding:0;overflow:hidden}
+.area>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 60%}
+.area::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(0deg,rgba(14,42,68,.9) 10%,rgba(14,42,68,.25) 100%)}
+.area .wrap{position:relative;z-index:2;padding:clamp(80px,9vw,120px) 0;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:end}
+.area h2{color:#fff}
+.area p{color:rgba(255,255,255,.8);margin-top:16px;font-size:17px;max-width:480px}
+.towns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.towns span{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(6px);border-radius:12px;padding:13px 16px;font-family:var(--h);font-weight:600;font-size:15px}
+.towns span::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--gold);flex:none}
+.area .credit{bottom:10px}
+
+/* renters */
+.rent .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:0;background:var(--card);border:1px solid var(--rule);border-radius:24px;overflow:hidden}
+.rent img{width:100%;height:100%;object-fit:cover;min-height:340px}
+.rent .t{padding:clamp(32px,5vw,60px)}
+.rent p{color:var(--muted);font-size:17px;margin:16px 0 28px}
+
+/* rentals */
+.rentals{background:var(--paper,#f7f4ee)}
+.pv-tag{display:inline-block;margin:-28px 0 26px;font-size:13.5px;font-weight:600;color:#7a5a12;background:var(--gold-l);border:1px dashed var(--gold);border-radius:999px;padding:8px 14px}
+.list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.li{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.li .ph{position:relative;aspect-ratio:4/3}
+.li .ph img{width:100%;height:100%;object-fit:cover}
+.li .st{position:absolute;left:14px;top:14px;background:#1f7a4a;color:#fff;font-size:12.5px;font-weight:700;letter-spacing:.04em;padding:7px 11px;border-radius:999px}
+.li .st.soon{background:var(--river)}
+.li .bd{padding:24px;display:flex;flex-direction:column;gap:6px;flex:1}
+.li .pr{font-family:var(--h);font-weight:800;font-size:28px;color:var(--river);letter-spacing:-.02em}
+.li .pr small{font-size:15px;font-weight:600;color:var(--muted);margin-left:2px}
+.li h3{font-family:var(--h);font-weight:700;font-size:19px;color:var(--ink)}
+.li .loc{color:var(--muted);font-size:15px}
+.li ul{list-style:none;margin:10px 0 18px;display:grid;gap:6px;font-size:15px;color:var(--muted)}
+.li ul li::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--gold);margin-right:9px;vertical-align:2px}
+.li .btn{margin-top:auto;justify-content:center}
+.li.none{background:var(--river);border-color:var(--river);color:#fff;justify-content:center}
+.li.none h3{color:#fff;font-size:24px}
+.li.none p{color:rgba(255,255,255,.8);margin:8px 0 22px;font-size:16px}
+.app{margin-top:28px;display:grid;grid-template-columns:1.3fr 1fr;gap:24px 40px;align-items:center;background:var(--card);border:1px solid var(--rule);border-radius:var(--r);padding:clamp(24px,4vw,40px)}
+.app h3{font-family:var(--h);font-weight:800;font-size:28px;color:var(--river);margin-top:8px}
+.app p{color:var(--muted);margin-top:10px;font-size:16.5px;max-width:520px}
+.app .acts{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end}
+.app .pv-note{grid-column:1/-1}
+.btn-ghost{border:1.5px solid var(--rule);color:var(--river);background:#fff}
+@media(max-width:900px){.list{grid-template-columns:minmax(0,1fr)}.app{grid-template-columns:minmax(0,1fr)}.app .acts{justify-content:flex-start}.app .acts .btn{flex:1 1 100%;justify-content:center}}
+
+/* reviews */
+.rv{display:grid;grid-template-columns:repeat(6,1fr);gap:22px}
+.rv figure{grid-column:span 2}
+.rv figure:nth-child(-n+2){grid-column:span 3}
+.rv figure{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);padding:30px 28px;display:flex;flex-direction:column;gap:14px}
+.rv .stars{color:var(--gold);letter-spacing:3px;font-size:18px}
+.rv blockquote{font-size:17px;line-height:1.55;color:var(--ink);flex:1}
+.rv figcaption{font-size:13.5px;color:var(--muted);font-weight:500}
+.rv figcaption b{color:var(--ink);font-weight:600}
+
+/* contact */
+.contact{background:var(--river);color:#fff}
+.contact .wrap{display:grid;grid-template-columns:1fr 1.05fr;gap:64px;align-items:start}
+.contact h2{color:#fff}
+.contact .eyebrow{color:var(--gold)}
+.contact .sub{color:rgba(255,255,255,.75);margin-top:16px;font-size:17px}
+.info{margin-top:34px;display:grid;gap:14px}
+.info div{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:center}
+.info i{width:44px;height:44px;border-radius:12px;background:rgba(255,255,255,.08);display:grid;place-items:center}
+.info i svg{width:20px;height:20px;stroke:var(--gold)}
+.info small{display:block;color:rgba(255,255,255,.55);font-size:13px}
+.info b{font-weight:600}
+form{grid-template-columns:minmax(0,1fr);background:var(--card);color:var(--ink);border-radius:22px;padding:34px;display:grid;gap:16px;box-shadow:0 40px 70px -40px rgba(0,0,0,.7)}
+form h3{font-family:var(--h);font-size:22px;color:var(--river)}
+.seg{display:grid;grid-template-columns:1fr 1fr;background:var(--bg);border:1px solid var(--rule);border-radius:12px;padding:4px}
+.seg input{display:none}
+.seg label{text-align:center;padding:10px;border-radius:9px;font:600 14px var(--h);cursor:pointer;color:var(--muted)}
+.seg input:checked+label{background:var(--river);color:#fff}
+.f{display:grid;gap:6px;font:600 14px var(--h);color:#33404c}
+.f input,.f textarea,.f select{font:400 16px var(--b);padding:13px 14px;border:1px solid #d5dad5;border-radius:11px;background:#fff;color:var(--ink)}
+.f input:focus,.f textarea:focus,.f select:focus{outline:none;border-color:var(--river-3);box-shadow:0 0 0 3px rgba(33,80,124,.15)}
+.row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
+.f input,.f textarea,.f select{width:100%;min-width:0}
+form .btn{width:100%;padding:16px}
+.pv-note{background:var(--gold-l);border:1px solid var(--gold);color:var(--ink);border-radius:12px;padding:14px 16px;font-size:14.5px;line-height:1.5}
+.pv-note b{display:block;margin-bottom:2px}
+form .fine{font-size:13px;color:var(--muted);text-align:center}
+
+footer{background:#0a1e31;color:rgba(255,255,255,.6);font-size:14px;padding:44px 0 30px}
+footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+footer .logo .wm{color:#fff}
+footer h5{font-family:var(--h);color:#fff;font-size:14px;margin-bottom:12px;letter-spacing:.04em}
+footer p{line-height:1.8}
+footer .bot{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.1);padding-top:22px;margin-top:10px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px}
+.gf{color:rgba(255,255,255,.5);text-decoration:none;font-size:12px}
+.gf:hover{color:#fff}
+.callbar{display:none}
+
+.r{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.8,.2,1)}
+.r.in{opacity:1;transform:none}
+
+@media(max-width:960px){
+  .nav a:not(.btn){display:none}
+  .trust .wrap{grid-template-columns:1fr 1fr}
+  .trust div:nth-child(3){border-left:0}
+  .trust div:nth-child(n+3){border-top:1px solid var(--rule)}
+  .svc,.rv{grid-template-columns:1fr}
+  .rv figure,.rv figure:nth-child(-n+2){grid-column:auto}
+  .why .wrap,.area .wrap,.contact .wrap,.rent .wrap{grid-template-columns:1fr}
+  .media{margin:0 20px 30px}
+  footer .wrap{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+  header.top .logo img{height:48px}
+  .nav .btn{padding:11px 16px;font-size:14px}
+  .nav .btn .tx{display:none}
+  .trust div{padding:20px}
+  .trust b{font-size:24px}
+  .row,.towns{grid-template-columns:1fr}
+  form{padding:24px}
+  .media .badge{left:-10px}
+  .media .inset{right:-10px}
+  .callbar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:var(--river);z-index:30;box-shadow:0 -10px 30px -10px rgba(0,0,0,.4)}
+  body{padding-bottom:76px}
+}
+@media(max-width:380px){
+  .trust div{padding:16px}
+  .trust b{font-size:20px}
+  .trust span{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){.r{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+
+<div class="preview"><b>Concept preview</b> designed for A-1 Property Management by Goodfolk. Not a live site.</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="A-1 Property Management home"><img src="img/a1-logo.svg" alt="A-1 Property Management" width="157" height="60"></a>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#why">Why A-1</a>
+      <a href="#area">Service area</a>
+      <a href="#rentals">Rentals</a>
+      <a class="btn btn-gold" href="#contact" aria-label="Owner inquiry"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 11L12 4l8.5 7"/><path d="M5.5 9.5V20h13V9.5"/></svg><span class="tx">Owner inquiry</span></a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding:0">
+  <img src="img/columbia.webp" alt="The Columbia River under a big summer sky near Hermiston, Oregon">
+  <div class="wrap">
+    <span class="kicker"><i></i>Family owned and operated for 30+ years</span>
+    <h1>Property management for <span>Hermiston-area</span> owners.</h1>
+    <p>We screen your tenants, collect your rent, and look after your property, so you get the income without the 9pm phone calls.</p>
+    <div class="ctas">
+      <a class="btn btn-gold" href="#contact">Request an owner consultation</a>
+      <a class="btn btn-glass" href="tel:+15415674663"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>(541) 567-4663</a>
+    </div>
+  </div>
+  <span class="credit">Columbia River near Hermiston</span>
+</section>
+
+<div class="trust">
+  <div class="wrap">
+    <div><b>30+ years</b><span>Family owned and operated</span></div>
+    <div><b>Local</b><span>Office on Ridgeway Ave</span></div>
+    <div><b>Screened</b><span>Every applicant, every time</span></div>
+    <div><b>Close to home</b><span>Hermiston, Stanfield, Echo, Umatilla</span></div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sh c r">
+      <div class="eyebrow">Owner services</div>
+      <h2>Everything it takes to run a rental, handled.</h2>
+      <p>One house or a portfolio of units. You own the property, we take care of the work.</p>
+    </div>
+    <div class="svc">
+      <article class="r">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="8" r="4"/><path d="M3 20c0-3.5 3.1-6 7-6"/><circle cx="17" cy="16" r="3.2"/><path d="M19.4 18.4L22 21"/></svg></div>
+        <h3>Tenant screening</h3>
+        <p>The right tenant prevents most problems before they start. We review every applicant before a lease is signed.</p>
+      </article>
+      <article class="r" style="transition-delay:.08s">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="19" height="12" rx="2.5"/><circle cx="12" cy="12" r="2.6"/><path d="M6 9.5v5M18 9.5v5"/></svg></div>
+        <h3>Rent collection</h3>
+        <p>We collect the rent and keep the records straight, so you are not the one chasing payments.</p>
+      </article>
+      <article class="r" style="transition-delay:.16s">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 11L12 4l8.5 7"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5h4v5"/></svg></div>
+        <h3>Full property management</h3>
+        <p>Tenant questions, upkeep, and the day-to-day details. We manage your property the way we would manage our own.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="why" class="why">
+  <div class="wrap">
+    <div class="media r">
+      <img class="main" src="img/ranch.webp" alt="Single-story rental home in a quiet neighborhood">
+      <img class="inset" src="img/keys.webp" alt="Keys handed to a new tenant">
+      <div class="badge"><b>30+</b><span>YEARS IN HERMISTON</span></div>
+    </div>
+    <div class="r">
+      <div class="eyebrow">Why owners choose A-1</div>
+      <h2>A local family business. Not a call center.</h2>
+      <p class="lead">For more than three decades, A-1 has managed rentals from our own office right here in Hermiston. We know the neighborhoods, the market, and what it takes to keep a property rented and cared for.</p>
+      <div class="pts">
+        <div><span class="n">01</span><div><h4>You talk to us, directly</h4><p>Call the office and you reach the people managing your property. No phone trees, no out-of-state support line.</p></div></div>
+        <div><span class="n">02</span><div><h4>Local knowledge</h4><p>We know the neighborhoods and the rental market in Hermiston, Stanfield, Echo, and Umatilla.</p></div></div>
+        <div><span class="n">03</span><div><h4>Built on relationships</h4><p>Thirty years in a small town means our reputation walks into the office every day. We take that seriously.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="area" class="area">
+  <img src="img/hatrock.webp" alt="Hat Rock, a basalt landmark near Hermiston along the Columbia River">
+  <div class="wrap">
+    <div class="r">
+      <div class="eyebrow" style="color:var(--gold)">Service area</div>
+      <h2>Rooted in Hermiston. Focused close to home.</h2>
+      <p>We manage rentals in four towns we know street by street, so every property gets local attention.</p>
+    </div>
+    <div class="towns r">
+      <span>Hermiston</span><span>Stanfield</span><span>Echo</span><span>Umatilla</span>
+    </div>
+  </div>
+  <span class="credit">Hat Rock State Park, near Hermiston</span>
+</section>
+
+<section id="rentals" class="rentals">
+  <div class="wrap">
+    <div class="sh c r">
+      <div class="eyebrow">For renters</div>
+      <h2>Available rentals.</h2>
+      <p>Openings change often. Here is what is available right now. Call the office to schedule a showing.</p>
+    </div>
+    <div class="pv-tag r">Preview: these are sample listings to show the layout. Your real openings go here.</div>
+    <div class="list">
+      <article class="li r">
+        <div class="ph"><img src="img/ranch.webp" alt="Sample rental listing photo"><span class="st">Available now</span></div>
+        <div class="bd">
+          <div class="pr">$1,350<small>/month</small></div>
+          <h3>3 bed · 2 bath house</h3>
+          <p class="loc">Hermiston</p>
+          <ul><li>Deposit: $1,350</li><li>Attached garage, fenced yard</li><li>Small pets considered</li></ul>
+          <a class="btn btn-river" href="tel:+15415674663">Call about this home</a>
+        </div>
+      </article>
+      <article class="li r" style="transition-delay:.08s">
+        <div class="ph"><img src="img/house2.webp" alt="Sample rental listing photo"><span class="st soon">Available Nov 15</span></div>
+        <div class="bd">
+          <div class="pr">$975<small>/month</small></div>
+          <h3>2 bed · 1 bath duplex</h3>
+          <p class="loc">Umatilla</p>
+          <ul><li>Deposit: $975</li><li>Washer and dryer hookups</li><li>No smoking</li></ul>
+          <a class="btn btn-river" href="tel:+15415674663">Call about this home</a>
+        </div>
+      </article>
+      <article class="li none r" style="transition-delay:.16s">
+        <div class="bd">
+          <h3>Don't see the right fit?</h3>
+          <p>New openings come up often. Call the office and we will let you know what is coming available.</p>
+          <a class="btn btn-gold" href="tel:+15415674663">(541) 567-4663</a>
+        </div>
+      </article>
+    </div>
+    <div class="app r" id="apply">
+      <div>
+        <div class="eyebrow">Rental application</div>
+        <h3>Ready to apply?</h3>
+        <p>Download our rental application, fill it out, and bring it to the office at 398 E Ridgeway Ave. You can also pick up a paper copy during office hours.</p>
+      </div>
+      <div class="acts">
+        <a class="btn btn-gold" href="#apply" data-pv>Download application (PDF)</a>
+        <a class="btn btn-ghost" href="tel:+15415674663">Questions? Call us</a>
+      </div>
+      <div class="pv-note" id="pv-app" role="status" hidden><b>This is a preview.</b> Once you send us your application, this button will open your real application form.</div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" style="padding-top:0">
+  <div class="wrap">
+    <div class="sh c r">
+      <div class="eyebrow">Reviews</div>
+      <h2>What people say about A-1.</h2>
+    </div>
+    <div class="rv">
+      <figure class="r" style="transition-delay:0.00s"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>"Very friendly, professional, and attentive to any needs I have. I love talking with Cindy and her employees. They take care of me very well when anything comes up, and as quickly as possible."</blockquote><figcaption><b>Juanita F.</b> · Tenant since 2018 · Google review</figcaption></figure>
+      <figure class="r" style="transition-delay:0.06s"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>"I had storage at A-1 Property Management from 2016 to 2019 and was treated so well! I will rent space from them again whenever I'm in the Hermiston area."</blockquote><figcaption><b>Linda G.</b> · Storage customer · Google review</figcaption></figure>
+      <figure class="r" style="transition-delay:0.12s"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>"We used them for storage and our rental house for years, until we moved from the area. We still love to visit with Cindy."</blockquote><figcaption><b>T. M.</b> · Former renter · Google review</figcaption></figure>
+      <figure class="r" style="transition-delay:0.18s"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>"Always a pleasure to do business with."</blockquote><figcaption><b>Colin F.</b> · Customer · Google review</figcaption></figure>
+      <figure class="r" style="transition-delay:0.24s"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>"Friendly people, with great advice."</blockquote><figcaption><b>Seth</b> · Customer · Google review</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="r">
+      <div class="eyebrow">Contact</div>
+      <h2>Let's talk about your property.</h2>
+      <p class="sub">Send a quick note or give us a call. We will get back to you during office hours.</p>
+      <div class="info">
+        <div><i><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0114 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></i><span><small>Office</small><b>398 E Ridgeway Ave, Hermiston, OR 97838</b></span></div>
+        <div><i><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></i><span><small>Phone</small><a href="tel:+15415674663"><b>(541) 567-4663</b></a></span></div>
+        <div><i><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></i><span><small>Office hours</small><b>Mon to Fri, 8am to 12pm and 1pm to 4pm</b></span></div>
+      </div>
+    </div>
+    <form class="r" id="note">
+      <h3>Send us a note</h3>
+      <div class="seg">
+        <input type="radio" name="who" id="w1" checked><label for="w1">I own a property</label>
+        <input type="radio" name="who" id="w2"><label for="w2">I'm looking to rent</label>
+      </div>
+      <div class="row">
+        <label class="f">Name<input placeholder="Your name"></label>
+        <label class="f">Phone<input type="tel" placeholder="(541) 555-0123"></label>
+      </div>
+      <div class="row">
+        <label class="f">Property city<select><option>Hermiston</option><option>Stanfield</option><option>Echo</option><option>Umatilla</option></select></label>
+        <label class="f">Number of units<select><option>1</option><option>2 to 4</option><option>5 to 10</option><option>10+</option></select></label>
+      </div>
+      <label class="f">Anything we should know?<textarea rows="3" placeholder="Address, current situation, questions..."></textarea></label>
+      <button class="btn btn-gold" type="submit">Send my note</button>
+      <p class="fine">We'll only use this to get back to you.</p>
+      <div class="pv-note" role="status" hidden><b>This is a preview.</b> Messages aren't sent yet. Once you move forward, this form will deliver every inquiry straight to your inbox.</div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="logo" href="#"><img src="img/a1-logo-white.svg" alt="A-1 Property Management" width="170" height="65"></a>
+      <p style="margin-top:16px;max-width:340px">Family owned and operated property management, serving owners and renters in Hermiston, Stanfield, Echo, and Umatilla for over 30 years.</p>
+    </div>
+    <div><h5>Office</h5><p>398 E Ridgeway Ave<br>Hermiston, OR 97838<br>Mail: PO Box 89, Hermiston<br>(541) 567-4663</p></div>
+    <div><h5>Hours</h5><p>Mon to Fri: 8am to 12pm, 1pm to 4pm<br>Sat and Sun: Closed</p></div>
+    <div class="bot"><span>© A-1 Property Management · Hermiston, Oregon</span><span>Landscape photos: Gary Halvorson, Oregon State Archives, CC BY 4.0 · <a class="gf" href="https://goodfolkweb.com/?ref=a1" rel="nofollow" target="_blank">Website by Goodfolk</a></span></div>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn btn-gold" href="tel:+15415674663">Call the office</a>
+  <a class="btn btn-glass" href="#contact">Send a note</a>
+</div>
+
+<script>
+if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target);}});},{threshold:.12});document.querySelectorAll(".r").forEach(function(el){io.observe(el);});}else{document.querySelectorAll(".r").forEach(function(el){el.classList.add("in");});}
+document.querySelectorAll("[data-pv]").forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();var n=document.getElementById("pv-app");n.hidden=false;});});
+document.getElementById("note").addEventListener("submit",function(e){e.preventDefault();var n=this.querySelector(".pv-note");n.hidden=false;n.scrollIntoView({behavior:"smooth",block:"nearest"});});
+</script>
+</body>
+</html>

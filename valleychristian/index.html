@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Valley Christian Center | Milton-Freewater, Oregon</title>
+<meta name="description" content="Valley Christian Center is an Assemblies of God church family in Milton-Freewater, Oregon. Fostering Families of Faith. Join us Sundays at 10:30am, 800 N Main St.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Valley Christian Center | Fostering Families of Faith">
+<meta property="og:description" content="A church family in Milton-Freewater, Oregon. Sundays at 10:30am. Everyone is welcome, any time.">
+<meta property="og:image" content="img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#691e2b">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!--
+  Photo credits (free Unsplash license, used as mood imagery only, not photos of Valley Christian Center):
+  hero.webp      images.unsplash.com/photo-1718388466464-5f0e33bd38c8  (rolling golden hills)
+  table.webp     images.unsplash.com/photo-1528605248644-14dd04022da1  (people sharing a long-table meal)
+  welcome.webp   images.unsplash.com/photo-1491438590914-bc09fcaaf77a  (friends laughing outdoors)
+  family.webp    images.unsplash.com/photo-1602255680702-c47261041a97  (family in a field)
+  youth.webp     images.unsplash.com/photo-1511632765486-a01980e01a18  (friends at sunset)
+  foodbank.webp  images.unsplash.com/photo-1599059813005-11265ba4b4ce  (volunteers sorting food)
+  Logo: Valley Christian Center logo from their Church Center profile, recolored.
+-->
+<style>
+:root{
+  --maroon:#691e2b;
+  --maroon-deep:#3f1019;
+  --maroon-soft:#8a3141;
+  --wheat:#d9a54a;
+  --wheat-soft:#f1dcae;
+  --cream:#faf5ec;
+  --sand:#f1e8d9;
+  --ink:#241a1b;
+  --muted:#6b5d5c;
+  --line:#e5d9c6;
+  --white:#fff;
+  --radius:18px;
+  --shadow:0 18px 40px -22px rgba(63,16,25,.35);
+  --serif:"Fraunces",Georgia,serif;
+  --sans:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--maroon)}
+h1,h2,h3{font-family:var(--serif);line-height:1.12;margin:0 0 .5em;font-weight:600;letter-spacing:-.01em}
+h2{font-size:clamp(2rem,4.2vw,3rem)}
+h3{font-size:1.35rem}
+p{margin:0 0 1em}
+.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+.eyebrow{font-family:var(--sans);font-size:.8rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--maroon);margin:0 0 .9rem;display:inline-flex;align-items:center;gap:.6rem}
+.eyebrow::before{content:"";width:26px;height:2px;background:var(--wheat);display:inline-block}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-family:var(--sans);font-weight:600;font-size:1rem;padding:.9rem 1.5rem;border-radius:999px;text-decoration:none;border:2px solid transparent;transition:transform .15s ease,background .2s ease,color .2s ease;cursor:pointer;line-height:1.2;text-align:center}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:var(--wheat);color:var(--maroon-deep)}
+.btn-primary:hover{background:#e6b65f}
+.btn-maroon{background:var(--maroon);color:#fff}
+.btn-maroon:hover{background:var(--maroon-soft)}
+.btn-ghost{border-color:rgba(255,255,255,.7);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.btn-outline{border-color:var(--maroon);color:var(--maroon)}
+.btn-outline:hover{background:var(--maroon);color:#fff}
+
+/* preview banner */
+.preview-bar{background:#1d1314;color:#e9dfd3;font-size:.8rem;text-align:center;padding:.5rem 16px;line-height:1.4}
+.preview-bar a{color:var(--wheat-soft);font-weight:600}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(250,245,236,.94);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:72px}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--ink);min-width:0}
+.brand img{width:46px;height:46px;flex:none}
+.brand span{font-family:var(--serif);font-weight:600;font-size:1.12rem;line-height:1.1}
+.brand small{display:block;font-family:var(--sans);font-size:.72rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.nav-links{display:flex;align-items:center;gap:1.4rem;list-style:none;margin:0;padding:0}
+.nav-links a{text-decoration:none;color:var(--ink);font-weight:500;font-size:.96rem}
+.nav-links a:hover{color:var(--maroon)}
+.nav-links .btn{padding:.6rem 1.15rem;font-size:.92rem;color:#fff}
+.menu-toggle{display:none;background:none;border:0;padding:10px;cursor:pointer;color:var(--ink)}
+.menu-toggle svg{width:28px;height:28px}
+@media (max-width:980px){
+  .menu-toggle{display:block}
+  .nav-links{position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;gap:0;background:var(--cream);border-bottom:1px solid var(--line);padding:.5rem 20px 1.2rem;display:none;box-shadow:var(--shadow)}
+  .nav-links.open{display:flex}
+  .nav-links li a{display:block;padding:.8rem 0;border-bottom:1px solid var(--line)}
+  .nav-links li:last-child a{border:0;margin-top:.9rem}
+}
+
+/* hero */
+.hero{position:relative;color:#fff;isolation:isolate;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:-2}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 60%}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(47,11,18,.88) 0%,rgba(63,16,25,.7) 42%,rgba(63,16,25,.18) 100%)}
+.hero-inner{display:grid;grid-template-columns:1.25fr .9fr;gap:3rem;align-items:end;padding:clamp(4rem,10vw,8rem) 0 clamp(3.5rem,7vw,6rem)}
+.hero .eyebrow{color:var(--wheat-soft)}
+.hero h1{font-size:clamp(2.6rem,6.6vw,5rem);font-weight:600;margin-bottom:.35em}
+.hero h1 em{font-style:italic;color:var(--wheat-soft);font-weight:500}
+.hero-lede{font-size:clamp(1.05rem,1.6vw,1.22rem);max-width:34rem;color:#f6ece6}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.6rem}
+.bienvenidos{margin-top:1.4rem;font-family:var(--serif);font-style:italic;font-size:1.05rem;color:var(--wheat-soft)}
+.service-card{background:rgba(250,245,236,.97);color:var(--ink);border-radius:var(--radius);padding:1.6rem 1.6rem 1.4rem;box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+.service-card h2{font-size:1.15rem;font-family:var(--sans);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--maroon);margin-bottom:.9rem}
+.service-time{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap}
+.service-time strong{font-family:var(--serif);font-size:2.6rem;font-weight:600;line-height:1;color:var(--maroon-deep)}
+.service-time span{font-weight:600}
+.service-card ul{list-style:none;margin:1.1rem 0 0;padding:1.1rem 0 0;border-top:1px solid var(--line);display:grid;gap:.55rem;font-size:.95rem}
+.service-card li{display:flex;justify-content:space-between;gap:1rem}
+.service-card li b{font-weight:600}
+.service-card li span{color:var(--muted);text-align:right}
+.service-card .addr{margin-top:1rem;font-size:.92rem;color:var(--muted)}
+.service-card .addr a{font-weight:600}
+@media (max-width:860px){.hero-inner{grid-template-columns:1fr;gap:2.2rem}.hero::after{background:linear-gradient(180deg,rgba(47,11,18,.72) 0%,rgba(63,16,25,.85) 100%)}}
+
+/* sections */
+section{padding:clamp(4rem,8vw,6.5rem) 0}
+.section-head{max-width:44rem;margin-bottom:2.6rem}
+.section-head p{color:var(--muted);font-size:1.08rem}
+
+/* welcome */
+.welcome-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.photo-stack{position:relative;padding-bottom:12%}
+.photo-stack .p1{border-radius:var(--radius);aspect-ratio:4/5;object-fit:cover;width:82%;box-shadow:var(--shadow)}
+.photo-stack .p2{position:absolute;right:0;bottom:0;width:52%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--radius);border:6px solid var(--cream);box-shadow:var(--shadow)}
+.photo-stack .badge{position:absolute;left:62%;top:6%;width:96px;height:96px;background:var(--maroon);border-radius:50%;padding:14px;box-shadow:var(--shadow)}
+.verse{margin:1.6rem 0;padding:1.2rem 1.4rem;background:var(--sand);border-left:4px solid var(--wheat);border-radius:0 12px 12px 0;font-family:var(--serif);font-size:1.25rem;font-style:italic;color:var(--maroon-deep)}
+.verse cite{display:block;font-family:var(--sans);font-style:normal;font-size:.85rem;font-weight:600;letter-spacing:.06em;color:var(--muted);margin-top:.35rem}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin:1.6rem 0}
+.pillars div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1rem;text-align:center}
+.pillars b{display:block;font-family:var(--serif);font-size:1.15rem;color:var(--maroon);font-weight:600}
+.pillars small{color:var(--muted);font-size:.85rem}
+.affil{font-size:.95rem;color:var(--muted)}
+@media (max-width:860px){.welcome-grid{grid-template-columns:1fr}.photo-stack{max-width:520px}}
+@media (max-width:480px){.pillars{grid-template-columns:1fr}}
+
+/* week */
+.week{background:var(--maroon);color:#fff;padding:clamp(3.2rem,6vw,4.5rem) 0;position:relative;overflow:hidden}
+.week .eyebrow{color:var(--wheat-soft)}
+.week h2{color:#fff}
+.week-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:1.8rem}
+.day{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:1.3rem}
+.day h3{font-family:var(--sans);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--wheat-soft);font-weight:700;margin-bottom:.8rem}
+.day p{margin:0 0 .7rem;font-size:.97rem;line-height:1.45}
+.day p:last-child{margin:0}
+.day b{display:block;font-family:var(--serif);font-weight:600;font-size:1.12rem}
+.day span{opacity:.82}
+.week-cta{margin-top:1.8rem;display:flex;flex-wrap:wrap;gap:.8rem}
+@media (max-width:980px){.week-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:540px){.week-grid{grid-template-columns:1fr}}
+
+/* visit */
+.visit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:1.7rem;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+.card .ico{width:46px;height:46px;border-radius:12px;background:var(--sand);display:grid;place-items:center;color:var(--maroon);margin-bottom:1rem}
+.card .ico svg{width:24px;height:24px}
+.card p{color:#4a3f3e;margin:0}
+.card p + p{margin-top:.7rem}
+.placeholder{display:inline-block;background:#fff4d6;border:1px dashed #c99a2e;color:#7a5a12;font-size:.85rem;border-radius:8px;padding:.15rem .5rem;font-weight:500}
+.visit-banner{margin-top:1.4rem;display:grid;grid-template-columns:1.1fr 1fr;border-radius:var(--radius);overflow:hidden;background:var(--maroon-deep);color:#fff}
+.visit-banner img{width:100%;height:100%;object-fit:cover;min-height:260px}
+.visit-banner div{padding:clamp(1.6rem,4vw,2.6rem);display:flex;flex-direction:column;justify-content:center}
+.visit-banner h3{font-size:clamp(1.5rem,2.6vw,2rem);color:#fff}
+.visit-banner p{color:#ecdcd9}
+@media (max-width:900px){.visit-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.visit-grid{grid-template-columns:1fr}.visit-banner{grid-template-columns:1fr}.visit-banner img{min-height:200px;max-height:260px}}
+
+/* ministries */
+.min-section{background:var(--sand)}
+.min-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:1.2rem}
+.min{background:#fff;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column;grid-column:span 2}
+.min.wide{grid-column:span 3}
+.min img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.min .body{padding:1.5rem;display:flex;flex-direction:column;gap:.2rem;flex:1}
+.min .when{font-size:.88rem;font-weight:600;color:var(--maroon);margin-bottom:.4rem}
+.min p{color:#4a3f3e;font-size:.97rem}
+.min .more{margin-top:auto;font-weight:600;text-decoration:none;font-size:.95rem}
+.min .more:hover{text-decoration:underline}
+.min.plain{background:var(--cream)}
+.min.plain .body{padding:1.6rem}
+.tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.4rem}
+@media (max-width:900px){.min-grid{grid-template-columns:1fr 1fr}.min,.min.wide{grid-column:span 1}}
+@media (max-width:620px){.min-grid{grid-template-columns:1fr}}
+
+/* food bank */
+.food{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+.food-photo{position:relative}
+.food-photo img{border-radius:var(--radius);aspect-ratio:4/3;object-fit:cover;width:100%;box-shadow:var(--shadow)}
+.hours{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0}
+.hours div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.2rem}
+.hours b{display:block;font-family:var(--serif);font-size:1.3rem;color:var(--maroon-deep);font-weight:600}
+.hours span{color:var(--muted);font-size:.95rem}
+@media (max-width:860px){.food{grid-template-columns:1fr}}
+@media (max-width:420px){.hours{grid-template-columns:1fr}}
+
+/* events */
+.events-section{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.ev-list{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+.ev{display:flex;gap:1rem;padding:1.3rem;border:1px solid var(--line);border-radius:var(--radius);background:var(--cream);text-decoration:none;color:var(--ink);transition:border-color .2s ease,transform .15s ease}
+.ev:hover{border-color:var(--maroon);transform:translateY(-2px)}
+.ev .date{flex:none;width:64px;height:68px;border-radius:12px;background:var(--maroon);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1}
+.ev .date small{font-size:.7rem;letter-spacing:.14em;font-weight:700;text-transform:uppercase;color:var(--wheat-soft)}
+.ev .date b{font-family:var(--serif);font-size:1.7rem;font-weight:600;margin-top:4px}
+.ev h3{font-size:1.12rem;margin:.1rem 0 .25rem}
+.ev p{margin:0;font-size:.92rem;color:var(--muted)}
+.ev-actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
+@media (max-width:900px){.ev-list{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.ev-list{grid-template-columns:1fr}}
+
+/* give */
+.give{background:linear-gradient(120deg,var(--maroon-deep),var(--maroon));color:#fff;border-radius:28px;padding:clamp(2.2rem,5vw,3.6rem);display:grid;grid-template-columns:1.4fr auto;gap:2rem;align-items:center;position:relative;overflow:hidden}
+.give::after{content:"";position:absolute;right:-60px;top:-60px;width:260px;height:260px;border-radius:50%;border:40px solid rgba(217,165,74,.14)}
+.give h2{color:#fff}
+.give p{color:#ecdcd9;max-width:36rem;margin:0}
+.give .eyebrow{color:var(--wheat-soft)}
+.give-wrap{padding-top:0}
+@media (max-width:760px){.give{grid-template-columns:1fr}}
+
+/* contact */
+.contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(2rem,4vw,3.5rem)}
+.info-list{list-style:none;margin:0 0 1.6rem;padding:0;display:grid;gap:1.1rem}
+.info-list li{display:flex;gap:.9rem;align-items:flex-start}
+.info-list .ico{flex:none;width:42px;height:42px;border-radius:12px;background:var(--sand);display:grid;place-items:center;color:var(--maroon)}
+.info-list .ico svg{width:20px;height:20px}
+.info-list b{display:block;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.info-list a{text-decoration:none;font-weight:600;color:var(--ink)}
+.info-list a:hover{color:var(--maroon)}
+.map{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);aspect-ratio:16/10;background:var(--sand)}
+.map iframe{width:100%;height:100%;border:0;display:block}
+form{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:clamp(1.4rem,3vw,2.2rem);box-shadow:var(--shadow)}
+form h3{font-size:1.6rem}
+form .sub{color:var(--muted);font-size:.95rem;margin-bottom:1.3rem}
+.field{display:grid;gap:.35rem;margin-bottom:1rem}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+label{font-size:.88rem;font-weight:600}
+input,select,textarea{font:inherit;font-size:1rem;width:100%;padding:.8rem .9rem;border:1px solid #d8cbb7;border-radius:12px;background:var(--cream);color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--wheat);outline-offset:1px;border-color:var(--wheat)}
+textarea{min-height:130px;resize:vertical}
+.check{display:flex;gap:.6rem;align-items:flex-start;font-size:.92rem;font-weight:400;margin-bottom:1.2rem}
+.check input{width:18px;height:18px;margin-top:3px;flex:none}
+.form-note{display:none;margin-top:1rem;padding:1rem 1.1rem;background:#fff4d6;border:1px solid #e3c06a;border-radius:12px;color:#5c430b;font-size:.95rem}
+.form-note.show{display:block}
+@media (max-width:860px){.contact-grid{grid-template-columns:1fr}}
+@media (max-width:480px){.row2{grid-template-columns:1fr;gap:0}}
+
+/* footer */
+footer{background:var(--maroon-deep);color:#e7d6d3;padding:3.5rem 0 2rem;font-size:.95rem}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.foot img{width:64px;height:64px;margin-bottom:1rem}
+.foot h4{font-family:var(--sans);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--wheat-soft);margin:0 0 .8rem}
+.foot a{color:#fff;text-decoration:none}
+.foot a:hover{text-decoration:underline}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.foot-bottom{margin-top:2.5rem;padding-top:1.4rem;border-top:1px solid rgba(255,255,255,.14);display:flex;flex-wrap:wrap;justify-content:space-between;gap:.8rem;font-size:.82rem;color:#c7b0ab}
+.foot-bottom a{color:#e7d6d3}
+@media (max-width:760px){.foot{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="preview-bar">Preview website designed for Valley Christian Center by Goodfolk. Not a live site yet. <a href="https://goodfolkweb.com/church/?ref=valleychristian">goodfolkweb.com</a></div>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Valley Christian Center home">
+      <img src="img/logo.png" alt="Valley Christian Center logo" width="46" height="46">
+      <span>Valley Christian Center<small>Milton-Freewater, Oregon</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="navlinks">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <ul class="nav-links" id="navlinks">
+      <li><a href="#visit">Plan a Visit</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#ministries">Ministries</a></li>
+      <li><a href="#food-bank">Food Bank</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a class="btn btn-maroon" href="#give">Give</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-label="Welcome">
+    <div class="hero-bg"><img src="img/hero.webp" alt="Golden rolling hills at sunset" fetchpriority="high"></div>
+    <div class="wrap hero-inner">
+      <div>
+        <p class="eyebrow">Milton-Freewater, Oregon</p>
+        <h1>Fostering families <em>of faith.</em></h1>
+        <p class="hero-lede">A church family in the Walla Walla Valley where people meet Jesus, find encouraging friends, and keep growing in faith. Everyone is welcome to join us, any time.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#visit">Plan your visit</a>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=800+N+Main+St,+Milton-Freewater,+OR+97862" target="_blank" rel="noopener">Get directions</a>
+        </div>
+        <p class="bienvenidos" lang="es">Todos son bienvenidos.</p>
+      </div>
+      <aside class="service-card" aria-label="Service times">
+        <h2>Join us Sunday</h2>
+        <div class="service-time"><strong>10:30am</strong><span>Celebration Service</span></div>
+        <ul>
+          <li><b>Youth Group</b><span>Sundays, 5:30pm</span></li>
+          <li><b>Valley Cupboard Food Bank</b><span>Tue 6pm &amp; Thu 9am</span></li>
+          <li><b>Office Hours</b><span>Tue &amp; Thu, 9am to noon</span></li>
+        </ul>
+        <p class="addr">800 N Main St, Milton-Freewater, OR 97862<br><a href="tel:+15419387161">(541) 938-7161</a></p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap welcome-grid">
+      <div class="photo-stack">
+        <img class="p1" src="img/family.webp" alt="A parent lifting a child in a sunny field" loading="lazy" width="1100" height="1648">
+        <img class="p2" src="img/welcome.webp" alt="Friends laughing together outdoors" loading="lazy" width="600" height="600">
+        <img class="badge" src="img/logo-white.png" alt="" loading="lazy" width="96" height="96">
+      </div>
+      <div>
+        <p class="eyebrow">Welcome home</p>
+        <h2>We love the culture of family. We want it to grow.</h2>
+        <p>We believe people thrive when they are connected to God, nurtured in family, and growing in faith. So we work hard to make sure everyone we come across has met Jesus (because He's a real person!), has developed relationships with encouraging people, and has the resources and direction to keep building their faith.</p>
+        <blockquote class="verse">"God sets the lonely in families..."<cite>Psalm 68:6</cite></blockquote>
+        <p>Every Sunday morning we gather to:</p>
+        <div class="pillars">
+          <div><b>Worship</b><small>Jesus</small></div>
+          <div><b>Engage</b><small>His Word</small></div>
+          <div><b>Minister</b><small>to the World</small></div>
+        </div>
+        <p class="affil">Valley Christian Center is part of the Assemblies of God fellowship and has served the Milton-Freewater community for more than 75 years. <a href="https://vccag.churchcenter.com/pages/we-believe" target="_blank" rel="noopener">Read what we believe</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="week" aria-labelledby="week-title">
+    <div class="wrap">
+      <p class="eyebrow">A week at Valley</p>
+      <h2 id="week-title">There's a place for you most days of the week.</h2>
+      <div class="week-grid">
+        <div class="day">
+          <h3>Sunday</h3>
+          <p><b>Celebration Service</b><span>10:30am</span></p>
+          <p><b>Youth Group</b><span>5:30pm to 8pm</span></p>
+        </div>
+        <div class="day">
+          <h3>Monday</h3>
+          <p><b>Men's Fire Night</b><span>First Monday, 6:30pm</span></p>
+        </div>
+        <div class="day">
+          <h3>Tuesday</h3>
+          <p><b>Valley Cupboard Food Bank</b><span>6pm to 8pm</span></p>
+          <p><b>Young Adult Life Group</b><span>Every other Tuesday, 6:30pm</span></p>
+          <p><b>Tribe Tuesdays</b><span>Every other Tuesday, 6pm</span></p>
+        </div>
+        <div class="day">
+          <h3>Thursday</h3>
+          <p><b>Valley Cupboard Food Bank</b><span>9am to noon</span></p>
+          <p><b>Church Office</b><span>Open Tue &amp; Thu, 9am to noon</span></p>
+        </div>
+      </div>
+      <div class="week-cta">
+        <a class="btn btn-primary" href="https://vccag.churchcenter.com/calendar" target="_blank" rel="noopener">See the full calendar</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Plan your visit</p>
+        <h2>Your first Sunday, made easy.</h2>
+        <p>Never been to church, or just new to town? Come as you are. Here's what to expect when you join us.</p>
+      </div>
+      <div class="visit-grid">
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <h3>When</h3>
+          <p>Our Celebration Service starts Sundays at 10:30am and usually wraps up around 12:30pm. Arrive a few minutes early to grab a seat and say hello.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+          <h3>What it's like</h3>
+          <p>Worship that blends contemporary songs and traditional hymns, a message from the Bible you can apply to everyday life, and people who are glad you came.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 20c0-2 1-4 4-4s3 2 3 4"/></svg></div>
+          <h3>Kids</h3>
+          <p>Families are at the heart of who we are, and we have ministry for children too. Let us know you're coming and we'll help your kids feel at home.</p>
+          
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+          <h3>Where</h3>
+          <p>800 N Main St in Milton-Freewater, right on Main Street. Look for a friendly face at the door and we'll point you in the right direction.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 11.2A8.5 8.5 0 1 1 12.8 3.2"/><path d="M8 11l4 4 9-9"/></svg></div>
+          <h3>What to wear</h3>
+          <p>Whatever you're comfortable in. Come straight from the field, the orchard or the ballgame. You'll fit right in.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+          <h3>Questions?</h3>
+          <p>Call the church office at <a href="tel:+15419387161">(541) 938-7161</a> during office hours, Tuesday and Thursday 9am to noon, or <a href="#contact">send us a note</a>.</p>
+        </div>
+      </div>
+      <div class="visit-banner">
+        <img src="img/table.webp" alt="People sharing a meal around a long table" loading="lazy" width="1300" height="866">
+        <div>
+          <h3>Let us know you're coming.</h3>
+          <p>Tell us a little about yourself and we'll save you a seat, answer your questions and make sure someone is there to welcome you.</p>
+          <p><a class="btn btn-primary" href="#contact" data-topic="visit">Plan my visit</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ministries" class="min-section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Ministries</p>
+        <h2>Grow together at every stage.</h2>
+        <p>From kids to young adults, men and women, there's a group where you can belong, be encouraged and keep building your faith.</p>
+      </div>
+      <div class="min-grid">
+        <article class="min wide">
+          <img src="img/youth.webp" alt="Young people together outdoors at sunset" loading="lazy" width="1300" height="866">
+          <div class="body">
+            <span class="tag">Students</span>
+            <h3>Youth Group</h3>
+            <p class="when">Sundays, 5:30pm to 8pm</p>
+            <p>A night every week for students to hang out, worship and dig into what it means to follow Jesus. This fall our students are heading to Now Conference in Salem, November 12 to 14.</p>
+            <a class="more" href="https://vccag.churchcenter.com/registrations/events/3975257" target="_blank" rel="noopener">Now Conference sign up &rarr;</a>
+          </div>
+        </article>
+        <article class="min wide">
+          <img src="img/welcome.webp" alt="Friends laughing together outdoors" loading="lazy" width="1300" height="866">
+          <div class="body">
+            <span class="tag">Young adults</span>
+            <h3>Young Adult Life Groups</h3>
+            <p class="when">Every other Tuesday, 6:30pm</p>
+            <p>Real conversation and growing faith with people in the same season of life. We meet at the church parsonage, 818 N Main St.</p>
+            <a class="more" href="https://vccag.churchcenter.com/calendar" target="_blank" rel="noopener">See upcoming dates &rarr;</a>
+          </div>
+        </article>
+        <article class="min plain">
+          <div class="body">
+            <span class="tag">Men</span>
+            <h3>Men's Fire Night</h3>
+            <p class="when">First Monday of the month, 6:30pm</p>
+            <p>Men gathering to encourage one another, sharpen each other and grow in faith together.</p>
+            <a class="more" href="https://vccag.churchcenter.com/calendar/event/218887617" target="_blank" rel="noopener">Next Fire Night &rarr;</a>
+          </div>
+        </article>
+        <article class="min plain">
+          <div class="body">
+            <span class="tag">Women</span>
+            <h3>Sisterhood</h3>
+            <p class="when">Gatherings throughout the year</p>
+            <p>Women's ministry built on friendship and faith, from trivia nights to outings around town.</p>
+            <a class="more" href="https://vccag.churchcenter.com/registrations" target="_blank" rel="noopener">Women's ministry sign ups &rarr;</a>
+          </div>
+        </article>
+        <article class="min plain">
+          <div class="body">
+            <span class="tag">Kids</span>
+            <h3>Royal Rangers, Girls' Ministry &amp; BGMC</h3>
+            <p class="when">BGMC Sunday: first Sunday of the month</p>
+            <p>Ministries that help kids grow in faith, character and a heart for missions. BGMC (Boys and Girls Missionary Challenge) helps kids give to missions around the world.</p>
+            <a class="more" href="https://vccag.churchcenter.com/registrations" target="_blank" rel="noopener">Kids sign ups &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="food-bank">
+    <div class="wrap food">
+      <div class="food-photo">
+        <img src="img/foodbank.webp" alt="Volunteers sorting donated groceries" loading="lazy" width="1300" height="866">
+      </div>
+      <div>
+        <p class="eyebrow">Community care</p>
+        <h2>Valley Cupboard Food Bank</h2>
+        <p>Loving our neighbors means making sure no family in our valley goes without. The Valley Cupboard Food Bank is open at the church twice a week.</p>
+        <div class="hours">
+          <div><b>Tuesdays</b><span>6pm to 8pm</span></div>
+          <div><b>Thursdays</b><span>9am to noon</span></div>
+        </div>
+        <p>800 N Main St, Milton-Freewater. Questions about the food bank, or want to donate or volunteer? Call <a href="tel:+15419387161">(541) 938-7161</a> or send us a note.</p>
+        <p style="margin-top:1.2rem"><a class="btn btn-maroon" href="#contact" data-topic="foodbank">I'd like to help</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="events" class="events-section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Coming up</p>
+        <h2>What's happening at Valley.</h2>
+        <p>Events, sign ups and everything on the calendar live in our Church Center app.</p>
+      </div>
+      <div class="ev-list">
+        <a class="ev" href="https://vccag.churchcenter.com/calendar/event/218887617" target="_blank" rel="noopener">
+          <div class="date"><small>Nov</small><b>2</b></div>
+          <div><h3>Men's Fire Night</h3><p>Monday, 6:30pm to 8pm</p></div>
+        </a>
+        <a class="ev" href="https://vccag.churchcenter.com/registrations/events/3975257" target="_blank" rel="noopener">
+          <div class="date"><small>Nov</small><b>12</b></div>
+          <div><h3>Now Conference '26</h3><p>Youth trip to Salem, November 12 to 14. Registration open.</p></div>
+        </a>
+        <a class="ev" href="https://vccag.churchcenter.com/calendar/event/235725127" target="_blank" rel="noopener">
+          <div class="date"><small>Nov</small><b>20</b></div>
+          <div><h3>Sisterhood Trivia Night</h3><p>Friday, 7pm to 8pm</p></div>
+        </a>
+      </div>
+      <div class="ev-actions">
+        <a class="btn btn-maroon" href="https://vccag.churchcenter.com/calendar" target="_blank" rel="noopener">Full calendar</a>
+        <a class="btn btn-outline" href="https://vccag.churchcenter.com/registrations" target="_blank" rel="noopener">Sign ups</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="give">
+    <div class="wrap">
+      <div class="give">
+        <div>
+          <p class="eyebrow">Give</p>
+          <h2>Generosity grows families of faith.</h2>
+          <p>Your giving helps families meet Jesus, keeps the Valley Cupboard stocked and supports ministry to kids, students and neighbors across our valley. Give securely online, once or on a schedule.</p>
+        </div>
+        <a class="btn btn-primary" href="https://vccag.churchcenter.com/giving" target="_blank" rel="noopener">Give online</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="padding-top:0">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>We'd love to hear from you.</h2>
+        <ul class="info-list">
+          <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><div><b>Address</b><a href="https://www.google.com/maps/dir/?api=1&amp;destination=800+N+Main+St,+Milton-Freewater,+OR+97862" target="_blank" rel="noopener">800 N Main St<br>Milton-Freewater, OR 97862</a></div></li>
+          <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span><div><b>Phone</b><a href="tel:+15419387161">(541) 938-7161</a></div></li>
+          <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><div><b>Email</b><a href="mailto:mail@vccag.com">mail@vccag.com</a></div></li>
+          <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b>Office hours</b>Tuesdays &amp; Thursdays, 9am to noon</div></li>
+          <li><span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8V6.5c0-.7.5-1 1-1h2V2h-3c-3 0-4 2-4 4.5V8H8v3.5h2V22h4V11.5h2.6L17 8h-3z"/></svg></span><div><b>Facebook</b><a href="https://www.facebook.com/valleyccmf" target="_blank" rel="noopener">facebook.com/valleyccmf</a></div></li>
+        </ul>
+        <div class="map">
+          <iframe title="Map to Valley Christian Center" src="https://maps.google.com/maps?q=800%20N%20Main%20St%2C%20Milton-Freewater%2C%20OR%2097862&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <form id="contact-form" novalidate>
+        <h3>Send a message or prayer request</h3>
+        <p class="sub">Planning a visit, have a question, or need prayer? Our team will get back to you.</p>
+        <div class="row2">
+          <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="f-phone">Phone (optional)</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+        </div>
+        <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field">
+          <label for="f-topic">I'd like to</label>
+          <select id="f-topic" name="topic">
+            <option value="question">Ask a question</option>
+            <option value="visit">Plan a visit</option>
+            <option value="prayer">Share a prayer request</option>
+            <option value="foodbank">Help with the food bank</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+        <div class="field"><label for="f-msg">Message</label><textarea id="f-msg" name="message" required></textarea></div>
+        <label class="check"><input type="checkbox" name="confidential"> Please keep my prayer request confidential to the pastoral team.</label>
+        <button class="btn btn-maroon" type="submit">Send message</button>
+        <p class="form-note" id="form-note" role="status" aria-live="polite">This is a preview. Messages aren't sent yet. Once you move forward, this form will deliver every message straight to your inbox.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <img src="img/logo-white.png" alt="Valley Christian Center logo" width="64" height="64" loading="lazy">
+        <p><strong style="color:#fff">Valley Christian Center</strong><br>Fostering Families of Faith.<br>An Assemblies of God church in Milton-Freewater, Oregon.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>Sundays, 10:30am</li>
+          <li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=800+N+Main+St,+Milton-Freewater,+OR+97862" target="_blank" rel="noopener">800 N Main St, Milton-Freewater, OR 97862</a></li>
+          <li><a href="tel:+15419387161">(541) 938-7161</a></li>
+          <li><a href="mailto:mail@vccag.com">mail@vccag.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://vccag.churchcenter.com/calendar" target="_blank" rel="noopener">Calendar</a></li>
+          <li><a href="https://vccag.churchcenter.com/registrations" target="_blank" rel="noopener">Sign ups</a></li>
+          <li><a href="https://vccag.churchcenter.com/giving" target="_blank" rel="noopener">Give</a></li>
+          <li><a href="https://vccag.churchcenter.com/pages/we-believe" target="_blank" rel="noopener">What we believe</a></li>
+          <li><a href="https://www.facebook.com/valleyccmf" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; <span id="yr">2026</span> Valley Christian Center</span>
+      <a href="https://goodfolkweb.com/church/?ref=valleychristian" rel="nofollow">Website by Goodfolk</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var t=document.querySelector('.menu-toggle'),l=document.getElementById('navlinks');
+  t.addEventListener('click',function(){var o=l.classList.toggle('open');t.setAttribute('aria-expanded',o?'true':'false');});
+  l.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){l.classList.remove('open');t.setAttribute('aria-expanded','false');});});
+  document.querySelectorAll('[data-topic]').forEach(function(a){a.addEventListener('click',function(){var s=document.getElementById('f-topic');if(s)s.value=a.getAttribute('data-topic');});});
+  var f=document.getElementById('contact-form'),n=document.getElementById('form-note');
+  f.addEventListener('submit',function(e){e.preventDefault();n.classList.add('show');n.scrollIntoView({behavior:'smooth',block:'nearest'});});
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
