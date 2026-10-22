@@ -131,7 +131,8 @@ h2{font-family:var(--h);font-weight:800;font-size:clamp(32px,3.8vw,48px);line-he
 /* rentals */
 .rentals{background:var(--paper,#f7f4ee)}
 .pv-tag{display:inline-block;margin:-28px 0 26px;font-size:13.5px;font-weight:600;color:#7a5a12;background:var(--gold-l);border:1px dashed var(--gold);border-radius:999px;padding:8px 14px}
-.list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+@media(max-width:1100px){.list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .li{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
 .li .ph{position:relative;aspect-ratio:4/3}
 .li .ph img{width:100%;height:100%;object-fit:cover}
@@ -145,6 +146,11 @@ h2{font-family:var(--h);font-weight:800;font-size:clamp(32px,3.8vw,48px);line-he
 .li ul{list-style:none;margin:10px 0 18px;display:grid;gap:6px;font-size:15px;color:var(--muted)}
 .li ul li::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--gold);margin-right:9px;vertical-align:2px}
 .li .btn{margin-top:auto;justify-content:center}
+.zbar{margin-top:22px;display:grid;grid-template-columns:1.3fr 1fr;gap:20px 40px;align-items:center;background:var(--river);color:#fff;border-radius:var(--r);padding:clamp(24px,4vw,36px)}
+.zbar h3{font-family:var(--h);font-weight:800;font-size:26px;color:#fff}
+.zbar p{color:rgba(255,255,255,.82);margin-top:8px;font-size:16px;max-width:560px}
+.zbar .acts{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end}
+.btn-ghost-w{border:1.5px solid rgba(255,255,255,.55);color:#fff;background:transparent}
 .li.none{background:var(--river);border-color:var(--river);color:#fff;justify-content:center}
 .li.none h3{color:#fff;font-size:24px}
 .li.none p{color:rgba(255,255,255,.8);margin:8px 0 22px;font-size:16px}
@@ -154,7 +160,9 @@ h2{font-family:var(--h);font-weight:800;font-size:clamp(32px,3.8vw,48px);line-he
 .app .acts{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end}
 .app .pv-note{grid-column:1/-1}
 .btn-ghost{border:1.5px solid var(--rule);color:var(--river);background:#fff}
-@media(max-width:900px){.list{grid-template-columns:minmax(0,1fr)}.app{grid-template-columns:minmax(0,1fr)}.app .acts{justify-content:flex-start}.app .acts .btn{flex:1 1 100%;justify-content:center}}
+@media(max-width:900px){.zbar{grid-template-columns:minmax(0,1fr)}.zbar .acts{justify-content:flex-start}.zbar .acts .btn{flex:1 1 100%;justify-content:center}}
+@media(max-width:600px){.list{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:900px){.app{grid-template-columns:minmax(0,1fr)}.app .acts{justify-content:flex-start}.app .acts .btn{flex:1 1 100%;justify-content:center}}
 
 /* reviews */
 .rv{display:grid;grid-template-columns:repeat(6,1fr);gap:22px}
@@ -348,35 +356,57 @@ footer .bot{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.1);padding-t
       <h2>Available rentals.</h2>
       <p>Openings change often. Here is what is available right now. Call the office to schedule a showing.</p>
     </div>
-    <div class="pv-tag r">Preview: these are sample listings to show the layout. Your real openings go here.</div>
     <div class="list">
       <article class="li r">
-        <div class="ph"><img src="img/ranch.webp" alt="Sample rental listing photo"><span class="st">Available now</span></div>
+        <div class="ph"><img src="img/rent-moore.webp" alt="180 W Moore Ave, Hermiston" width="550" height="412" loading="lazy"><span class="st">For rent</span></div>
         <div class="bd">
-          <div class="pr">$1,350<small>/month</small></div>
+          <div class="pr">$1,800<small>/month</small></div>
           <h3>3 bed · 2 bath house</h3>
-          <p class="loc">Hermiston</p>
-          <ul><li>Deposit: $1,350</li><li>Attached garage, fenced yard</li><li>Small pets considered</li></ul>
-          <a class="btn btn-river" href="tel:+15415674663">Call about this home</a>
+          <p class="loc">180 W Moore Ave, Hermiston</p>
+          <ul><li>1,488 sq ft</li><li>Call to schedule a showing</li></ul>
+          <a class="btn btn-river" href="https://www.zillow.com/homedetails/180-W-Moore-Ave-Hermiston-OR-97838/84560233_zpid/" target="_blank" rel="noopener">Photos &amp; details</a>
         </div>
       </article>
-      <article class="li r" style="transition-delay:.08s">
-        <div class="ph"><img src="img/house2.webp" alt="Sample rental listing photo"><span class="st soon">Available Nov 15</span></div>
+      <article class="li r" style="transition-delay:.06s">
+        <div class="ph"><img src="img/rent-michelle443.webp" alt="443 Michelle Ave, Umatilla" width="550" height="412" loading="lazy"><span class="st">For rent</span></div>
         <div class="bd">
-          <div class="pr">$975<small>/month</small></div>
-          <h3>2 bed · 1 bath duplex</h3>
-          <p class="loc">Umatilla</p>
-          <ul><li>Deposit: $975</li><li>Washer and dryer hookups</li><li>No smoking</li></ul>
-          <a class="btn btn-river" href="tel:+15415674663">Call about this home</a>
+          <div class="pr">$2,000<small>/month</small></div>
+          <h3>3 bed · 2 bath house</h3>
+          <p class="loc">443 Michelle Ave, Umatilla</p>
+          <ul><li>Attached garage</li><li>Call to schedule a showing</li></ul>
+          <a class="btn btn-river" href="https://www.zillow.com/homes/443-Michelle-Ave,-Umatilla,-OR-97882_rb/" target="_blank" rel="noopener">Photos &amp; details</a>
         </div>
       </article>
-      <article class="li none r" style="transition-delay:.16s">
+      <article class="li r" style="transition-delay:.12s">
+        <div class="ph"><img src="img/rent-michelle419.webp" alt="419 Michelle Ave, Umatilla" width="550" height="412" loading="lazy"><span class="st">For rent</span></div>
         <div class="bd">
-          <h3>Don't see the right fit?</h3>
-          <p>New openings come up often. Call the office and we will let you know what is coming available.</p>
-          <a class="btn btn-gold" href="tel:+15415674663">(541) 567-4663</a>
+          <div class="pr">$2,000<small>/month</small></div>
+          <h3>3 bed · 2 bath house</h3>
+          <p class="loc">419 Michelle Ave, Umatilla</p>
+          <ul><li>1,216 sq ft</li><li>Call to schedule a showing</li></ul>
+          <a class="btn btn-river" href="https://www.zillow.com/homes/419-Michelle-Ave,-Umatilla,-OR-97882_rb/" target="_blank" rel="noopener">Photos &amp; details</a>
         </div>
       </article>
+      <article class="li r" style="transition-delay:.18s">
+        <div class="ph"><img src="img/rent-punkin.webp" alt="32126 E Punkin Center Rd #10, Hermiston" width="550" height="412" loading="lazy"><span class="st">For rent</span></div>
+        <div class="bd">
+          <div class="pr">$1,400<small>/month</small></div>
+          <h3>3 bed · 2 bath home</h3>
+          <p class="loc">32126 E Punkin Center Rd #10, Hermiston</p>
+          <ul><li>Call to schedule a showing</li></ul>
+          <a class="btn btn-river" href="https://www.zillow.com/homedetails/32126-E-Punkin-Center-Rd-UNIT-10-Hermiston-OR-97838/337504305_zpid/" target="_blank" rel="noopener">Photos &amp; details</a>
+        </div>
+      </article>
+    </div>
+    <div class="zbar r">
+      <div>
+        <h3>See every opening, always up to date.</h3>
+        <p>All of our current rentals are posted on Zillow with full photos and details. Don't see the right fit? Call the office and we'll let you know what's coming available.</p>
+      </div>
+      <div class="acts">
+        <a class="btn btn-gold" href="https://www.zillow.com/profile/cindypropman" target="_blank" rel="noopener">All rentals on Zillow</a>
+        <a class="btn btn-ghost-w" href="tel:+15415674663">(541) 567-4663</a>
+      </div>
     </div>
     <div class="app r" id="apply">
       <div>
