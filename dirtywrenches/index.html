@@ -6,246 +6,315 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Dirty Wrenches Automotive | Import Specialists in Hermiston, OR</title>
 <meta name="description" content="Owner-operated auto repair in Hermiston, Oregon. BMW, Audi, VW, Mercedes-Benz, Subaru and Porsche specialists who work on everything else too, motorcycles and ATVs included. 12-month / 12,000-mile warranty on every job. Call (541) 303-3495.">
-<meta name="theme-color" content="#0b0b0c">
+<meta name="theme-color" content="#0c0c0c">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dirty Wrenches Automotive">
 <meta property="og:title" content="Dirty Wrenches Automotive | Wrench it right.">
 <meta property="og:description" content="Three-man import specialist shop in Hermiston, OR. 12-month / 12,000-mile warranty on every job. We work on everything, motorcycles and ATVs included.">
-<meta property="og:image" content="img/og.jpg">
+<meta property="og:image" content="https://preview.goodfolkweb.com/dirtywrenches/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="img/favicon-64.png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <!--
   Image credits
   img/shop-vanagon.webp, img/shop-hummer.webp: Dirty Wrenches Automotive's own photos (owner uploads on their Google Business Profile).
   img/logo*.webp, favicons, og.jpg: Dirty Wrenches Automotive logo (dirty-wrenches.com/logo.jpg).
-  img/stock-mechanic.webp: stock photo, Unsplash photo-1615906655593-ad0386982a0f (also used on their current site). Not their shop.
-  img/stock-motorcycle.webp: stock photo, Unsplash photo-1558981806-ec527fa84c39 (also used on their current site). Not their customer.
+  img/stock-mechanic.webp: Unsplash photo-1615906655593-ad0386982a0f (also used on their current site). Not their shop.
+  img/stock-motorcycle.webp: Unsplash photo-1558981806-ec527fa84c39 (also used on their current site). Not their customer.
+  img/bay-hero.webp: Unsplash photo-1792326103553-4e4e8964279e. Stock, not their shop.
+  img/tool-wall.webp: Unsplash photo-1629093966234-c809247aa981. Stock.
+  img/wrenches.webp: Unsplash photo-1555001972-7e22934633be. Stock.
 -->
 <style>
 :root{
-  --ink:#0b0b0c; --char:#141517; --char2:#1c1e21; --steel:#6b6e75; --silver:#c9ccd1;
-  --amber:#eca552; --orange:#e0772f; --paper:#f4f2ee; --paper2:#e9e6df; --text:#1a1b1d; --muted:#5d6066;
-  --radius:14px; --max:1180px;
+  --black:#0c0c0c; --pit:#121212; --concrete:#1a1a1a; --steel:#262626; --line:#2f2f2f; --line2:#3d3d3d;
+  --bone:#ece6da; --dust:#a39d92; --dim:#77726a;
+  --orange:#f07a1f; --orange2:#ff8f33; --rust:#b9531a;
+  --max:1200px;
+  --disp:"Anton",Impact,"Arial Narrow",sans-serif;
+  --cond:"Barlow Condensed","Arial Narrow",sans-serif;
+  --body:"Barlow",system-ui,sans-serif;
+  --mono:"Space Mono",ui-monospace,Menlo,monospace;
+  --hazard:repeating-linear-gradient(-45deg,var(--orange) 0 18px,var(--black) 18px 36px);
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{font-family:"Barlow",system-ui,sans-serif;color:var(--text);background:var(--paper);line-height:1.6;font-size:17px;overflow-x:hidden}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{font-family:var(--body);color:var(--bone);background:var(--black);line-height:1.6;font-size:17px;overflow-x:hidden;position:relative}
+/* film grain over everything */
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:200;opacity:.07;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 img{max-width:100%;display:block}
 a{color:inherit}
-h1,h2,h3,.disp{font-family:"Barlow Condensed",Impact,sans-serif;text-transform:uppercase;letter-spacing:.01em;line-height:.95}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
-section{scroll-margin-top:70px}
-.eyebrow{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--orange)}
-.eyebrow::before{content:"";width:26px;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--amber),var(--orange))}
-.dark .eyebrow{color:var(--amber)}
+h1,h2,h3{font-family:var(--disp);font-weight:400;text-transform:uppercase;line-height:.92;letter-spacing:.005em}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+section{scroll-margin-top:72px}
+:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.tag{font-family:var(--mono);font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);display:inline-block}
+.tag::before{content:"// "}
+.hazard{height:14px;background:var(--hazard)}
 
 /* preview banner */
-.gf-banner{background:#fff7e8;color:#3a2a10;font-size:13px;line-height:1.4;text-align:center;padding:7px 14px;border-bottom:1px solid #f0d9ae}
-.gf-banner a{color:#9a4f12;font-weight:600}
+.gf-banner{background:#000;color:#bdb6aa;font-size:13px;line-height:1.4;text-align:center;padding:7px 14px;border-bottom:1px solid var(--line)}
+.gf-banner a{color:#fff;font-weight:600}
 
 /* header */
-.top{position:sticky;top:0;z-index:50;background:rgba(11,11,12,.94);backdrop-filter:blur(8px);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
-.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:66px}
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
-.brand img{width:46px;height:46px;border-radius:50%;object-fit:cover}
-.brand b{font-family:"Barlow Condensed",sans-serif;font-size:1.3rem;letter-spacing:.04em;text-transform:uppercase;line-height:1;white-space:nowrap}
-.brand small{display:block;font-size:.7rem;letter-spacing:.2em;color:var(--silver);text-transform:uppercase;margin-top:3px}
-.nav{display:flex;align-items:center;gap:26px}
-.nav a{text-decoration:none;font-weight:600;font-size:.95rem;color:#e7e7e9}
-.nav a:hover{color:var(--amber)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:"Barlow",sans-serif;font-weight:700;font-size:1rem;text-decoration:none;border-radius:999px;padding:14px 24px;border:2px solid transparent;cursor:pointer;transition:transform .15s ease,background .15s ease,border-color .15s ease;line-height:1.1;white-space:nowrap}
-.btn:hover{transform:translateY(-1px)}
+.top{position:sticky;top:0;z-index:50;background:rgba(12,12,12,.96);border-bottom:2px solid var(--orange)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:70px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+.brand img{width:50px;height:50px;border-radius:50%;object-fit:cover}
+.brand b{font-family:var(--disp);font-weight:400;font-size:1.45rem;letter-spacing:.03em;text-transform:uppercase;line-height:1;white-space:nowrap}
+.brand small{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.16em;color:var(--dust);text-transform:uppercase;margin-top:4px}
+.nav{display:flex;align-items:center;gap:28px}
+.nav a{text-decoration:none;font-family:var(--cond);font-weight:700;font-size:1.02rem;letter-spacing:.08em;text-transform:uppercase;color:#d8d2c6}
+.nav a:hover{color:var(--orange)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--cond);font-weight:800;font-size:1.12rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border-radius:0;padding:14px 24px;border:2px solid transparent;cursor:pointer;line-height:1.1;white-space:nowrap;transition:transform .12s ease,box-shadow .12s ease,background .12s ease}
 .btn svg{width:18px;height:18px;flex:none}
-.btn-primary{background:linear-gradient(135deg,var(--amber),var(--orange));color:#160b02}
-.btn-ghost{border-color:rgba(255,255,255,.35);color:#fff}
-.btn-ghost:hover{border-color:var(--amber)}
-.btn-dark{background:var(--ink);color:#fff}
-.btn-sm{padding:10px 18px;font-size:.92rem}
-.nav .btn{color:#160b02}
+.btn-orange{background:var(--orange);color:#140800;box-shadow:5px 5px 0 #000}
+.btn-orange:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 #000;background:var(--orange2)}
+.btn-line{border-color:var(--bone);color:var(--bone);background:transparent}
+.btn-line:hover{background:var(--bone);color:var(--black)}
+.btn-black{background:var(--black);color:var(--bone);box-shadow:5px 5px 0 rgba(0,0,0,.35)}
+.btn-black:hover{transform:translate(-2px,-2px)}
+.btn-sm{padding:10px 18px;font-size:1rem;box-shadow:none}
+.nav .btn{color:#140800}
+.nav .btn-orange:hover{transform:none;box-shadow:none}
 
 /* hero */
-.hero{position:relative;background:var(--ink);color:#fff;overflow:hidden}
-.hero::before{content:"";position:absolute;inset:0;background:url(img/stock-mechanic.webp) center 30%/cover no-repeat;opacity:.16;filter:grayscale(1)}
-.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(1000px 500px at 85% 10%,rgba(236,165,82,.18),transparent 60%),linear-gradient(180deg,rgba(11,11,12,.2),rgba(11,11,12,.95))}
-.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;padding-top:72px;padding-bottom:80px}
-.hero h1{font-size:clamp(3.2rem,9vw,6.6rem);font-weight:800;margin:18px 0 20px}
-.hero h1 span{background:linear-gradient(90deg,var(--amber),var(--orange));-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero p.lead{font-size:1.18rem;color:#d6d7da;max-width:36em}
-.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
-.hero-trust{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:30px;font-size:.95rem;color:#c9ccd1}
-.hero-trust li{list-style:none;display:flex;align-items:center;gap:8px}
-.hero-trust svg{width:18px;height:18px;color:var(--amber);flex:none}
-.hero-photo{position:relative}
-.hero-photo figure{border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,.12);box-shadow:0 30px 80px rgba(0,0,0,.5);aspect-ratio:4/5;background:var(--char)}
-.hero-photo img{width:100%;height:100%;object-fit:cover}
-.hero-photo figcaption{position:absolute;left:16px;bottom:16px;background:rgba(11,11,12,.82);border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:7px 14px;font-size:.82rem;color:#e5e5e7}
-.badge-seal{position:absolute;right:-18px;top:-18px;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle at 30% 30%,#2a2c30,#0b0b0c);border:2px solid var(--amber);display:grid;place-items:center;text-align:center;box-shadow:0 12px 30px rgba(0,0,0,.45)}
-.badge-seal b{font-family:"Barlow Condensed",sans-serif;font-size:1.5rem;line-height:.95;color:var(--amber);text-transform:uppercase}
-.badge-seal small{display:block;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#d6d7da;margin-top:4px}
+.hero{position:relative;overflow:hidden;isolation:isolate;min-height:min(88vh,860px);display:flex;flex-direction:column;justify-content:flex-end}
+.hero-bg{position:absolute;inset:0;z-index:-2}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 60%;filter:grayscale(.3) contrast(1.15) brightness(.78)}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(12,12,12,.92) 0%,rgba(12,12,12,.6) 45%,rgba(12,12,12,.05) 100%),linear-gradient(0deg,rgba(12,12,12,1) 0%,transparent 45%)}
+.hero .wrap{width:100%;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end;padding-top:90px;padding-bottom:70px}
+.hero .meta{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin-bottom:22px}
+.hero .meta span{font-family:var(--mono);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dust)}
+.hero .meta span:first-child{color:var(--orange)}
+.hero h1{font-size:clamp(4rem,12.5vw,10.5rem);line-height:.84;letter-spacing:-.005em}
+.hero h1 em{font-style:normal;color:var(--orange);display:block}
+.hero p.lead{font-size:1.16rem;color:#d4cdc0;max-width:35em;margin-top:26px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+.seal{width:190px;height:190px;border-radius:50%;border:3px solid var(--orange);display:grid;place-items:center;text-align:center;transform:rotate(-12deg);position:relative;background:rgba(12,12,12,.6);margin-bottom:10px}
+.seal::before{content:"";position:absolute;inset:8px;border-radius:50%;border:1.5px dashed rgba(240,122,31,.7)}
+.seal b{font-family:var(--disp);font-weight:400;font-size:2.4rem;line-height:.9;color:var(--orange);display:block}
+.seal small{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--bone);margin-top:8px}
 
-/* warranty band */
-.warranty{background:linear-gradient(120deg,var(--amber),var(--orange));color:#170b02}
-.warranty .wrap{display:grid;grid-template-columns:auto 1fr auto;gap:40px;align-items:center;padding-top:46px;padding-bottom:46px}
-.warranty .big{font-family:"Barlow Condensed",sans-serif;font-weight:800;text-transform:uppercase;line-height:.88;font-size:clamp(2.6rem,6vw,4.6rem)}
-.warranty .big small{display:block;font-size:.42em;letter-spacing:.06em;margin-top:8px}
-.warranty p{font-size:1.1rem;font-weight:500;max-width:34em}
+/* stat strip */
+.strip{background:var(--pit);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.strip ul{list-style:none;display:grid;grid-template-columns:repeat(4,1fr)}
+.strip li{padding:24px 22px;border-left:1px solid var(--line)}
+.strip li:first-child{border-left:0}
+.strip b{display:block;font-family:var(--disp);font-weight:400;font-size:2.6rem;line-height:1;color:var(--bone)}
+.strip b i{font-style:normal;color:var(--orange)}
+.strip span{display:block;font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--dust);margin-top:8px}
 
 /* generic sections */
-.sec{padding:96px 0}
-.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:20px 40px;margin-bottom:44px}
-.sec-head h2{font-size:clamp(2.4rem,5.5vw,4rem);font-weight:800;margin-top:12px}
-.sec-head p{max-width:30em;color:var(--muted);font-size:1.08rem}
-.dark{background:var(--ink);color:#fff}
-.dark .sec-head p{color:#b9bcc2}
+.sec{padding:110px 0}
+.sec-head{display:grid;grid-template-columns:1.1fr .9fr;gap:24px 60px;align-items:end;margin-bottom:50px}
+.sec-head h2{font-size:clamp(3rem,7vw,5.6rem);margin-top:14px}
+.sec-head p{color:var(--dust);font-size:1.08rem;max-width:32em}
+.bg-pit{background:var(--pit)}
 
 /* brands */
-.brands{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.brand-card{background:#fff;border:1px solid var(--paper2);border-radius:var(--radius);padding:26px 24px;position:relative;overflow:hidden}
-.brand-card h3{font-size:2rem;font-weight:800}
-.brand-card p{color:var(--muted);margin-top:8px;font-size:.98rem}
-.brand-card::after{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(var(--amber),var(--orange))}
-.everything{margin-top:16px;border-radius:var(--radius);background:var(--ink);color:#fff;padding:30px 32px;display:flex;flex-wrap:wrap;gap:18px 30px;align-items:center;justify-content:space-between}
-.everything h3{font-size:clamp(1.7rem,3.6vw,2.4rem);font-weight:800}
-.everything h3 span{color:var(--amber)}
-.everything p{color:#c9ccd1;max-width:34em}
+.brand-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line2);border-left:1px solid var(--line2)}
+.bcard{border-right:1px solid var(--line2);border-bottom:1px solid var(--line2);padding:30px 28px 28px;position:relative;transition:background .15s ease}
+.bcard .no{font-family:var(--mono);font-size:.72rem;color:var(--dim);letter-spacing:.1em}
+.bcard h3{font-size:clamp(2.6rem,4.6vw,3.6rem);margin:16px 0 12px;color:transparent;-webkit-text-stroke:1.5px var(--bone);transition:color .15s ease}
+.bcard p{color:var(--dust);font-size:.97rem}
+.bcard:hover{background:var(--concrete)}
+.bcard:hover h3{color:var(--orange);-webkit-text-stroke-color:var(--orange)}
+.everything{display:flex;flex-wrap:wrap;gap:20px 30px;align-items:center;justify-content:space-between;background:var(--orange);color:#140800;padding:30px 32px;margin-top:0}
+.everything h3{font-size:clamp(2rem,4vw,3rem);line-height:.95}
+.everything p{font-weight:500;max-width:36em;margin-top:8px}
 
-/* services */
-.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.svc{background:var(--char);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:28px 26px}
-.svc .ic{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;background:rgba(236,165,82,.12);color:var(--amber);margin-bottom:18px}
-.svc .ic svg{width:24px;height:24px}
-.svc h3{font-size:1.75rem;font-weight:800}
-.svc p{color:#b9bcc2;margin-top:8px;font-size:.98rem}
-.svc ul{margin-top:14px;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
-.svc li{font-size:.8rem;font-weight:600;border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:4px 10px;color:#e1e2e5}
-.svc.quote{background:linear-gradient(150deg,#22241f,#141517);border-color:rgba(236,165,82,.35);display:flex;flex-direction:column;justify-content:space-between;gap:20px}
-.svc.quote h3{color:var(--amber)}
+/* tool wall band */
+.wall{position:relative;height:340px;overflow:hidden}
+.wall img{width:100%;height:100%;object-fit:cover;filter:grayscale(.3) brightness(.55) contrast(1.2)}
+.wall .over{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:0 20px}
+.wall .over p{font-family:var(--disp);text-transform:uppercase;font-size:clamp(2.2rem,6vw,4.6rem);line-height:.9;color:var(--bone);text-shadow:0 4px 30px rgba(0,0,0,.7)}
+.wall .over p em{font-style:normal;color:var(--orange)}
+
+/* services as work order */
+.ro{border:2px solid var(--line2)}
+.ro-head{display:grid;grid-template-columns:90px 1.1fr 1.6fr 1.2fr;background:var(--steel);font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dust)}
+.ro-head div{padding:12px 18px}
+.ro-row{display:grid;grid-template-columns:90px 1.1fr 1.6fr 1.2fr;border-top:1px solid var(--line2);transition:background .15s ease}
+.ro-row:hover{background:var(--concrete)}
+.ro-row > div{padding:26px 18px}
+.ro-row .n{font-family:var(--disp);font-size:2.2rem;line-height:1;color:var(--orange)}
+.ro-row h3{font-size:2rem;line-height:.95}
+.ro-row p{color:var(--dust);font-size:.98rem}
+.ro-row ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px;align-content:flex-start}
+.ro-row li{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;border:1px solid var(--line2);padding:4px 8px;color:#cfc8bb}
+.ro-foot{display:flex;flex-wrap:wrap;gap:16px 30px;align-items:center;justify-content:space-between;border-top:2px solid var(--line2);padding:24px 18px;background:var(--pit)}
+.ro-foot h3{font-size:2rem;color:var(--orange)}
+.ro-foot p{color:var(--dust);max-width:40em;margin-top:6px}
 
 /* moto */
-.moto{display:grid;grid-template-columns:1fr 1fr;border-radius:20px;overflow:hidden;background:#fff;border:1px solid var(--paper2)}
-.moto-img{position:relative;min-height:360px}
-.moto-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.moto-body{padding:44px 40px}
-.moto-body h2{font-size:clamp(2.2rem,5vw,3.4rem);font-weight:800;margin:12px 0 14px}
-.moto-body p{color:var(--muted)}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
-.chips span{font-size:.85rem;font-weight:600;background:var(--paper);border:1px solid var(--paper2);border-radius:999px;padding:5px 12px}
-.moto-list{margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:8px 18px;list-style:none}
-.moto-list li{display:flex;gap:8px;align-items:flex-start;font-weight:600}
-.moto-list li::before{content:"";width:8px;height:8px;border-radius:2px;background:var(--orange);margin-top:9px;flex:none}
+.moto{display:grid;grid-template-columns:1.1fr .9fr;gap:0;border:2px solid var(--line2)}
+.moto-img{position:relative;min-height:420px}
+.moto-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(.2) contrast(1.1)}
+.moto-body{padding:46px 40px;background:var(--pit)}
+.moto-body h2{font-size:clamp(2.8rem,5.5vw,4.4rem);margin:14px 0 16px}
+.moto-body p{color:var(--dust)}
+.moto-list{margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;list-style:none}
+.moto-list li{font-family:var(--cond);font-weight:700;font-size:1.15rem;text-transform:uppercase;letter-spacing:.04em;display:flex;gap:10px;align-items:center}
+.moto-list li::before{content:"";width:10px;height:10px;background:var(--orange);flex:none}
+.makes{margin-top:22px;font-family:var(--mono);font-size:.74rem;line-height:1.9;color:var(--dim);letter-spacing:.04em}
+.makes b{color:var(--dust);font-weight:700}
 
 /* why */
-.why{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
-.why-photo{border-radius:20px;overflow:hidden;aspect-ratio:4/5;position:relative}
-.why-photo img{width:100%;height:100%;object-fit:cover}
-.why-photo figcaption{position:absolute;left:16px;bottom:16px;background:rgba(11,11,12,.82);color:#fff;border-radius:999px;padding:7px 14px;font-size:.82rem}
-.why h2{font-size:clamp(2.4rem,5.5vw,4rem);font-weight:800;margin:12px 0 16px}
-.why .lead{font-size:1.12rem;color:var(--muted)}
-.points{margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:22px 26px}
-.point h3{font-size:1.4rem;font-weight:800;display:flex;align-items:center;gap:10px}
-.point h3 i{width:30px;height:30px;border-radius:8px;background:var(--ink);color:var(--amber);display:grid;place-items:center;font-style:normal;font-size:1rem}
-.point p{color:var(--muted);margin-top:6px;font-size:.98rem}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.shots{display:grid;grid-template-columns:1fr 1fr;gap:14px;position:relative}
+.shot{position:relative;overflow:hidden;aspect-ratio:3/4;border:2px solid var(--line2)}
+.shot img{width:100%;height:100%;object-fit:cover}
+.shot:nth-child(2){margin-top:60px}
+.shot figcaption{position:absolute;left:0;bottom:0;right:0;padding:10px 12px;background:linear-gradient(transparent,rgba(0,0,0,.85));font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:#d8d2c6}
+.why h2{font-size:clamp(3rem,6vw,5rem);margin:14px 0 18px}
+.why .lead{font-size:1.12rem;color:var(--dust)}
+.points{margin-top:30px;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line2);border-left:1px solid var(--line2)}
+.point{padding:20px 20px 22px;border-right:1px solid var(--line2);border-bottom:1px solid var(--line2)}
+.point .no{font-family:var(--mono);font-size:.7rem;color:var(--orange);letter-spacing:.1em}
+.point h3{font-family:var(--cond);font-weight:800;font-size:1.35rem;letter-spacing:.02em;margin:8px 0 6px;line-height:1.05}
+.point p{color:var(--dust);font-size:.95rem}
+
+/* warranty */
+.warranty{position:relative;overflow:hidden;isolation:isolate;background:var(--orange);color:#140800}
+.warranty::before{content:"";position:absolute;inset:0;z-index:-1;background:url(img/wrenches.webp) right center/cover no-repeat;mix-blend-mode:multiply;opacity:.35}
+.warranty .wrap{display:grid;grid-template-columns:auto 1fr;gap:50px;align-items:center;padding-top:70px;padding-bottom:70px}
+.warranty .big{font-family:var(--disp);text-transform:uppercase;line-height:.85;font-size:clamp(3.6rem,9vw,7.4rem)}
+.warranty .big small{display:block;font-family:var(--mono);font-size:.8rem;letter-spacing:.2em;margin-top:16px;font-weight:700}
+.warranty p{font-size:1.18rem;font-weight:600;max-width:30em;margin-bottom:22px}
 
 /* reviews */
-.reviews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
-.rev{background:var(--char);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:28px 26px;display:flex;flex-direction:column;gap:18px}
-.stars{color:var(--amber);letter-spacing:3px;font-size:1.05rem}
-.rev blockquote{font-size:1.06rem;color:#e6e7e9;flex:1}
-.rev cite{font-style:normal;font-weight:700;color:#fff;display:flex;justify-content:space-between;gap:10px;font-size:.95rem}
-.rev cite span{color:#9a9da3;font-weight:500}
-.rev-more{margin-top:26px;text-align:center}
-.rev-more a{color:var(--amber);font-weight:700}
+.reviews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.rev{background:var(--concrete);border:1px solid var(--line2);border-top:4px solid var(--orange);padding:34px 30px 28px;display:flex;flex-direction:column;gap:20px;position:relative}
+.rev::before{content:"\201C";position:absolute;right:20px;top:-6px;font-family:var(--disp);font-size:7rem;line-height:1;color:var(--steel)}
+.stars{color:var(--orange);letter-spacing:4px;font-size:1.05rem}
+.rev blockquote{font-size:1.1rem;color:#e6dfd2;flex:1;position:relative}
+.rev cite{font-style:normal;font-family:var(--cond);font-weight:800;font-size:1.1rem;letter-spacing:.06em;text-transform:uppercase;display:flex;justify-content:space-between;gap:10px}
+.rev cite span{font-family:var(--mono);font-size:.68rem;font-weight:400;color:var(--dim);letter-spacing:.1em;align-self:center}
+.rev-more{margin-top:28px}
+.rev-more a{font-family:var(--cond);font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);text-decoration:none;border-bottom:2px solid var(--orange);padding-bottom:2px}
 
 /* book */
-.book{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:start}
-.book h2{font-size:clamp(2.4rem,5.5vw,4rem);font-weight:800;margin:12px 0 16px}
-.steps{list-style:none;margin-top:26px;display:grid;gap:18px;counter-reset:s}
-.steps li{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start;counter-increment:s}
-.steps li::before{content:counter(s);width:44px;height:44px;border-radius:50%;background:var(--ink);color:var(--amber);display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:800;font-size:1.3rem}
-.steps b{display:block;font-size:1.05rem}
-.steps span{color:var(--muted);font-size:.97rem}
-.note{margin-top:26px;background:#fff;border:1px solid var(--paper2);border-left:4px solid var(--orange);border-radius:10px;padding:16px 18px;font-size:.97rem;color:var(--muted)}
-.callbox{margin-top:18px;display:flex;flex-wrap:wrap;gap:10px}
-form.card{background:#fff;border:1px solid var(--paper2);border-radius:20px;padding:32px;box-shadow:0 20px 50px rgba(20,20,20,.06)}
+.book{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:start}
+.book h2{font-size:clamp(3rem,6vw,5rem);margin:14px 0 18px}
+.book .lead{color:var(--dust);font-size:1.1rem}
+.steps{list-style:none;margin-top:28px;display:grid;gap:0;counter-reset:s;border-left:2px solid var(--line2)}
+.steps li{position:relative;padding:0 0 22px 26px;counter-increment:s}
+.steps li::before{content:"0" counter(s);position:absolute;left:-14px;top:-2px;width:26px;height:26px;background:var(--orange);color:#140800;display:grid;place-items:center;font-family:var(--mono);font-weight:700;font-size:.7rem}
+.steps b{display:block;font-family:var(--cond);font-weight:800;font-size:1.25rem;letter-spacing:.03em;text-transform:uppercase;line-height:1.1}
+.steps span{color:var(--dust);font-size:.97rem}
+.note{margin-top:8px;border:1px dashed var(--line2);padding:16px 18px;font-size:.96rem;color:var(--dust)}
+.note b{color:var(--bone)}
+.callbox{margin-top:22px;display:flex;flex-wrap:wrap;gap:12px}
+form.ro-form{background:var(--bone);color:#1a1712;border:2px solid #000;box-shadow:10px 10px 0 var(--orange)}
+.form-top{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#000;color:var(--bone);padding:14px 22px}
+.form-top b{font-family:var(--disp);font-weight:400;font-size:1.5rem;letter-spacing:.03em;text-transform:uppercase}
+.form-top span{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;color:var(--orange)}
+.form-body{padding:26px 24px 22px}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .field{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
-.field label{font-weight:700;font-size:.9rem}
-.field label em{color:var(--orange);font-style:normal}
-.field input,.field select,.field textarea{font:inherit;font-size:1rem;border:1.5px solid #d9d5cc;border-radius:10px;padding:12px 14px;background:#fcfbf9;color:var(--text);width:100%;min-width:0}
-.field textarea{min-height:120px;resize:vertical}
-.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px rgba(224,119,47,.18)}
-form .btn{width:100%;margin-top:6px}
-.form-note{display:none;margin-top:16px;background:#fff6e9;border:1px solid #f1d2a4;color:#5b3a10;border-radius:10px;padding:14px 16px;font-weight:500}
+.field label{font-family:var(--mono);font-weight:700;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:#3a352c}
+.field label em{color:var(--rust);font-style:normal}
+.field input,.field select,.field textarea{font:inherit;font-size:1rem;border:0;border-bottom:2px solid #1a1712;border-radius:0;padding:10px 2px;background:transparent;color:#1a1712;width:100%;min-width:0}
+.field select{padding-left:0}
+.field textarea{min-height:110px;resize:vertical;border:2px solid #1a1712;padding:10px 12px;background:rgba(255,255,255,.35)}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--orange)}
+.field input::placeholder,.field textarea::placeholder{color:#8a8376}
+form .btn{width:100%;margin-top:6px;box-shadow:none}
+.form-note{display:none;margin-top:16px;background:#fff3e2;border:2px solid var(--orange);color:#5b3410;padding:14px 16px;font-weight:600}
 .form-note.show{display:block}
-.fine{font-size:.82rem;color:var(--muted);margin-top:12px;text-align:center}
+.fine{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;color:#5f594e;margin-top:14px;text-align:center}
 
 /* visit */
-.visit{display:grid;grid-template-columns:.9fr 1.1fr;gap:20px}
-.visit-card{background:var(--char);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:34px}
-.visit-card h3{font-size:1.4rem;font-weight:800;color:var(--amber);margin-bottom:10px}
-.hours{width:100%;border-collapse:collapse;margin-bottom:26px}
-.hours td{padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:1rem}
-.hours td:last-child{text-align:right;color:#e6e7e9;font-weight:600}
-.hours tr.closed td:last-child{color:#8f9298}
-.contact-list{list-style:none;display:grid;gap:14px}
-.contact-list a{text-decoration:none;font-weight:700}
-.contact-list a:hover{color:var(--amber)}
-.contact-list small{display:block;color:#9a9da3;font-size:.86rem}
-.map{border-radius:20px;overflow:hidden;min-height:420px;border:1px solid rgba(255,255,255,.08);background:var(--char2)}
-.map iframe{width:100%;height:100%;min-height:420px;border:0;display:block;filter:grayscale(.2)}
+.visit{display:grid;grid-template-columns:.9fr 1.1fr;gap:0;border:2px solid var(--line2)}
+.visit-card{background:var(--pit);padding:36px 34px}
+.sign{border:2px solid var(--bone);padding:18px 20px 12px;margin-bottom:28px}
+.sign h3{font-size:1.9rem;margin-bottom:10px}
+.hours{width:100%;border-collapse:collapse}
+.hours td{padding:8px 0;border-top:1px dashed var(--line2);font-family:var(--mono);font-size:.86rem;letter-spacing:.02em}
+.hours td:last-child{text-align:right;color:var(--bone);font-weight:700}
+.hours tr.closed td:last-child{color:var(--orange)}
+.contact-list{list-style:none;display:grid;gap:18px}
+.contact-list a{text-decoration:none;font-family:var(--cond);font-weight:800;font-size:1.35rem;letter-spacing:.02em;line-height:1.15}
+.contact-list a:hover{color:var(--orange)}
+.contact-list small{display:block;font-family:var(--mono);color:var(--dim);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;margin-top:4px}
+.map{min-height:460px;background:var(--concrete)}
+.map iframe{width:100%;height:100%;min-height:460px;border:0;display:block;filter:grayscale(1) invert(.9) contrast(.9)}
 
 /* footer */
-footer{background:#060607;color:#a6a9ae;padding:48px 0 110px;font-size:.93rem}
+footer{background:#000;color:var(--dust);padding:56px 0 110px;font-size:.93rem}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;align-items:center}
-footer .fb{display:flex;align-items:center;gap:12px}
-footer .fb img{width:52px;height:52px;border-radius:50%}
-footer .fb b{color:#fff;font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;font-size:1.2rem;letter-spacing:.04em;display:block}
-footer a{color:#d6d7da}
-.credit{width:100%;border-top:1px solid rgba(255,255,255,.08);padding-top:20px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:.85rem}
-.credit a{color:#8f9298}
+footer .fb{display:flex;align-items:center;gap:14px}
+footer .fb img{width:64px;height:64px;border-radius:50%}
+footer .fb b{color:var(--bone);font-family:var(--disp);font-weight:400;text-transform:uppercase;font-size:1.5rem;letter-spacing:.03em;display:block;line-height:1}
+footer .fb span{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+footer a{color:var(--bone)}
+.credit{width:100%;border-top:1px solid var(--line);padding-top:20px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-family:var(--mono);font-size:.7rem;letter-spacing:.06em}
+.credit a{color:var(--dim)}
 
-/* sticky mobile bar */
 .mbar{display:none}
 
-@media (max-width:980px){
+@media (max-width:1000px){
   .nav a:not(.btn){display:none}
-  .hero .wrap{grid-template-columns:1fr;gap:44px;padding-top:48px}
-  .hero-photo{max-width:440px}
-  .warranty .wrap{grid-template-columns:1fr;gap:18px}
-  .brands,.services,.reviews{grid-template-columns:1fr 1fr}
+  .hero .wrap{grid-template-columns:1fr}
+  .seal{width:150px;height:150px;position:absolute;right:20px;top:70px}
+  .seal b{font-size:1.9rem}
+  .strip ul{grid-template-columns:1fr 1fr}
+  .strip li:nth-child(3){border-left:0}
+  .strip li:nth-child(n+3){border-top:1px solid var(--line)}
+  .sec-head{grid-template-columns:1fr}
+  .brand-grid{grid-template-columns:1fr 1fr}
+  .ro-head{display:none}
+  .ro-row{grid-template-columns:70px 1fr;}
+  .ro-row > div{padding:20px 16px 4px}
+  .ro-row > div:nth-child(3),.ro-row > div:nth-child(4){grid-column:2;padding-top:4px}
+  .ro-row > div:nth-child(4){padding-bottom:22px}
   .moto{grid-template-columns:1fr}
-  .moto-img{min-height:280px}
-  .why,.book,.visit{grid-template-columns:1fr}
-  .why-photo{max-width:460px;aspect-ratio:4/3}
+  .moto-img{min-height:300px}
+  .why,.book{grid-template-columns:1fr}
+  .shots{max-width:560px}
+  .warranty .wrap{grid-template-columns:1fr;gap:24px}
+  .visit{grid-template-columns:1fr}
 }
 @media (max-width:640px){
   body{font-size:16px}
-  .sec{padding:68px 0}
-  .top .wrap{height:60px}
-  .brand b{font-size:1.1rem}
+  .wrap{padding:0 18px}
+  .sec{padding:76px 0}
+  .top .wrap{height:62px}
+  .brand b{font-size:1.2rem}
   .brand small{display:none}
-  .brand img{width:40px;height:40px}
+  .brand img{width:42px;height:42px}
   .nav .btn{display:none}
+  .hero{min-height:auto}
+  .hero .wrap{padding-top:150px;padding-bottom:50px}
+  .hero h1{font-size:clamp(3.6rem,19vw,5.4rem)}
+  .seal{width:112px;height:112px;right:14px;top:22px}
+  .seal b{font-size:1.4rem}
+  .seal small{font-size:.5rem;margin-top:5px}
   .hero-cta .btn{flex:1 1 100%}
-  .badge-seal{width:96px;height:96px;right:-6px;top:-14px}
-  .badge-seal b{font-size:1.2rem}
-  .brands,.services,.reviews,.points,.grid2,.moto-list{grid-template-columns:1fr}
-  .moto-body{padding:30px 22px}
-  form.card{padding:22px 18px}
-  .visit-card{padding:26px 22px}
+  .strip li{padding:18px 16px}
+  .strip b{font-size:2.1rem}
+  .brand-grid{grid-template-columns:1fr}
+  .bcard{padding:22px 20px}
   .everything{padding:26px 22px}
-  .mbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(11,11,12,.96);border-top:1px solid rgba(255,255,255,.1)}
-  .mbar .btn{padding:13px 10px;font-size:.98rem}
+  .wall{height:240px}
+  .points,.grid2,.moto-list,.reviews{grid-template-columns:1fr}
+  .moto-body{padding:32px 22px}
+  .shot:nth-child(2){margin-top:36px}
+  .form-body{padding:22px 18px 18px}
+  form.ro-form{box-shadow:6px 6px 0 var(--orange)}
+  .visit-card{padding:28px 22px}
+  .map,.map iframe{min-height:320px}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#000;border-top:2px solid var(--orange)}
+  .mbar .btn{padding:13px 10px;font-size:1.05rem;box-shadow:none}
 }
-@media (max-width:360px){
-  .brand b{font-size:1rem}
-  .hero h1{font-size:2.9rem}
-}
+@media (max-width:360px){.brand b{font-size:1.05rem}}
 </style>
 </head>
 <body>
@@ -255,15 +324,15 @@ footer a{color:#d6d7da}
 <header class="top">
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Dirty Wrenches Automotive home">
-      <img src="img/logo-512.webp" alt="Dirty Wrenches logo" width="46" height="46">
-      <span><b>Dirty Wrenches</b><small>Automotive · Hermiston, OR</small></span>
+      <img src="img/logo-512.webp" alt="Dirty Wrenches logo" width="50" height="50">
+      <span><b>Dirty Wrenches</b><small>Automotive / Hermiston, OR</small></span>
     </a>
     <nav class="nav" aria-label="Main">
       <a href="#brands">Brands</a>
       <a href="#services">Services</a>
       <a href="#reviews">Reviews</a>
       <a href="#visit">Visit</a>
-      <a class="btn btn-primary btn-sm" href="tel:+15413033495">Call (541) 303-3495</a>
+      <a class="btn btn-orange btn-sm" href="tel:+15413033495">Call (541) 303-3495</a>
     </nav>
   </div>
 </header>
@@ -271,114 +340,89 @@ footer a{color:#d6d7da}
 <main id="top">
 
 <section class="hero" aria-labelledby="hero-title">
+  <div class="hero-bg"><img src="img/bay-hero.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
   <div class="wrap">
     <div>
-      <span class="eyebrow">Hermiston, Oregon · Since 2022</span>
-      <h1 id="hero-title">Wrench it <span>right.</span></h1>
+      <div class="meta"><span>Hermiston, Oregon</span><span>Est. 2022</span><span>Imports / Domestics / Moto</span></div>
+      <h1 id="hero-title">Wrench it <em>right.</em></h1>
       <p class="lead">Dirty Wrenches is a three-man, owner-operated shop. BMW, Audi, Volkswagen, Mercedes-Benz, Subaru and Porsche are our specialty, but we work on everything, from daily drivers and trucks to motorcycles and ATVs. No job is too small.</p>
       <div class="hero-cta">
-        <a class="btn btn-primary" href="tel:+15413033495"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call (541) 303-3495</a>
-        <a class="btn btn-ghost" href="sms:+15413033495"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Text us</a>
-        <a class="btn btn-ghost" href="#book"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Book an appointment</a>
+        <a class="btn btn-orange" href="tel:+15413033495"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call (541) 303-3495</a>
+        <a class="btn btn-line" href="#book">Book the bay</a>
+        <a class="btn btn-line" href="sms:+15413033495">Text us</a>
       </div>
-      <ul class="hero-trust">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>12-month / 12,000-mile warranty</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Every job photo documented</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Open Mon to Fri, 9 to 5</li>
-      </ul>
     </div>
-    <div class="hero-photo">
-      <figure>
-        <img src="img/shop-vanagon.webp" alt="A white Volkswagen Vanagon inside the Dirty Wrenches shop" width="1050" height="1400" fetchpriority="high">
-        <figcaption>In the shop at Dirty Wrenches</figcaption>
-      </figure>
-      <div class="badge-seal" aria-hidden="true"><div><b>12 mo<br>12k mi</b><small>Warranty</small></div></div>
-    </div>
+    <div class="seal" aria-hidden="true"><div><b>12 mo<br>12k mi</b><small>Warranty</small></div></div>
   </div>
 </section>
+<div class="hazard" aria-hidden="true"></div>
 
-<section class="warranty" aria-label="Warranty">
+<div class="strip" aria-label="Shop at a glance">
   <div class="wrap">
-    <div class="big">12 months.<br>12,000 miles.<small>On every job we do.</small></div>
-    <p>Every repair that leaves our shop is backed by a full 12-month / 12,000-mile warranty, and it's photo documented start to finish, so you can see exactly what was done to your vehicle.</p>
-    <a class="btn btn-dark" href="#book">Book with confidence</a>
+    <ul>
+      <li><b>3</b><span>Mechanics. Same hands every visit.</span></li>
+      <li><b>6</b><span>Import brands we know cold</span></li>
+      <li><b>12<i>/</i>12</b><span>Month / thousand-mile warranty</span></li>
+      <li><b>M<i>-</i>F</b><span>9 AM to 5 PM</span></li>
+    </ul>
   </div>
-</section>
+</div>
 
 <section class="sec" id="brands" aria-labelledby="brands-title">
   <div class="wrap">
     <div class="sec-head">
       <div>
-        <span class="eyebrow">Our specialty</span>
-        <h2 id="brands-title">Six brands we<br>know inside out.</h2>
+        <span class="tag">01 / Our specialty</span>
+        <h2 id="brands-title">Six brands.<br>Known inside out.</h2>
       </div>
       <p>Each one has its own quirks, its own scan tools and its own service intervals. We've spent years on all six, so you get dealer-level know-how without the dealer runaround.</p>
     </div>
-    <div class="brands">
-      <article class="brand-card"><h3>BMW</h3><p>M models, N54/N55 builds, coding and DME tuning, full chassis service.</p></article>
-      <article class="brand-card"><h3>Audi</h3><p>B-series and S/RS models, quattro driveline, DSG and S tronic work.</p></article>
-      <article class="brand-card"><h3>Volkswagen</h3><p>MK6, MK7 and MK8, GTI and Golf R, APR and Unitronic flashes, timing and carbon cleaning.</p></article>
-      <article class="brand-card"><h3>Mercedes-Benz</h3><p>C-Class, E-Class and AMG, M276/M278 service, air suspension and coding.</p></article>
-      <article class="brand-card"><h3>Subaru</h3><p>WRX and STI, FA20 and EJ257 builds, AWD diagnostics, Cobb tuning.</p></article>
-      <article class="brand-card"><h3>Porsche</h3><p>911, Cayman, Macan and Cayenne. PDK service, IMS solutions and PIWIS diagnostics.</p></article>
+    <div class="brand-grid">
+      <article class="bcard"><span class="no">01</span><h3>BMW</h3><p>M models, N54/N55 builds, coding and DME tuning, full chassis service.</p></article>
+      <article class="bcard"><span class="no">02</span><h3>Audi</h3><p>B-series and S/RS models, quattro driveline, DSG and S tronic work.</p></article>
+      <article class="bcard"><span class="no">03</span><h3>VW</h3><p>MK6, MK7 and MK8, GTI and Golf R, APR and Unitronic flashes, timing and carbon cleaning.</p></article>
+      <article class="bcard"><span class="no">04</span><h3>Mercedes</h3><p>C-Class, E-Class and AMG, M276/M278 service, air suspension and coding.</p></article>
+      <article class="bcard"><span class="no">05</span><h3>Subaru</h3><p>WRX and STI, FA20 and EJ257 builds, AWD diagnostics, Cobb tuning.</p></article>
+      <article class="bcard"><span class="no">06</span><h3>Porsche</h3><p>911, Cayman, Macan and Cayenne. PDK service, IMS solutions and PIWIS diagnostics.</p></article>
     </div>
     <div class="everything">
       <div>
-        <h3>Don't see your make? <span>Bring it in anyway.</span></h3>
+        <h3>Don't see your make? Bring it in anyway.</h3>
         <p>Imports are our specialty, but we work on everything else too. Domestics, trucks, motorcycles, ATVs, you name it. No job is too small.</p>
       </div>
-      <a class="btn btn-primary" href="#book">Get on the schedule</a>
+      <a class="btn btn-black" href="#book">Get on the schedule</a>
     </div>
   </div>
 </section>
 
-<section class="sec dark" id="services" aria-labelledby="services-title">
+<div class="wall" aria-hidden="true">
+  <img src="img/tool-wall.webp" alt="" loading="lazy" width="1600" height="685">
+  <div class="over"><p>No upsells. No scare tactics.<br><em>Just the fix.</em></p></div>
+</div>
+
+<section class="sec bg-pit" id="services" aria-labelledby="services-title">
   <div class="wrap">
     <div class="sec-head">
       <div>
-        <span class="eyebrow">What we do</span>
+        <span class="tag">02 / What we do</span>
         <h2 id="services-title">Done properly.<br>Every time.</h2>
       </div>
       <p>No packages, no upsells, no scare tactics. We diagnose, give you a quote, and only start once you say go.</p>
     </div>
-    <div class="services">
-      <article class="svc">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v3l2 2"/></svg></div>
-        <h3>Diagnostics</h3>
-        <p>Check engine lights, strange noises, electrical gremlins. We find the actual fault, not just the code.</p>
-        <ul><li>Brand-specific scan tools</li><li>Live data &amp; coding</li><li>Pre-purchase inspections</li></ul>
-      </article>
-      <article class="svc">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 14l4-4"/><path d="M3.3 19a10 10 0 1 1 17.4 0"/></svg></div>
-        <h3>Performance &amp; tuning</h3>
-        <p>Flash tunes and stage builds for the street or the track, from a single mod to a full build.</p>
-        <ul><li>Cobb</li><li>APR</li><li>Unitronic</li><li>MHD &amp; bootmod3</li></ul>
-      </article>
-      <article class="svc">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></div>
-        <h3>Engine &amp; transmission</h3>
-        <p>Top-end rebuilds, timing chains and belts, DSG, ZF and DCT clutch packs, and full driveline work.</p>
-        <ul><li>Timing service</li><li>DSG mechatronic service</li><li>Forged builds</li></ul>
-      </article>
-      <article class="svc">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg></div>
-        <h3>Brakes &amp; suspension</h3>
-        <p>Pads and rotors to big brake kits, coilovers, alignments and bushing refreshes. Track-day prep welcome.</p>
-        <ul><li>Brembo, StopTech, AP</li><li>KW, Bilstein, Öhlins</li><li>Alignment &amp; corner balance</li></ul>
-      </article>
-      <article class="svc">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.7s6 6.4 6 11.3a6 6 0 0 1-12 0C6 9.1 12 2.7 12 2.7z"/></svg></div>
-        <h3>Maintenance</h3>
-        <p>The everyday stuff, done right and on time. Oil, fluids, filters and inspections with factory-spec parts and fluids.</p>
-        <ul><li>Oil &amp; fluids</li><li>Carbon cleaning (walnut blast)</li><li>Batteries &amp; electrical</li></ul>
-      </article>
-      <article class="svc quote">
+    <div class="ro" role="table" aria-label="Services">
+      <div class="ro-head" role="row"><div role="columnheader">Job</div><div role="columnheader">Service</div><div role="columnheader">What it covers</div><div role="columnheader">Notes</div></div>
+      <div class="ro-row" role="row"><div class="n" role="cell">01</div><div role="cell"><h3>Diagnostics</h3></div><div role="cell"><p>Check engine lights, strange noises, electrical gremlins. We find the actual fault, not just the code.</p></div><div role="cell"><ul><li>Brand-specific scan tools</li><li>Live data &amp; coding</li><li>Pre-purchase inspections</li></ul></div></div>
+      <div class="ro-row" role="row"><div class="n" role="cell">02</div><div role="cell"><h3>Performance &amp; tuning</h3></div><div role="cell"><p>Flash tunes and stage builds for the street or the track, from a single mod to a full build.</p></div><div role="cell"><ul><li>Cobb</li><li>APR</li><li>Unitronic</li><li>MHD &amp; bootmod3</li></ul></div></div>
+      <div class="ro-row" role="row"><div class="n" role="cell">03</div><div role="cell"><h3>Engine &amp; transmission</h3></div><div role="cell"><p>Top-end rebuilds, timing chains and belts, DSG, ZF and DCT clutch packs, and full driveline work.</p></div><div role="cell"><ul><li>Timing service</li><li>DSG mechatronic service</li><li>Forged builds</li></ul></div></div>
+      <div class="ro-row" role="row"><div class="n" role="cell">04</div><div role="cell"><h3>Brakes &amp; suspension</h3></div><div role="cell"><p>Pads and rotors to big brake kits, coilovers, alignments and bushing refreshes. Track-day prep welcome.</p></div><div role="cell"><ul><li>Brembo, StopTech, AP</li><li>KW, Bilstein, Öhlins</li><li>Alignment &amp; corner balance</li></ul></div></div>
+      <div class="ro-row" role="row"><div class="n" role="cell">05</div><div role="cell"><h3>Maintenance</h3></div><div role="cell"><p>The everyday stuff, done right and on time. Oil, fluids, filters and inspections with factory-spec parts and fluids.</p></div><div role="cell"><ul><li>Oil &amp; fluids</li><li>Carbon cleaning (walnut blast)</li><li>Batteries &amp; electrical</li></ul></div></div>
+      <div class="ro-foot">
         <div>
           <h3>Real quotes, fast.</h3>
           <p>No flat-rate menu. Send us your vehicle and what it's doing (or your last scan report) and we'll come back with an honest written quote.</p>
         </div>
-        <a class="btn btn-primary" href="#book">Request a quote</a>
-      </article>
+        <a class="btn btn-orange" href="#book">Request a quote</a>
+      </div>
     </div>
   </div>
 </section>
@@ -388,7 +432,7 @@ footer a{color:#d6d7da}
     <div class="moto">
       <div class="moto-img"><img src="img/stock-motorcycle.webp" alt="A cruiser motorcycle on an open highway at sunset" loading="lazy" width="1600" height="1067"></div>
       <div class="moto-body">
-        <span class="eyebrow">Two wheels or four</span>
+        <span class="tag">03 / Two wheels or four</span>
         <h2 id="moto-title">Motorcycles &amp; ATVs too.</h2>
         <p>Cars are the day job, but bikes and side-by-sides get the same care. Service, engine work, tuning and custom builds for the major brands.</p>
         <ul class="moto-list">
@@ -397,9 +441,7 @@ footer a{color:#d6d7da}
           <li>Engine rebuilds</li>
           <li>Custom builds</li>
         </ul>
-        <div class="chips" aria-label="Motorcycle and ATV brands">
-          <span>Harley-Davidson</span><span>BMW Motorrad</span><span>Ducati</span><span>Honda</span><span>Yamaha</span><span>Kawasaki</span><span>Suzuki</span><span>Triumph</span><span>KTM</span><span>Indian</span><span>Aprilia</span><span>Polaris</span><span>Can-Am</span><span>Arctic Cat</span>
-        </div>
+        <p class="makes"><b>Makes:</b> Harley-Davidson / BMW Motorrad / Ducati / Honda / Yamaha / Kawasaki / Suzuki / Triumph / KTM / Indian / Aprilia / Polaris / Can-Am / Arctic Cat</p>
       </div>
     </div>
   </div>
@@ -407,29 +449,41 @@ footer a{color:#d6d7da}
 
 <section class="sec" id="why" aria-labelledby="why-title" style="padding-top:0">
   <div class="wrap why">
-    <figure class="why-photo">
-      <img src="img/shop-hummer.webp" alt="A red Hummer H3 parked inside the Dirty Wrenches shop" loading="lazy" width="1050" height="1400">
-      <figcaption>Not just imports. A Hummer H3 in the shop.</figcaption>
-    </figure>
+    <div class="shots">
+      <figure class="shot"><img src="img/shop-vanagon.webp" alt="A white Volkswagen Vanagon inside the Dirty Wrenches shop" loading="lazy" width="1050" height="1400"><figcaption>In the bay / VW Vanagon</figcaption></figure>
+      <figure class="shot"><img src="img/shop-hummer.webp" alt="A red Hummer H3 parked inside the Dirty Wrenches shop" loading="lazy" width="1050" height="1400"><figcaption>Not just imports / Hummer H3</figcaption></figure>
+    </div>
     <div>
-      <span class="eyebrow">Why a three-man shop</span>
+      <span class="tag">04 / Why a three-man shop</span>
       <h2 id="why-title">Small on purpose.</h2>
       <p class="lead">You won't get a service writer reading a script. You'll talk to the person actually turning the wrench on your car, and that's how we like it.</p>
       <div class="points">
-        <div class="point"><h3><i>1</i>Owner on the floor</h3><p>This is an owner-operated shop. The owner wrenches, and your invoice has a name on it.</p></div>
-        <div class="point"><h3><i>2</i>Same hands every visit</h3><p>Three mechanics who know your car's history. No revolving door of techs.</p></div>
-        <div class="point"><h3><i>3</i>You see the work</h3><p>Every job is photographed before, during and after, so there's no mystery and no "just trust us."</p></div>
-        <div class="point"><h3><i>4</i>Honest scheduling</h3><p>We usually book two to three weeks out, and we keep our slots.</p></div>
+        <div class="point"><span class="no">01</span><h3>Owner on the floor</h3><p>This is an owner-operated shop. The owner wrenches, and your invoice has a name on it.</p></div>
+        <div class="point"><span class="no">02</span><h3>Same hands every visit</h3><p>Three mechanics who know your car's history. No revolving door of techs.</p></div>
+        <div class="point"><span class="no">03</span><h3>You see the work</h3><p>Every job is photographed before, during and after, so there's no mystery and no "just trust us."</p></div>
+        <div class="point"><span class="no">04</span><h3>Honest scheduling</h3><p>We usually book two to three weeks out, and we keep our slots.</p></div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="sec dark" id="reviews" aria-labelledby="reviews-title">
+<div class="hazard" aria-hidden="true"></div>
+<section class="warranty" aria-label="Warranty">
+  <div class="wrap">
+    <div class="big">12 months.<br>12,000 miles.<small>On every job we do</small></div>
+    <div>
+      <p>Every repair that leaves our shop is backed by a full 12-month / 12,000-mile warranty, and it's photo documented start to finish, so you can see exactly what was done to your vehicle.</p>
+      <a class="btn btn-black" href="#book">Book with confidence</a>
+    </div>
+  </div>
+</section>
+<div class="hazard" aria-hidden="true"></div>
+
+<section class="sec bg-pit" id="reviews" aria-labelledby="reviews-title">
   <div class="wrap">
     <div class="sec-head">
       <div>
-        <span class="eyebrow">From our customers</span>
+        <span class="tag">05 / From our customers</span>
         <h2 id="reviews-title">Real people.<br>Real reviews.</h2>
       </div>
       <p>A few words from Google reviews left by drivers we've helped.</p>
@@ -453,59 +507,64 @@ footer a{color:#d6d7da}
 <section class="sec" id="book" aria-labelledby="book-title">
   <div class="wrap book">
     <div>
-      <span class="eyebrow">Book an appointment</span>
+      <span class="tag">06 / Book an appointment</span>
       <h2 id="book-title">Tell us what's going on.</h2>
-      <p class="lead" style="color:var(--muted);font-size:1.1rem">Send the details and we'll call to confirm a time. Prefer the phone? Call or text anytime during business hours.</p>
+      <p class="lead">Send the details and we'll call to confirm a time. Prefer the phone? Call or text anytime during business hours.</p>
       <ol class="steps">
-        <li><div><b>Tell us the vehicle and the issue</b><span>Year, make, model, and what it's doing.</span></div></li>
-        <li><div><b>Pick a day that works</b><span>We'll call to confirm the time.</span></div></li>
-        <li><div><b>Drop it off</b><span>We diagnose and quote, and only proceed once you say go.</span></div></li>
+        <li><b>Tell us the vehicle and the issue</b><span>Year, make, model, and what it's doing.</span></li>
+        <li><b>Pick a day that works</b><span>We'll call to confirm the time.</span></li>
+        <li><b>Drop it off</b><span>We diagnose and quote, and only proceed once you say go.</span></li>
       </ol>
-      <div class="note">Planning mods, a tune or a full build? Use the same form and give us as much detail as you can: parts, goals, budget and how you drive it.</div>
+      <div class="note"><b>Planning mods, a tune or a full build?</b> Use the same form and give us as much detail as you can: parts, goals, budget and how you drive it.</div>
       <div class="callbox">
-        <a class="btn btn-dark" href="tel:+15413033495">Call (541) 303-3495</a>
-        <a class="btn btn-dark" href="sms:+15413033495">Text us</a>
+        <a class="btn btn-orange" href="tel:+15413033495">Call (541) 303-3495</a>
+        <a class="btn btn-line" href="sms:+15413033495">Text us</a>
       </div>
     </div>
-    <form class="card" id="book-form" novalidate>
-      <div class="grid2">
-        <div class="field"><label for="f-name">Your name <em>*</em></label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="f-phone">Phone <em>*</em></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
+    <form class="ro-form" id="book-form" novalidate>
+      <div class="form-top"><b>Repair order</b><span>Dirty Wrenches / Hermiston</span></div>
+      <div class="form-body">
+        <div class="grid2">
+          <div class="field"><label for="f-name">Your name <em>*</em></label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="f-phone">Phone <em>*</em></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
+        </div>
+        <div class="field"><label for="f-vehicle">Vehicle year, make &amp; model <em>*</em></label><input id="f-vehicle" name="vehicle" type="text" placeholder="e.g. 2014 Audi S4" required></div>
+        <div class="field"><label for="f-issue">What's going on? <em>*</em></label><textarea id="f-issue" name="issue" placeholder="When it happens, sounds, warning lights, any codes. The more detail, the better." required></textarea></div>
+        <div class="field"><label for="f-day">Preferred day</label>
+          <select id="f-day" name="day">
+            <option value="">No preference</option>
+            <option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option>Friday</option>
+          </select>
+        </div>
+        <button class="btn btn-orange" type="submit">Request appointment</button>
+        <p class="form-note" id="form-note" role="status" aria-live="polite">This is a preview. Messages aren't sent yet. Once you move forward, this form will deliver every request straight to your inbox.</p>
+        <p class="fine">We'll call to confirm. Open Monday to Friday, 9 AM to 5 PM.</p>
       </div>
-      <div class="field"><label for="f-vehicle">Vehicle year, make &amp; model <em>*</em></label><input id="f-vehicle" name="vehicle" type="text" placeholder="e.g. 2014 Audi S4" required></div>
-      <div class="field"><label for="f-issue">What's going on? <em>*</em></label><textarea id="f-issue" name="issue" placeholder="When it happens, sounds, warning lights, any codes. The more detail, the better." required></textarea></div>
-      <div class="field"><label for="f-day">Preferred day</label>
-        <select id="f-day" name="day">
-          <option value="">No preference</option>
-          <option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option>Friday</option>
-        </select>
-      </div>
-      <button class="btn btn-primary" type="submit">Request appointment</button>
-      <p class="form-note" id="form-note" role="status" aria-live="polite">This is a preview. Messages aren't sent yet. Once you move forward, this form will deliver every request straight to your inbox.</p>
-      <p class="fine">We'll call to confirm. Open Monday to Friday, 9 AM to 5 PM.</p>
     </form>
   </div>
 </section>
 
-<section class="sec dark" id="visit" aria-labelledby="visit-title">
+<section class="sec bg-pit" id="visit" aria-labelledby="visit-title">
   <div class="wrap">
     <div class="sec-head">
       <div>
-        <span class="eyebrow">Visit the shop</span>
+        <span class="tag">07 / Visit the shop</span>
         <h2 id="visit-title">Stop in.<br>Or just call.</h2>
       </div>
       <p>The bays get loud, so if we miss your call, leave a message or send a text and we'll get right back to you.</p>
     </div>
     <div class="visit">
       <div class="visit-card">
-        <h3>Hours</h3>
-        <table class="hours">
-          <tbody>
-            <tr><td>Monday to Friday</td><td>9:00 AM to 5:00 PM</td></tr>
-            <tr class="closed"><td>Saturday</td><td>Closed</td></tr>
-            <tr class="closed"><td>Sunday</td><td>Closed</td></tr>
-          </tbody>
-        </table>
+        <div class="sign">
+          <h3>Shop hours</h3>
+          <table class="hours">
+            <tbody>
+              <tr><td>Monday to Friday</td><td>9 AM to 5 PM</td></tr>
+              <tr class="closed"><td>Saturday</td><td>Closed</td></tr>
+              <tr class="closed"><td>Sunday</td><td>Closed</td></tr>
+            </tbody>
+          </table>
+        </div>
         <ul class="contact-list">
           <li><a href="tel:+15413033495">(541) 303-3495</a><small>Call or text</small></li>
           <li><a href="mailto:dirtywrenches007@gmail.com">dirtywrenches007@gmail.com</a><small>Great for quotes and scan reports</small></li>
@@ -513,7 +572,7 @@ footer a{color:#d6d7da}
         </ul>
       </div>
       <div class="map">
-        <iframe title="Map to Dirty Wrenches Automotive" src="https://maps.google.com/maps?q=Dirty%20Wrenches%20Automotive%2C%201055%20N%201st%20Pl%20Ste%203A%2C%20Hermiston%2C%20OR%2097838&amp;z=15&amp;output=embed"></iframe>
+        <iframe title="Map to Dirty Wrenches Automotive" loading="lazy" src="https://maps.google.com/maps?q=Dirty%20Wrenches%20Automotive%2C%201055%20N%201st%20Pl%20Ste%203A%2C%20Hermiston%2C%20OR%2097838&amp;z=15&amp;output=embed"></iframe>
       </div>
     </div>
   </div>
@@ -521,13 +580,14 @@ footer a{color:#d6d7da}
 
 </main>
 
+<div class="hazard" aria-hidden="true"></div>
 <footer>
   <div class="wrap">
     <div class="fb">
-      <img src="img/logo-512.webp" alt="" width="52" height="52" loading="lazy">
-      <div><b>Dirty Wrenches Automotive</b>Wrench it right. Hermiston, OR, since 2022.</div>
+      <img src="img/logo-512.webp" alt="" width="64" height="64" loading="lazy">
+      <div><b>Dirty Wrenches Automotive</b><span>Wrench it right / Hermiston, OR / Since 2022</span></div>
     </div>
-    <div><a href="tel:+15413033495">(541) 303-3495</a> · <a href="mailto:dirtywrenches007@gmail.com">dirtywrenches007@gmail.com</a></div>
+    <div><a href="tel:+15413033495">(541) 303-3495</a> &nbsp;/&nbsp; <a href="mailto:dirtywrenches007@gmail.com">dirtywrenches007@gmail.com</a></div>
     <div class="credit">
       <span>© <span id="yr">2026</span> Dirty Wrenches Automotive LLC. All rights reserved.</span>
       <a href="https://goodfolkweb.com/?ref=dirtywrenches" rel="nofollow">Website by Goodfolk</a>
@@ -536,8 +596,8 @@ footer a{color:#d6d7da}
 </footer>
 
 <nav class="mbar" aria-label="Quick contact">
-  <a class="btn btn-primary" href="tel:+15413033495"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call now</a>
-  <a class="btn btn-ghost" href="#book">Book</a>
+  <a class="btn btn-orange" href="tel:+15413033495">Call now</a>
+  <a class="btn btn-line" href="#book">Book</a>
 </nav>
 
 <script>
