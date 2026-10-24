@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Mercado San Juan | Mexican Restaurant, Market &amp; Bakery in Hermiston, OR</title>
+<title>Mercado San Juan | Mexican Restaurant, Carnicería, Panadería &amp; Market in Hermiston, OR</title>
 <meta name="description" content="Family-owned Mexican restaurant, carnicería, panadería and grocery store in Hermiston, Oregon since 2015. Daily platillos, tacos, fresh pan dulce, check cashing and money transfers. 1150 W Hartley Ave. Call (541) 289-7155.">
 <meta name="theme-color" content="#d42a1f">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Mercado San Juan">
-<meta property="og:title" content="Mercado San Juan | Comida, mercado y panadería en Hermiston">
-<meta property="og:description" content="Daily platillos, tacos, a full carnicería, fresh pan dulce and Mexican groceries, all in one stop on W Hartley Ave in Hermiston, OR.">
+<meta property="og:title" content="Mercado San Juan | Venga con hambre, váyase con el mandado">
+<meta property="og:description" content="Daily platillos, tacos, a full carnicería, pan dulce from our own oven and Mexican groceries, all in one stop on W Hartley Ave in Hermiston, OR.">
 <meta property="og:image" content="https://preview.goodfolkweb.com/mercadosanjuan/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
@@ -18,24 +18,28 @@
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,600..800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero-bolillos-1100.webp" media="(min-width: 761px)">
+<link rel="preload" as="image" href="img/hero-bolillos-m-900.webp" media="(max-width: 760px)">
 <!--
   Image credits
-  All photos in img/ are Mercado San Juan's own photos, taken from their current website
-  (mercadosanjuanllc.com home page and photo gallery). No stock photography is used.
+  Every photo in img/ is Mercado San Juan's own, taken from their current website (mercadosanjuanllc.com
+  home page and photo gallery), pulled at the largest size their CDN serves, then cropped and color
+  corrected locally (white balance, exposure, shadow recovery, light noise reduction and sharpening).
+  No stock photography and no AI-generated or AI-upscaled imagery.
   img/logo.webp, favicons: Mercado San Juan logo (yellow background removed for this page).
 -->
 <style>
 :root{
-  --red:#d42a1f; --red-d:#b01f16; --red-ink:#8f170f;
-  --sun:#ffe24a; --sun-l:#fff4b8;
-  --navy:#10205a; --navy-d:#0a1640; --navy-2:#1c2e6e;
-  --masa:#f8f1e1; --line:#e6dcc6; --paper:#fffdf8;
-  --ink:#1b2340; --muted:#545b73;
-  --max:1200px;
-  --hh:76px;
-  --head:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
+  --red:#d42a1f; --red-d:#b11f15; --red-ink:#8e160e;
+  --sun:#ffd83a; --sun-l:#fff1a8;
+  --navy:#10205a; --navy-d:#0a163f; --navy-2:#1b2d6b;
+  --paper:#fffdf7; --line:#e9e1cf; --ink:#17204a; --muted:#4f566e;
+  --max:1220px; --hh:76px;
+  --sign:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
   --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --marker:"Permanent Marker","Comic Sans MS",cursive;
+  --burst:polygon(50% 0%,55.2% 6.8%,62% 1.5%,65.4% 9.3%,73.2% 5.7%,74.7% 14.2%,83.2% 12.6%,82.6% 21.2%,91.1% 21.6%,88.5% 29.8%,96.8% 32.3%,92.2% 39.6%,99.6% 44%,93.5% 50%,99.6% 56%,92.2% 60.4%,96.8% 67.7%,88.5% 70.2%,91.1% 78.4%,82.6% 78.8%,83.2% 87.4%,74.7% 85.8%,73.2% 94.3%,65.4% 90.7%,62% 98.5%,55.2% 93.2%,50% 100%,44.8% 93.2%,38% 98.5%,34.6% 90.7%,26.8% 94.3%,25.3% 85.8%,16.8% 87.4%,17.4% 78.8%,8.9% 78.4%,11.5% 70.2%,3.2% 67.7%,7.8% 60.4%,.4% 56%,6.5% 50%,.4% 44%,7.8% 39.6%,3.2% 32.3%,11.5% 29.8%,8.9% 21.6%,17.4% 21.2%,16.8% 12.6%,25.3% 14.2%,26.8% 5.7%,34.6% 9.3%,38% 1.5%,44.8% 6.8%);
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -43,282 +47,269 @@ html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px;overflow-x:hidden}
 img{max-width:100%;height:auto;display:block}
 a{color:inherit}
-h1,h2,h3{font-family:var(--head);font-variation-settings:"wdth" 88;line-height:1.02;letter-spacing:-.01em;color:var(--navy)}
-h2{font-size:clamp(2.1rem,4.4vw,3.3rem);font-weight:800}
-h3{font-size:1.4rem;font-weight:700;line-height:1.15}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
-section{scroll-margin-top:calc(var(--hh) + 8px)}
 :focus-visible{outline:3px solid var(--navy);outline-offset:3px}
-.lead{font-size:1.15rem;color:var(--muted);max-width:34em}
-.en-only{}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+section{scroll-margin-top:var(--hh)}
 html[lang="es"] .en-only{display:none!important}
-.tnum{font-variant-numeric:tabular-nums}
+html[lang="es"] h1,html[lang="es"] h2,html[lang="es"] .hero h1{line-height:1.02}
+
+/* sign lettering: condensed caps like painted market signs */
+.sign{font-family:var(--sign);font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:.005em}
+h1,h2{font-family:var(--sign);font-weight:900;text-transform:uppercase;line-height:.94;letter-spacing:.005em}
+h2{font-size:clamp(2.9rem,6.4vw,5.6rem)}
+h3{font-family:var(--sign);font-weight:800;text-transform:uppercase;letter-spacing:.01em;line-height:1}
+
+/* buttons: square-shouldered, like a painted panel */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--body);font-weight:800;font-size:1.05rem;text-decoration:none;border-radius:3px;padding:0 24px;min-height:54px;border:2px solid transparent;cursor:pointer;line-height:1.15;text-align:center;transition:background .15s,color .15s,border-color .15s}
+.btn svg{width:19px;height:19px;flex:none}
+.btn-sun{background:var(--sun);color:var(--navy)}
+.btn-sun:hover{background:#fff}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover{background:var(--red-d)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy-d)}
+.btn-ghost{border-color:currentColor;background:transparent}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.on-light .btn-ghost:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+/* starburst price card, drawn after the hand-lettered cards in their butcher case */
+.burst{position:relative;display:grid;place-items:center;aspect-ratio:1;background:var(--navy);clip-path:var(--burst);text-decoration:none;color:var(--navy)}
+.burst::before{content:"";position:absolute;inset:5px;background:#fff;clip-path:var(--burst)}
+.burst > *{position:relative}
+.marker{font-family:var(--marker);font-weight:400;letter-spacing:.01em}
+
+/* printed yellow price card, like the ones on their case */
+.card{display:inline-block;background:var(--sun);color:var(--navy);font-family:var(--sign);font-weight:900;font-size:1.55rem;line-height:1;padding:6px 10px 5px;border-radius:2px;white-space:nowrap;font-variant-numeric:tabular-nums}
 
 /* preview banner */
 .gf-banner{background:#000;color:#b9b3a9;font-size:13px;line-height:1.4;text-align:center;padding:7px 14px}
 .gf-banner a{color:#fff;font-weight:600}
 
 /* header */
-.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
-.top .wrap{display:flex;align-items:center;gap:22px;height:var(--hh)}
-.brand{display:flex;align-items:center;text-decoration:none;flex:none;min-height:44px}
-.brand img{width:220px;height:auto}
-.nav{display:flex;align-items:center;gap:22px;margin-left:auto}
-.nav a{text-decoration:none;font-weight:600;font-size:1rem;color:var(--ink);padding:8px 0;border-bottom:2px solid transparent;transition:border-color .15s,color .15s;white-space:nowrap}
-.nav a:hover{border-bottom-color:var(--red);color:var(--red-d)}
-.head-tools{display:flex;align-items:center;gap:12px;flex:none}
-.lang{display:inline-flex;border:1.5px solid var(--navy);border-radius:999px;overflow:hidden}
-.lang button{font:inherit;font-weight:700;font-size:.9rem;letter-spacing:.02em;min-width:46px;height:44px;padding:0 10px;border:0;background:transparent;color:var(--navy);cursor:pointer}
-.lang button[aria-pressed="true"]{background:var(--navy);color:#fff}
-.call{display:inline-flex;align-items:center;gap:8px;text-decoration:none;background:var(--red);color:#fff;font-weight:700;border-radius:999px;padding:0 18px;height:44px;white-space:nowrap;transition:background .15s}
+.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:3px solid var(--red)}
+.top .wrap{display:flex;align-items:center;gap:24px;height:var(--hh)}
+.brand{display:flex;align-items:center;flex:none;min-height:44px}
+.brand img{width:214px}
+.nav{display:flex;align-items:center;gap:24px;margin-left:auto}
+.nav a{text-decoration:none;font-weight:700;font-size:.98rem;color:var(--ink);padding:8px 0;border-bottom:3px solid transparent;white-space:nowrap}
+.nav a:hover{border-bottom-color:var(--sun)}
+.tools{display:flex;align-items:center;gap:14px;flex:none}
+.lang{display:flex;align-items:center}
+.lang button{font:inherit;font-weight:800;font-size:.95rem;background:none;border:0;color:var(--muted);min-width:44px;height:44px;cursor:pointer;border-bottom:3px solid transparent}
+.lang button[aria-pressed="true"]{color:var(--navy);border-bottom-color:var(--red)}
+.lang span{color:#c9c2b0}
+.call{display:inline-flex;align-items:center;gap:9px;text-decoration:none;background:var(--red);color:#fff;font-weight:800;border-radius:3px;padding:0 18px;height:46px;white-space:nowrap}
 .call:hover{background:var(--red-d)}
 .call svg{width:17px;height:17px}
-.menu-btn{display:none;align-items:center;justify-content:center;width:46px;height:46px;border:1.5px solid var(--line);border-radius:8px;background:#fff;color:var(--navy);cursor:pointer}
+.menu-btn{display:none;align-items:center;justify-content:center;width:46px;height:46px;border:2px solid var(--navy);border-radius:3px;background:#fff;color:var(--navy);cursor:pointer}
 .menu-btn svg{width:24px;height:24px}
 .menu-btn .x{display:none}
 .top.open .menu-btn .x{display:block}
 .top.open .menu-btn .bars{display:none}
 
-/* buttons */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--body);font-weight:700;font-size:1.05rem;text-decoration:none;border-radius:999px;padding:0 26px;min-height:52px;border:2px solid transparent;cursor:pointer;line-height:1.2;transition:background .15s,border-color .15s,color .15s;text-align:center}
-.btn svg{width:18px;height:18px;flex:none}
-.btn-red{background:var(--red);color:#fff}
-.btn-red:hover{background:var(--red-d)}
-.btn-navy{background:var(--navy);color:#fff}
-.btn-navy:hover{background:var(--navy-d)}
-.btn-line{border-color:var(--navy);color:var(--navy);background:transparent}
-.btn-line:hover{background:var(--navy);color:#fff}
-.btn-light{border-color:rgba(255,255,255,.7);color:#fff;background:transparent}
-.btn-light:hover{background:#fff;color:var(--navy)}
-
-/* price tag: modeled on the yellow tags in their butcher case */
-.tag{display:inline-flex;align-items:baseline;gap:1px;background:var(--sun);color:var(--navy);font-family:var(--head);font-variation-settings:"wdth" 80;font-weight:800;font-size:1.3rem;line-height:1;padding:7px 10px 6px;border-radius:3px;white-space:nowrap;font-variant-numeric:tabular-nums}
-.tag small{font-size:max(12px,.62em);font-weight:700;align-self:flex-start;margin-top:1px}
-.tag .per{font-family:var(--body);font-size:.6em;font-weight:600;margin-left:3px;align-self:center}
-
 /* hero */
-.hero{position:relative;background:var(--sun)}
-.hero-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);min-height:600px}
-.hero-copy{padding:72px 56px 64px max(24px,calc((100vw - var(--max))/2 + 24px));display:flex;flex-direction:column;justify-content:center}
-.hero h1{font-size:clamp(2.6rem,5.2vw,4.4rem);font-weight:800;line-height:.98;margin-bottom:22px;font-variation-settings:"wdth" 82}
-.hero .lead{color:#3c3a2a;font-size:1.18rem}
+.hero{background:var(--red);color:#fff;position:relative}
+.hero-in{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);min-height:min(720px,calc(100vh - var(--hh) - 30px - 64px))}
+.hero-copy{padding:52px 84px 52px max(28px,calc((100vw - var(--max))/2 + 28px));display:flex;flex-direction:column;justify-content:center}
+.hero h1{color:var(--sun);font-size:clamp(3.4rem,6.1vw,6.2rem);line-height:.95;margin-bottom:24px}
+.hero h1 span{display:block}
+.hero-sub{font-size:1.2rem;line-height:1.55;max-width:31em;color:#fff4f2}
 .hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
-.facts{list-style:none;display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:34px;padding-top:22px;border-top:2px solid rgba(16,32,90,.18)}
-.facts li{display:flex;align-items:center;gap:9px;font-weight:600;color:var(--navy);font-size:.98rem}
-.facts svg{width:19px;height:19px;color:var(--red);flex:none}
-.hero-photo{position:relative;min-height:420px}
-.hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%}
-.hero-photo figcaption{position:absolute;right:16px;bottom:16px;background:#fff;color:var(--navy);font-size:.88rem;font-weight:600;padding:7px 12px;border-radius:999px}
+.hero-hours{margin-top:24px;font-weight:700;font-size:1.02rem;color:#fff;display:flex;align-items:center;gap:10px}
+.hero-hours svg{width:20px;height:20px;color:var(--sun);flex:none}
+.hero-media{position:relative;min-height:420px}
+.hero-media picture,.hero-media img{position:absolute;inset:0;width:100%;height:100%}
+.hero-media img{object-fit:cover;object-position:50% 50%}
+.hero-burst{position:absolute;left:-104px;bottom:56px;width:236px;z-index:2}
+.hero-burst .bi{display:flex;flex-direction:column;align-items:center;text-align:center;width:66%;gap:3px}
+.hero-burst small{font-family:var(--sign);font-weight:900;text-transform:uppercase;font-size:1.1rem;color:var(--red);line-height:1;letter-spacing:.04em}
+.hero-burst b{font-family:var(--body);font-weight:800;font-size:.86rem;line-height:1.2;color:var(--navy)}
+.hero-burst .marker{font-size:2.15rem;line-height:1;color:var(--navy)}
+.awning{background:var(--sun);color:var(--navy);border-top:3px solid var(--navy)}
+.awning ul{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 0;padding:16px 20px}
+.awning li{font-family:var(--sign);font-weight:900;text-transform:uppercase;font-size:clamp(1.25rem,2.1vw,1.7rem);letter-spacing:.03em;line-height:1;display:flex;align-items:center}
+.awning li + li::before{content:"";width:9px;height:9px;background:var(--red);transform:rotate(45deg);margin:0 22px}
 
-/* sections */
-.sec{padding:96px 0}
-.sec-head{max-width:720px;margin-bottom:44px}
-.sec-head h2{margin-bottom:14px}
-
-/* under one roof */
-.roof{display:grid;grid-template-columns:1.25fr 1fr 1fr;grid-template-rows:auto auto;gap:18px}
-.stall{position:relative;border-radius:14px;overflow:hidden;background:var(--navy);color:#fff;text-decoration:none;display:flex;flex-direction:column;justify-content:flex-end;min-height:300px;isolation:isolate}
-.stall img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .5s}
-.stall::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,22,64,0) 35%,rgba(10,22,64,.86) 100%)}
-.stall:hover img{transform:scale(1.03)}
-.stall .txt{padding:24px 24px 22px}
-.stall h3{color:#fff;font-size:1.7rem;margin-bottom:6px}
-.stall p{font-size:.98rem;color:#e7e9f2;max-width:28em}
-.stall.big{grid-row:span 2;min-height:620px}
-.stall.big h3{font-size:2.3rem}
-.roof-note{margin-top:26px;display:flex;flex-wrap:wrap;gap:10px 28px;align-items:center;font-weight:600;color:var(--navy)}
-.roof-note span{display:inline-flex;align-items:center;gap:8px}
-.roof-note svg{width:20px;height:20px;color:var(--red)}
-
-/* today's special */
-.today{background:var(--red);color:#fff;padding:72px 0}
-.today-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:start}
-.today h2{color:#fff;font-size:clamp(2.4rem,5vw,3.8rem)}
-.today .day-now{display:inline-block;background:var(--sun);color:var(--navy);font-weight:700;border-radius:999px;padding:5px 14px;font-size:.95rem;margin-bottom:16px}
-.today-dishes{list-style:none;margin:22px 0 18px;display:grid;gap:4px}
-.today-dishes li{font-family:var(--head);font-variation-settings:"wdth" 85;font-weight:700;font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.15}
-.today-dishes .or{font-family:var(--body);font-weight:500;font-size:1rem;color:#ffd9d4;font-style:italic}
-.today .tag{font-size:1.8rem;padding:9px 13px 8px}
-.today-sub{margin-top:26px;padding-top:20px;border-top:1px solid rgba(255,255,255,.28);color:#ffe6e2;max-width:34em}
-.today-sub b{color:#fff}
-.week{list-style:none;background:#fff;color:var(--ink);border-radius:14px;padding:8px 22px}
-.week li{display:grid;grid-template-columns:7.2em 1fr auto;gap:14px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
-.week li:last-child{border-bottom:0}
-.week .d{font-weight:700;color:var(--navy)}
-.week .n{font-size:.98rem;line-height:1.35}
-.week .p{font-weight:700;font-variant-numeric:tabular-nums;color:var(--navy)}
-.week li.is-today{background:var(--sun-l);margin:0 -22px;padding:14px 22px;border-bottom-color:transparent}
-.week li.is-today .d::after{content:attr(data-today);display:block;font-size:.78rem;font-weight:700;color:var(--red-d)}
-
-/* menu */
-.menu-sec{padding:84px 0 96px;background:var(--paper)}
-.menu-nav{position:sticky;top:var(--hh);z-index:20;background:var(--paper);border-bottom:1px solid var(--line);margin-bottom:40px}
-.menu-nav .wrap{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-top:10px;padding-bottom:10px}
-.menu-nav .wrap::-webkit-scrollbar{display:none}
-.menu-nav a{flex:none;text-decoration:none;font-weight:600;font-size:.95rem;color:var(--navy);border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:0 16px;min-height:44px;display:inline-flex;align-items:center;white-space:nowrap}
-.menu-nav a:hover{border-color:var(--navy)}
-.menu-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 56px;align-items:start}
-.mcat{scroll-margin-top:calc(var(--hh) + 80px)}
-.mcat-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding-bottom:12px;border-bottom:3px solid var(--navy);margin-bottom:6px}
-.mcat-head h3{font-size:1.85rem;font-weight:800}
-.mcat-head p{font-size:.92rem;color:var(--muted);margin-top:4px;font-family:var(--body)}
-.items{list-style:none}
-.items li{display:flex;justify-content:space-between;align-items:baseline;gap:14px;padding:11px 0;border-bottom:1px dashed var(--line)}
-.items li:last-child{border-bottom:0}
-.items b{font-weight:600;font-size:1.06rem;color:var(--ink)}
-.items .g{display:block;font-size:.9rem;color:var(--muted);font-weight:400;margin-top:1px}
-.items .x{font-weight:700;color:var(--red-d);font-variant-numeric:tabular-nums;white-space:nowrap;font-size:.98rem}
-.items .pr{font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums;white-space:nowrap}
-.mcat .note{font-size:.92rem;color:var(--muted);margin-top:10px}
-.mphoto{border-radius:12px;overflow:hidden;position:relative}
-.mphoto img{width:100%;aspect-ratio:4/3;object-fit:cover}
-.mphoto figcaption{position:absolute;left:12px;bottom:12px;background:#fff;color:var(--navy);font-size:.86rem;font-weight:600;padding:5px 11px;border-radius:999px}
+/* menu board */
+.board{background:var(--navy);color:#fff;padding:92px 0 100px}
+.board-head{display:grid;grid-template-columns:auto 1fr;gap:20px 56px;align-items:end;margin-bottom:44px}
+.board h2{color:var(--sun);font-size:clamp(4rem,10vw,8.6rem);line-height:.86}
+.board-head p{color:#cfd5ea;max-width:36em}
+.board-head .change{display:block;color:var(--sun);font-weight:700;margin-top:6px}
+.week{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border:2px solid rgba(255,255,255,.22);margin-bottom:18px}
+.day{padding:18px 16px 16px;border-right:2px solid rgba(255,255,255,.22);display:flex;flex-direction:column;gap:8px;position:relative}
+.day:last-child{border-right:0}
+.day h3{font-size:1.45rem;color:#fff;display:flex;justify-content:space-between;align-items:baseline;gap:6px}
+.day h3 em{font-style:normal;font-size:.8rem;color:var(--red);background:#fff;padding:3px 6px 2px;letter-spacing:.06em;display:none}
+.day ul{list-style:none;font-size:.95rem;line-height:1.35;color:#e3e7f5;flex:1;display:grid;gap:6px;align-content:start}
+.day .p{font-family:var(--sign);font-weight:900;font-size:1.5rem;color:var(--sun);font-variant-numeric:tabular-nums}
+.day.is-today{background:var(--sun);color:var(--navy)}
+.day.is-today h3,.day.is-today ul,.day.is-today .p{color:var(--navy)}
+.day.is-today h3 em{display:inline-block}
+.breakfast-line{color:#cfd5ea;font-size:.98rem;margin-bottom:56px}
+.breakfast-line b{color:#fff}
+.tabs{position:sticky;top:var(--hh);z-index:20;background:var(--navy);border-bottom:2px solid rgba(255,255,255,.18);margin-bottom:40px}
+.tabs .in{display:flex;gap:26px;overflow-x:auto;scrollbar-width:none}
+.tabs .in::-webkit-scrollbar{display:none}
+.tabs a{flex:none;min-width:44px;justify-content:center;text-decoration:none;color:#fff;font-weight:700;font-size:.98rem;min-height:48px;display:inline-flex;align-items:center;border-bottom:3px solid transparent;white-space:nowrap}
+.tabs a:hover{border-bottom-color:var(--sun)}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:56px 72px;align-items:start}
+.cat{scroll-margin-top:calc(var(--hh) + 64px)}
+.cat-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;border-bottom:3px solid var(--sun);padding-bottom:10px;margin-bottom:6px}
+.cat-head h3{font-size:2.3rem;color:var(--sun);line-height:.9}
+.cat-head p{font-size:.92rem;color:#b9c1de;margin-top:6px}
+.list{list-style:none}
+.list li{display:flex;align-items:baseline;gap:10px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+.list li:last-child{border-bottom:0}
+.list .n{font-weight:600;font-size:1.06rem;color:#fff}
+.list .g{display:block;font-size:.9rem;color:#aeb7d8;font-weight:400}
+.list .lead{flex:1;border-bottom:2px dotted rgba(255,255,255,.3);transform:translateY(-4px);min-width:16px}
+.list .pr{font-weight:800;color:var(--sun);font-variant-numeric:tabular-nums;white-space:nowrap}
+.list .x{font-weight:800;color:#ff9f95;white-space:nowrap;font-size:.98rem}
+.cat .note{font-size:.92rem;color:#b9c1de;margin-top:10px}
+.cat-burst{width:118px;margin:-28px -6px -10px 0;flex:none}
+.cat-burst .marker{font-size:1.75rem;color:var(--navy);line-height:1}
 .wide{grid-column:1 / -1}
-/* fillings matrix */
-.matrix{width:100%;border-collapse:collapse;font-size:1rem}
-.matrix th,.matrix td{padding:11px 6px;border-bottom:1px dashed var(--line);text-align:center}
-.matrix thead th{border-bottom:0;padding-top:16px;vertical-align:bottom}
-.matrix thead .mx{display:block;font-family:var(--head);font-variation-settings:"wdth" 85;font-weight:800;font-size:1.15rem;color:var(--navy);line-height:1.1}
-.matrix thead .tag{font-size:1.05rem;padding:5px 8px 4px;margin-top:6px}
-.matrix{max-width:820px}
-.matrix th[scope="row"]{text-align:left;font-weight:600;padding-left:0}
-.matrix th[scope="row"] .x{font-weight:700;color:var(--red-d);font-size:.9rem;margin-left:6px;white-space:nowrap}
-.dot{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--red)}
-.no{display:inline-block;width:12px;height:2px;background:#cfc6b2;vertical-align:middle}
-.weekend{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:48px;border-radius:14px;background:var(--navy);color:#fff;padding:44px 44px 36px}
-.weekend h3{color:#fff;font-size:2.3rem;font-weight:800;margin-bottom:12px}
-.weekend p{color:#d8dcec;max-width:30em}
-.weekend .wk-days{margin-top:18px;display:inline-block;background:var(--sun);color:var(--navy);font-weight:700;border-radius:999px;padding:5px 14px;font-size:.95rem}
-.weekend .mcat-head{border-bottom-color:var(--sun)}
-.weekend .mcat-head h3{font-size:1.5rem;margin:0}
-.weekend .items li{border-bottom-color:rgba(255,255,255,.18)}
-.weekend .items b{color:#fff}
-.weekend .items .g{color:#b9c0dc}
-.price-note{margin-top:30px;font-size:.92rem;color:var(--muted)}
+.matrix{width:100%;border-collapse:collapse}
+.matrix th[scope="row"]{width:34%}
+.matrix th,.matrix td{padding:10px 6px;border-bottom:1px solid rgba(255,255,255,.12);text-align:center}
+.matrix thead th{border-bottom:0;vertical-align:bottom;padding-top:14px}
+.matrix .mx{display:block;font-family:var(--sign);font-weight:900;text-transform:uppercase;font-size:1.35rem;color:#fff;line-height:1;margin-bottom:6px}
+.matrix .card{font-size:1.15rem;padding:4px 7px 3px}
+.matrix th[scope="row"]{text-align:left;font-weight:600;padding-left:0;color:#fff}
+.matrix th[scope="row"] .x{font-weight:800;color:#ff9f95;font-size:.9rem;margin-left:6px;white-space:nowrap}
+.dot{display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--sun)}
+.no{display:inline-block;width:12px;height:2px;background:rgba(255,255,255,.28);vertical-align:middle}
+.plates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0 0 8px}
+.plates figure{margin:0}
+.plates img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.plates figcaption{font-size:.9rem;color:#b9c1de;margin-top:8px}
+.cold{margin:0}
+.cold img{width:100%;aspect-ratio:4/3.4;object-fit:cover;object-position:40% 50%}
+.cold figcaption{font-size:.9rem;color:#b9c1de;margin-top:8px}
+.weekend{background:var(--red);padding:34px 36px 30px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:40px;align-items:start}
+.weekend h3{font-size:3rem;color:var(--sun);line-height:.88}
+.weekend p{color:#fff2f0;margin-top:12px;max-width:28em}
+.weekend .cat-head{border-bottom-color:#fff}
+.weekend .cat-head h3{font-size:1.6rem;color:#fff}
+.weekend .list li{border-bottom-color:rgba(255,255,255,.25)}
+.weekend .list{columns:2;column-gap:32px}
+.weekend .list li{break-inside:avoid}
+.weekend .list .g{color:#ffd6d1}
+.board-foot{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px;margin-top:52px;padding-top:28px;border-top:2px solid rgba(255,255,255,.18)}
+.board-foot p{color:#cfd5ea;font-size:.95rem}
+.board-foot b{color:#fff}
 
 /* bakery */
-.bakery{background:var(--navy);color:#fff;padding:100px 0;overflow:hidden}
-.bakery-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:64px;align-items:center}
-.bakery h2{color:#fff;margin-bottom:18px}
-.bakery .lead{color:#cfd5ea}
-.bakery .lead + .lead{margin-top:14px}
-.pan-stack{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:14px}
-.pan-stack figure{border-radius:12px;overflow:hidden;position:relative}
-.pan-stack img{width:100%;height:100%;object-fit:cover}
-.pan-stack .p1{grid-row:span 2}
-.pan-stack .p1 img{aspect-ratio:3/4.3}
-.pan-stack .p2 img,.pan-stack .p3 img{aspect-ratio:4/3.1}
-.pan-stack figcaption{position:absolute;left:10px;bottom:10px;background:var(--sun);color:var(--navy);font-weight:700;font-size:.86rem;padding:4px 10px;border-radius:999px}
-.bakery .btn{margin-top:30px}
+.pan{background:var(--sun);color:var(--navy);overflow:hidden}
+.pan-in{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:64px;align-items:center;padding:96px 0 0}
+.pan h2{font-size:clamp(3rem,6.4vw,5.6rem);margin-bottom:22px}
+.pan p{font-size:1.15rem;max-width:30em;color:#2a2f45}
+.pan .btn{margin-top:28px}
+.pan-photos{position:relative;display:grid;grid-template-columns:1fr .9fr;gap:16px;align-items:end;align-self:end}
+.pan-photos img{width:100%;object-fit:cover}
+.pan-photos .a img{aspect-ratio:4/5}
+.pan-photos .b{margin-bottom:72px}
+.pan-photos .b img{aspect-ratio:4/4.6}
+.pan-copy{padding-bottom:96px}
 
-/* market */
-#market-title{margin-bottom:16px}
-.market-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:start}
-.aisles{list-style:none;margin-top:26px;border-top:1px solid var(--line)}
-.aisles li{display:grid;grid-template-columns:minmax(0,13em) minmax(0,1fr);gap:16px;padding:15px 0;border-bottom:1px solid var(--line)}
-.aisles b{font-family:var(--head);font-variation-settings:"wdth" 88;font-weight:700;font-size:1.2rem;color:var(--navy);line-height:1.25}
-.aisles span{color:var(--muted)}
-.wic{margin-top:24px;display:inline-flex;align-items:center;gap:10px;background:var(--masa);border-radius:10px;padding:12px 16px;font-weight:600;color:var(--navy)}
-.wic svg{width:20px;height:20px;color:var(--red)}
-.mosaic{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
-.mosaic figure{border-radius:12px;overflow:hidden;position:relative}
-.mosaic img{width:100%;height:100%;object-fit:cover}
-.mosaic .m1{grid-column:span 6}
-.mosaic .m1 img{aspect-ratio:16/9}
-.mosaic .m2{grid-column:span 3}
-.mosaic .m3{grid-column:span 3}
-.mosaic .m2 img,.mosaic .m3 img{aspect-ratio:1/1}
-.mosaic .m4{grid-column:span 6}
-.mosaic .m4 img{aspect-ratio:16/8}
-.mosaic figcaption{position:absolute;left:10px;bottom:10px;background:#fff;color:var(--navy);font-size:.86rem;font-weight:600;padding:5px 11px;border-radius:999px}
+/* carnicería */
+.carne{position:relative;background:var(--navy-d)}
+.carne-photo img{width:100%;height:auto;aspect-ratio:2/1;object-fit:cover;object-position:50% 30%}
+.carne-panel{position:relative;margin:-150px 0 0;z-index:2}
+.carne-panel .box{background:var(--red);color:#fff;max-width:640px;padding:40px 44px 44px}
+.carne-panel h2{color:var(--sun);font-size:clamp(3rem,6.2vw,5.4rem);margin-bottom:16px}
+.carne-panel p{font-size:1.12rem;color:#fff4f2;max-width:30em}
+.carne-gap{height:64px;background:var(--paper)}
 
-/* services */
-.services{background:var(--sun)}
-.svc-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:56px;align-items:center}
-.svc-photo{border-radius:14px;overflow:hidden}
-.svc-photo img{width:100%;aspect-ratio:4/4.4;object-fit:cover;object-position:50% 40%}
-.services h2{margin-bottom:16px}
-.services .lead{color:#3c3a2a}
-.svc-list{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
-.svc-item{background:#fff;border-radius:12px;padding:22px 22px 20px}
-.svc-item h3{font-size:1.3rem;margin-bottom:6px}
-.svc-item p{color:var(--muted);font-size:.98rem}
-.services .btn{margin-top:28px}
+/* groceries */
+.abarrotes{padding:40px 0 104px}
+.ab-head{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:56px;align-items:end;margin-bottom:40px}
+.ab-head h2{color:var(--navy)}
+.ab-head p{font-size:1.12rem;color:var(--muted)}
+.ab-head p b{color:var(--red-d)}
+.ab-grid{display:grid;grid-template-columns:1.35fr 1fr .62fr;gap:16px;align-items:stretch}
+.ab-grid figure{margin:0;display:flex;flex-direction:column}
+.ab-grid img{width:100%;flex:1;object-fit:cover;min-height:0}
+.ab-grid .m img{aspect-ratio:4/3.2}
+.ab-grid .f{justify-content:flex-end}
+.ab-grid .f img{aspect-ratio:auto}
+.ab-grid .c img{aspect-ratio:auto}
+.ab-grid figcaption{font-size:.9rem;color:var(--muted);margin-top:8px}
+
+/* money transfers */
+.envios{background:var(--navy);color:#fff}
+.env-in{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);align-items:stretch}
+.env-photo{position:relative;min-height:340px}
+.env-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.env-copy{padding:64px 0 64px 64px}
+.envios h2{color:var(--sun);font-size:clamp(2.6rem,5vw,4.4rem);margin-bottom:18px}
+.envios p{color:#d5daee;font-size:1.1rem;max-width:30em}
+.envios .btn{margin-top:26px}
 
 /* story */
-.story{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:64px;align-items:center}
-.story-photo{position:relative}
-.story-photo img{border-radius:14px;width:100%;aspect-ratio:4/3;object-fit:cover}
-.story-photo figcaption{margin-top:10px;font-size:.92rem;color:var(--muted)}
-.story h2{margin-bottom:18px}
-.story p{color:var(--muted);max-width:34em}
-.story p + p{margin-top:14px}
-.story .sig{margin-top:22px;font-family:var(--head);font-variation-settings:"wdth" 88;font-weight:700;font-size:1.3rem;color:var(--navy)}
-.story .sig small{display:block;font-family:var(--body);font-weight:500;font-size:.95rem;color:var(--muted)}
-.since{display:flex;gap:28px;margin-top:28px;flex-wrap:wrap}
-.since div{border-left:3px solid var(--red);padding-left:14px}
-.since b{display:block;font-family:var(--head);font-variation-settings:"wdth" 80;font-weight:800;font-size:2rem;color:var(--navy);line-height:1}
-.since span{font-size:.92rem;color:var(--muted)}
-
-/* reviews */
-.reviews{background:var(--masa)}
-.rev-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:22px;align-items:stretch}
-.rev{background:#fff;border-radius:14px;padding:30px 30px 26px;display:flex;flex-direction:column;gap:16px}
-.rev blockquote{font-size:1.1rem;color:var(--ink)}
-.rev.big blockquote{font-family:var(--head);font-variation-settings:"wdth" 88;font-weight:700;font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.15;color:var(--navy)}
-.rev cite{margin-top:auto;font-style:normal;font-size:.95rem;color:var(--muted);font-weight:600}
-.rev-side{display:grid;gap:22px}
-.rating{display:flex;align-items:center;gap:18px}
-.rating b{font-family:var(--head);font-variation-settings:"wdth" 80;font-weight:800;font-size:3.2rem;color:var(--red);line-height:1}
-.rating span{color:var(--muted);font-size:.98rem;line-height:1.4}
-.stars{display:flex;gap:3px;color:#f2a900}
-.stars svg{width:18px;height:18px}
-.rev a{color:var(--navy);font-weight:600}
+.story{padding:104px 0 96px}
+.story h2{color:var(--navy);max-width:13em;margin-bottom:40px}
+.story-team img{width:100%;aspect-ratio:16/8;object-fit:cover;object-position:50% 40%}
+.story-team figcaption{font-size:.9rem;color:var(--muted);margin-top:8px}
+.story-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:72px;margin-top:56px;align-items:start}
+.story-text p{color:#363d58;font-size:1.08rem;max-width:34em}
+.story-text p + p{margin-top:14px}
+.story-text .sig{margin-top:26px;font-family:var(--sign);font-weight:900;text-transform:uppercase;font-size:1.9rem;color:var(--red);line-height:1}
+.story-text .sig small{display:block;font-family:var(--body);text-transform:none;font-weight:600;font-size:.95rem;color:var(--muted);margin-top:6px}
+.story-side{display:grid;gap:28px}
+.mural img{width:100%;aspect-ratio:1/0.82;object-fit:cover}
+.mural figcaption{font-size:.9rem;color:var(--muted);margin-top:8px}
+.quote{border-top:3px solid var(--navy);padding-top:18px}
+.quote blockquote{font-family:var(--sign);font-weight:800;font-size:2.1rem;line-height:1.02;color:var(--navy)}
+.quote cite{display:block;font-style:normal;font-weight:600;color:var(--muted);margin-top:10px;font-size:.95rem}
+.quote .dd{margin-top:16px;font-size:.98rem;color:var(--muted)}
+.quote .dd b{color:var(--red-d);font-family:var(--sign);font-weight:900;font-size:1.6rem}
 
 /* visit */
-.visit{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#fff}
-.visit-card{padding:38px 36px}
-.visit-card h3{font-size:1.6rem;margin-bottom:12px}
-.hours{width:100%;border-collapse:collapse;margin-bottom:8px}
-.hours th,.hours td{padding:11px 0;border-bottom:1px solid var(--line);text-align:left;font-weight:500}
-.hours td{text-align:right;font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
-.hours-note{font-size:.9rem;color:var(--muted);margin-bottom:26px}
-.contact-list{list-style:none;display:grid;gap:16px}
-.contact-list li{display:grid;grid-template-columns:42px 1fr;gap:12px;align-items:start}
-.contact-list i{width:42px;height:42px;border-radius:50%;background:var(--masa);display:grid;place-items:center;color:var(--red)}
-.contact-list i svg{width:19px;height:19px}
-.contact-list a{display:inline-block;padding:11px 0;margin:-11px 0;text-decoration:none;font-weight:700;color:var(--navy);overflow-wrap:anywhere}
-.contact-list a:hover{color:var(--red-d)}
-.contact-list small{display:block;color:var(--muted);font-size:.9rem}
-.visit-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
-.map{min-height:480px;background:var(--masa)}
-.map iframe{width:100%;height:100%;min-height:480px;border:0;display:block}
+.visit{background:var(--red);color:#fff;padding:96px 0}
+.visit-in{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:56px;align-items:stretch}
+.visit h2{color:var(--sun);margin-bottom:26px}
+.hours-sign{border:3px solid #fff;padding:22px 24px 20px;margin-bottom:26px}
+.hours-sign .d{font-family:var(--sign);font-weight:900;text-transform:uppercase;font-size:1.5rem;letter-spacing:.03em;color:#fff;line-height:1}
+.hours-sign .h{font-family:var(--sign);font-weight:900;text-transform:uppercase;font-size:clamp(2.6rem,5vw,3.8rem);color:var(--sun);line-height:.95;margin-top:6px}
+.hours-sign p{margin-top:10px;font-size:.98rem;color:#ffe4e0}
+.vlist{list-style:none;display:grid;gap:14px;margin-bottom:28px}
+.vlist a{display:inline-block;padding:10px 0;margin:-10px 0;font-weight:700;font-size:1.12rem;color:#fff;text-decoration:none;overflow-wrap:anywhere}
+.vlist a:hover{text-decoration:underline}
+.vlist small{display:block;font-size:.92rem;color:#ffd6d1}
+.visit .cta{display:flex;flex-wrap:wrap;gap:12px}
+.map{background:#f3d3cf;min-height:440px;border:3px solid #fff}
+.map iframe{width:100%;height:100%;min-height:440px;border:0;display:block}
 
 /* contact */
-.contact-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:60px;align-items:start}
-.contact-grid h2{margin-bottom:16px}
+.contact{padding:96px 0}
+.contact-in{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:64px;align-items:start}
+.contact h2{color:var(--navy);margin-bottom:18px;font-size:clamp(2.8rem,5.6vw,4.6rem)}
+.contact .lede{color:var(--muted);font-size:1.1rem;max-width:26em}
 .social{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap}
-.social a{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:600;color:var(--navy);border:1.5px solid var(--line);border-radius:999px;padding:0 16px;min-height:46px;background:#fff}
-.social a:hover{border-color:var(--navy)}
+.social a{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:700;color:var(--navy);border:2px solid var(--navy);border-radius:3px;padding:0 16px;min-height:48px}
+.social a:hover{background:var(--navy);color:#fff}
 .social svg{width:19px;height:19px}
-form.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:32px}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.field{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
-.field label{font-weight:600;font-size:.95rem;color:var(--navy)}
-.field input,.field select,.field textarea{font:inherit;font-size:1rem;border:1.5px solid #d9cfb9;border-radius:8px;padding:12px 14px;background:var(--paper);color:var(--ink);width:100%;min-width:0;min-height:48px}
+form.f{border-top:6px solid var(--navy);padding-top:26px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.field{display:flex;flex-direction:column;gap:6px;margin-bottom:18px}
+.field label{font-weight:700;font-size:.95rem;color:var(--navy)}
+.field input,.field select,.field textarea{font:inherit;font-size:1rem;border:2px solid #d8cfba;border-radius:3px;padding:12px 14px;background:#fff;color:var(--ink);width:100%;min-width:0;min-height:50px}
 .field textarea{min-height:130px;resize:vertical}
-.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 3px rgba(16,32,90,.15)}
-form .btn{width:100%;margin-top:4px}
-.form-note{display:none;margin-top:16px;background:var(--sun-l);border:1px solid #efd96a;color:#4a3c05;border-radius:8px;padding:14px 16px;font-weight:500}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--navy)}
+form .btn{width:100%}
+.form-note{display:none;margin-top:16px;background:var(--sun-l);border-left:5px solid var(--sun);color:#3d3205;padding:14px 16px;font-weight:500}
 .form-note.show{display:block}
-.fine{font-size:.88rem;color:var(--muted);margin-top:12px;text-align:center}
+.fine{font-size:.9rem;color:var(--muted);margin-top:12px}
 
 /* footer */
-footer{background:var(--navy-d);color:#c3c9de;padding:60px 0 40px;font-size:.96rem}
+footer{background:var(--navy-d);color:#c3c9de;padding:64px 0 40px;font-size:.96rem}
 .foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
-.foot-logo{display:inline-block;background:#fff;border-radius:12px;padding:12px 16px}
-.foot-logo img{width:190px}
-.foot h4{font-family:var(--head);font-variation-settings:"wdth" 88;font-weight:700;font-size:1.2rem;color:#fff;margin-bottom:10px}
+.foot-logo{display:inline-block;background:#fff;padding:12px 16px}
+.foot-logo img{width:200px}
+.foot .slogan{font-family:var(--sign);font-weight:900;text-transform:uppercase;font-size:1.7rem;color:var(--sun);line-height:1;margin-top:20px}
+.foot h4{font-family:var(--sign);font-weight:900;text-transform:uppercase;font-size:1.35rem;color:#fff;margin-bottom:10px;letter-spacing:.02em}
 .foot p{line-height:1.8}
 .foot a{color:#fff;text-decoration:none}
 .foot a:hover{color:var(--sun)}
@@ -329,76 +320,111 @@ footer{background:var(--navy-d);color:#c3c9de;padding:60px 0 40px;font-size:.96r
 
 @media (max-width:1240px){
   .menu-btn{display:inline-flex}
-  .head-tools{margin-left:auto}
-  .nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;gap:0;background:#fff;border-bottom:1px solid var(--line);padding:6px 24px 18px;margin:0;box-shadow:0 12px 24px rgba(16,32,90,.08)}
+  .tools{margin-left:auto}
+  .nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;gap:0;background:#fff;border-bottom:3px solid var(--red);padding:6px 28px 18px;margin:0}
   .top .wrap{position:relative}
   .top.open .nav{display:flex}
-  .nav a{padding:14px 0;border-bottom:1px solid var(--line);font-size:1.1rem}
+  .nav a{padding:14px 0;border-bottom:1px solid var(--line);font-size:1.12rem}
   .nav a:last-child{border-bottom:0}
-  .nav a:hover{border-bottom-color:var(--line)}
 }
-@media (max-width:1000px){
-  .hero-grid{grid-template-columns:1fr;min-height:0}
-  .hero-photo{order:-1;min-height:0;aspect-ratio:16/9.5}
-  .hero-copy{padding:44px 24px 52px}
-  .roof{grid-template-columns:1fr 1fr}
-  .stall.big{grid-row:auto;grid-column:1 / -1;min-height:420px}
-  .today-grid,.bakery-grid,.market-grid,.svc-grid,.story,.rev-grid,.visit,.contact-grid{grid-template-columns:minmax(0,1fr)}
-  .today-grid{gap:36px}
-  .bakery-grid,.market-grid,.story,.contact-grid{gap:44px}
-  .svc-grid{gap:36px}
-  .svc-photo img{aspect-ratio:16/10}
+@media (max-width:1060px){
+  .hero-copy{padding:56px 48px 56px 28px}
+  .hero-burst{left:-80px;width:200px}
+  .week{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .day:nth-child(3){border-right:0}
+  .day:nth-child(-n+3){border-bottom:2px solid rgba(255,255,255,.22)}
+  .cols{gap:48px 44px}
+  .pan-in,.ab-head,.story-grid,.visit-in,.contact-in{grid-template-columns:minmax(0,1fr)}
+  .pan-in{gap:40px}
+  .pan-copy{padding-bottom:0}
+  .pan-photos{margin-bottom:0}
+  .ab-head{gap:16px}
+  .story-grid{gap:44px}
+  .env-copy{padding:56px 0 56px 44px}
   .foot{grid-template-columns:1fr 1fr}
-  .menu-cols{gap:28px 36px}
+  .weekend{grid-template-columns:minmax(0,1fr);gap:24px}
 }
 @media (max-width:760px){
   :root{--hh:66px}
   body{font-size:16px}
   .wrap{padding:0 18px}
-  .brand img{width:160px}
+  .brand img{width:164px}
   .call{display:none}
-  .lang button{min-width:44px;height:44px}
-  .head-tools{gap:8px}
+  .tools{gap:6px}
   .top .wrap{gap:10px}
-  .hero-copy{padding:36px 18px 44px}
+  .hero-in{grid-template-columns:minmax(0,1fr);min-height:0}
+  .hero-copy{padding:28px 18px 30px}
+  .hero h1{font-size:clamp(2.9rem,14vw,4.4rem);line-height:.92;margin-bottom:16px}
+  .hero-sub{font-size:1.06rem}
   .hero-cta .btn{flex:1 1 100%}
-  .facts{gap:10px 20px}
-  .sec{padding:68px 0}
-  .roof{grid-template-columns:1fr;gap:14px}
-  .stall,.stall.big{min-height:300px}
-  .stall.big h3{font-size:1.9rem}
-  .today{padding:56px 0}
-  .week{padding:4px 16px}
-  .week li{grid-template-columns:5.9em minmax(0,1fr) auto;gap:10px}
-  .week .d{font-size:.95rem}
-  .mphoto img{aspect-ratio:16/10}
-  .week li.is-today{margin:0 -16px;padding:14px 16px}
-  .menu-cols{grid-template-columns:minmax(0,1fr);gap:36px}
-  .menu-sec{padding:60px 0 72px}
-  .menu-nav .wrap{padding-left:18px;padding-right:18px}
-  .weekend{grid-template-columns:minmax(0,1fr);gap:28px;padding:30px 22px 22px}
-  .weekend h3{font-size:1.9rem}
-  .bakery{padding:72px 0}
-  .aisles li{grid-template-columns:minmax(0,1fr);gap:2px}
-  .svc-list,.grid2{grid-template-columns:minmax(0,1fr)}
-  .rev{padding:24px 22px}
-  form.card{padding:24px 18px}
-  .visit-card{padding:28px 20px}
+  .hero-hours{margin-top:18px}
+  .hero-media{min-height:0;aspect-ratio:16/10.5;order:-1}
+  .hero-burst{left:auto;right:10px;bottom:10px;width:156px}
+  .hero-burst b{font-size:.78rem}
+  .hero-burst small{font-size:.95rem}
+  .hero-burst .marker{font-size:1.6rem}
+  .awning ul{padding:14px 12px;justify-content:flex-start}
+  .awning li{font-size:1.25rem}
+  .awning li + li::before{margin:0 12px}
+  .board{padding:64px 0 72px}
+  .board-head{grid-template-columns:minmax(0,1fr);gap:14px;margin-bottom:30px}
+  .week{grid-template-columns:minmax(0,1fr)}
+  .day,.day:nth-child(3){border-right:0;border-bottom:2px solid rgba(255,255,255,.22);display:grid;grid-template-columns:6.4em minmax(0,1fr) auto;gap:4px 12px;align-items:start;padding:14px 14px}
+  .day:last-child{border-bottom:0}
+  .day h3{font-size:1.25rem;flex-direction:column;align-items:flex-start;gap:4px}
+  .day ul{font-size:.94rem;gap:2px}
+  .day .p{font-size:1.3rem}
+  .breakfast-line{margin-bottom:40px}
+  .tabs .in{gap:22px}
+  .cols{grid-template-columns:minmax(0,1fr);gap:44px}
+  .cat-head h3{font-size:2rem}
+  .plates{grid-template-columns:1fr 1fr;gap:10px}
+  .plates figure:first-child{grid-column:1 / -1}
+  .cold img{aspect-ratio:16/9}
+  .weekend{padding:26px 20px 22px}
+  .weekend .list{columns:1}
+  .weekend h3{font-size:2.5rem}
+  .matrix th,.matrix td{padding:10px 3px}
+  .matrix .mx{font-size:1.1rem}
+  .matrix .card{font-size:1rem;padding:3px 5px 2px}
+  .pan-in{padding-top:64px}
+  .pan-photos .b{margin-bottom:36px}
+  .carne-photo img{aspect-ratio:4/3}
+  .carne-panel{margin-top:-48px}
+  .carne-panel .wrap{padding:0 12px}
+  .carne-panel .box{padding:28px 22px 30px}
+  .carne-gap{height:40px}
+  .abarrotes{padding:24px 0 72px}
+  .ab-grid{grid-template-columns:1fr 1fr;gap:10px}
+  .ab-grid .m{grid-column:1 / -1}
+  .ab-grid .f img{aspect-ratio:1/1}
+  .ab-grid .c img{aspect-ratio:1/1}
+  .env-in{grid-template-columns:minmax(0,1fr)}
+  .env-photo{min-height:0;aspect-ratio:16/10}
+  .env-copy{padding:40px 18px 52px}
+  .story{padding:72px 0 64px}
+  .story h2{margin-bottom:26px}
+  .story-team{margin:0 -18px}
+  .story-team img{aspect-ratio:4/3}
+  .story-team figcaption{padding:0 18px}
+  .quote blockquote{font-size:1.8rem}
+  .visit{padding:68px 0}
+  .visit .cta .btn{flex:1 1 100%}
   .map,.map iframe{min-height:320px}
+  .contact{padding:68px 0}
+  .grid2{grid-template-columns:minmax(0,1fr);gap:0}
   .foot{grid-template-columns:1fr}
   footer{padding-bottom:110px}
   .nav{padding:4px 18px 14px}
-  .mbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);box-shadow:0 -6px 18px rgba(16,32,90,.08)}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:3px solid var(--red)}
   .mbar .btn{padding:0 10px;min-height:50px}
 }
 @media (max-width:360px){
-  .brand img{width:126px}
-  .lang button{min-width:44px;padding:0 6px;font-size:.85rem}
-  .matrix th,.matrix td{padding:10px 3px}
-  .matrix thead .mx{font-size:1rem}
-  .matrix thead .tag{font-size:.95rem;padding:4px 5px 3px}
-  .week li{grid-template-columns:6.2em minmax(0,1fr) auto;gap:8px}
-  .week .n{font-size:.92rem}
+  .brand img{width:132px}
+  .lang button{min-width:44px}
+  .lang span{display:none}
+  .awning li{font-size:1.1rem}
+  .day,.day:nth-child(3){grid-template-columns:5.6em minmax(0,1fr) auto;gap:4px 8px}
 }
 </style>
 </head>
@@ -409,23 +435,23 @@ footer{background:var(--navy-d);color:#c3c9de;padding:60px 0 40px;font-size:.96r
 <header class="top" id="top">
   <div class="wrap">
     <a class="brand" href="#main" aria-label="Mercado San Juan home" data-es-aria-label="Mercado San Juan, inicio">
-      <img src="img/logo.webp" alt="Mercado San Juan, Donde más barato le dan" width="190" height="55">
+      <img src="img/logo.webp" alt="Mercado San Juan, Donde más barato le dan" width="214" height="62">
     </a>
     <nav class="nav" id="main-nav" aria-label="Main" data-es-aria-label="Principal">
       <a href="#menu" data-es="Menú">Menu</a>
       <a href="#panaderia" data-es="Panadería">Bakery</a>
-      <a href="#mercado" data-es="Mercado">Market</a>
-      <a href="#servicios" data-es="Envíos y cheques">Services</a>
-      <a href="#historia" data-es="Nuestra historia">Our story</a>
+      <a href="#carniceria" data-es="Carnicería">Butcher</a>
+      <a href="#abarrotes" data-es="Abarrotes">Groceries</a>
+      <a href="#envios" data-es="Envíos">Transfers</a>
+      <a href="#historia" data-es="Historia">Our story</a>
       <a href="#visit" data-es="Visítenos">Visit</a>
     </nav>
-    <div class="head-tools">
+    <div class="tools">
       <div class="lang" role="group" aria-label="Language / Idioma">
-        <button type="button" data-lang="en" aria-pressed="true" lang="en" title="English">EN</button>
-        <button type="button" data-lang="es" aria-pressed="false" lang="es" title="Español">ES</button>
+        <button type="button" data-lang="en" aria-pressed="true" lang="en" title="English">EN</button><span aria-hidden="true">/</span><button type="button" data-lang="es" aria-pressed="false" lang="es" title="Español">ES</button>
       </div>
-      <a class="call" href="tel:+15412897155"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>(541) 289-7155</a>
-      <button class="menu-btn" type="button" aria-label="Open menu" data-es-aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav"><svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <a class="call" href="tel:+15412897155"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>(541) 289-7155</a>
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
     </div>
   </div>
 </header>
@@ -433,403 +459,329 @@ footer{background:var(--navy-d);color:#c3c9de;padding:60px 0 40px;font-size:.96r
 <main id="main">
 
 <section class="hero" aria-labelledby="hero-title">
-  <div class="hero-grid">
+  <div class="hero-in">
     <div class="hero-copy">
-      <h1 id="hero-title" data-es="Comida mexicana, mercado y pan dulce recién hecho. Todo en un solo lugar.">Mexican food, groceries and fresh pan dulce. All in one stop.</h1>
-      <p class="lead" data-es="Taquería, carnicería, panadería y abarrotes mexicanos en la Hartley Ave de Hermiston. Negocio familiar desde 2015.">A family-owned taquería, carnicería, panadería and Mexican grocery on Hartley Ave in Hermiston, serving the community since 2015.</p>
+      <h1 id="hero-title"><span data-es="Venga con hambre.">Come hungry.</span> <span data-es="Váyase con el mandado.">Leave with the groceries.</span></h1>
+      <p class="hero-sub" data-es="Tacos y platillos del día, carnicería, pan dulce de nuestro horno y los abarrotes mexicanos que usted usa en su cocina. Una familia y una sola parada en la Hartley Ave, desde 2015.">Tacos and daily platillos, a full carnicería, pan dulce from our own oven and the Mexican groceries you cook with. One family, one stop on Hartley Ave, since 2015.</p>
       <div class="hero-cta">
-        <a class="btn btn-red" href="#menu" data-es="Ver el platillo de hoy">See today's special</a>
-        <a class="btn btn-line" href="tel:+15412897155"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span>(541) 289-7155</span></a>
+        <a class="btn btn-sun" href="tel:+15412897155"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span data-es="Llamar al (541) 289-7155">Call (541) 289-7155</span></a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=Mercado+San+Juan,+1150+W+Hartley+Ave+Ste+A,+Hermiston,+OR+97838" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span data-es="Cómo llegar">Get directions</span></a>
       </div>
-      <ul class="facts">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-es="Abierto todos los días, 8 AM a 9 PM">Open daily, 8 AM to 9 PM</span></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span>1150 W Hartley Ave, Hermiston</span></li>
-      </ul>
+      <p class="hero-hours"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-es="Abierto todos los días, 8 AM a 9 PM. 1150 W Hartley Ave.">Open every day, 8 AM to 9 PM. 1150 W Hartley Ave.</span></p>
     </div>
-    <figure class="hero-photo">
-      <img src="img/team.webp" alt="The Mercado San Juan team in red polo shirts inside the store" data-es-alt="El equipo de Mercado San Juan con sus playeras rojas dentro de la tienda" width="1600" height="950" fetchpriority="high">
-      <figcaption data-es="Nuestro equipo">Our team</figcaption>
-    </figure>
+    <div class="hero-media">
+      <picture>
+        <source media="(max-width: 760px)" type="image/webp" srcset="img/hero-bolillos-m-600.webp 600w, img/hero-bolillos-m-900.webp 900w, img/hero-bolillos-m-1200.webp 1200w" sizes="100vw">
+        <img src="img/hero-bolillos-1100.webp" srcset="img/hero-bolillos-700.webp 700w, img/hero-bolillos-1100.webp 1100w, img/hero-bolillos-1500.webp 1500w" sizes="(max-width: 760px) 100vw, 46vw" alt="A tray of golden bolillos coming out of the oven in the Mercado San Juan panadería" data-es-alt="Una charola de bolillos dorados saliendo del horno en la panadería de Mercado San Juan" width="1500" height="1460" fetchpriority="high">
+      </picture>
+      <a class="burst hero-burst" href="#menu" aria-describedby="hero-burst-dishes">
+        <span class="bi">
+          <small id="hero-burst-label" data-es="Hoy">Today</small>
+          <b id="hero-burst-dishes" data-es="Platillo del día">Daily special</b>
+          <span class="marker" id="hero-burst-price">$13.99</span>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div class="awning" aria-label="What's inside" data-es-aria-label="Lo que hay adentro">
+    <ul>
+      <li>Taquería</li>
+      <li>Carnicería</li>
+      <li>Panadería</li>
+      <li data-es="Abarrotes">Groceries</li>
+      <li data-es="Envíos de dinero">Money transfers</li>
+    </ul>
   </div>
 </section>
 
-<section class="sec" id="todo" aria-labelledby="roof-title">
+<section class="board" id="menu" aria-labelledby="menu-title">
   <div class="wrap">
-    <div class="sec-head">
-      <h2 id="roof-title" data-es="Todo bajo un mismo techo">Everything under one roof</h2>
-      <p class="lead" data-es="Venga a comer, haga su mandado, llévese pan para la casa y mande dinero a su familia, todo en una sola parada.">Sit down for lunch, pick up your groceries, grab pan dulce for home and send money to family, without making a second stop.</p>
+    <div class="board-head">
+      <h2 id="menu-title" data-es="El menú">The menu</h2>
+      <p><span data-es="Pida en el mostrador o pídalo a domicilio por DoorDash. Los platillos del día cambian cada día de la semana.">Order at the counter or get delivery through DoorDash. The platillo special changes every day of the week.</span> <span class="change" data-es="Precios y platillos sujetos a cambio.">Prices and items subject to change.</span></p>
     </div>
-    <div class="roof">
-      <a class="stall big" href="#menu">
-        <img src="img/tacos-asada.webp" alt="Carne asada tacos with onion, cilantro, lime and radish" data-es-alt="Tacos de carne asada con cebolla, cilantro, limón y rábano" width="500" height="667" loading="lazy">
-        <div class="txt">
-          <h3 data-es="Restaurante y taquería">Restaurant &amp; taquería</h3>
-          <p data-es="Tacos, burritos, tortas y un platillo especial diferente cada día de la semana.">Tacos, burritos, tortas and a different platillo special every day of the week.</p>
-        </div>
-      </a>
-      <a class="stall" href="#panaderia">
-        <img src="img/bolillos.webp" alt="A tray of fresh bolillos coming out of the oven" data-es-alt="Charola de bolillos recién salidos del horno" width="900" height="1200" loading="lazy" style="object-position:50% 45%">
-        <div class="txt">
-          <h3 data-es="Panadería">Panadería</h3>
-          <p data-es="Pan dulce horneado aquí todos los días.">Pan dulce baked here every day.</p>
-        </div>
-      </a>
-      <a class="stall" href="#mercado">
-        <img src="img/butcher.webp" alt="Butcher case with beef cuts and chorizo" data-es-alt="Vitrina de la carnicería con cortes de res y chorizo" width="1200" height="900" loading="lazy">
-        <div class="txt">
-          <h3 data-es="Carnicería">Carnicería</h3>
-          <p data-es="Cortes frescos y chorizo en la vitrina.">Fresh cuts and chorizo in the case.</p>
-        </div>
-      </a>
-      <a class="stall" href="#mercado">
-        <img src="img/verduras.webp" alt="Produce display with chiles, tomatoes, cabbage and herbs" data-es-alt="Exhibidor de frutas y verduras con chiles, jitomates, repollo y hierbas" width="1000" height="562" loading="lazy">
-        <div class="txt">
-          <h3 data-es="Mercado">Mercado</h3>
-          <p data-es="Frutas, verduras, chiles secos, especias y productos de México.">Produce, dried chiles, spices and groceries from Mexico.</p>
-        </div>
-      </a>
-      <a class="stall" href="#servicios">
-        <img src="img/phones.webp" alt="Money transfer phones at the store" data-es-alt="Teléfonos para envíos de dinero en la tienda" width="900" height="1200" loading="lazy" style="object-position:50% 55%">
-        <div class="txt">
-          <h3 data-es="Envíos y cheques">Money transfers &amp; checks</h3>
-          <p data-es="Cambio de cheques y envíos de dinero a Latinoamérica.">Check cashing and money transfers to Latin America.</p>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
 
-<section class="today" id="menu" aria-labelledby="today-title">
-  <div class="wrap today-grid">
-    <div>
-      <span class="day-now" id="today-label" data-es="Platillo del día">Today's special</span>
-      <h2 id="today-title" data-es="Hoy en la cocina">On the stove today</h2>
-      <ul class="today-dishes" id="today-dishes" aria-live="polite">
-        <li data-es="Vea los especiales de la semana">See this week's specials</li>
-      </ul>
-      <span class="tag" id="today-price" hidden><small>$</small><span></span></span>
-      <p class="today-sub" id="today-breakfast" data-es="Además, todos los días de la semana tenemos los platillos de siempre por $13.99, y desayunos de 8 AM a 2 PM.">Plus our everyday platillos for $13.99, and breakfast from 8 AM to 2 PM.</p>
+    <div class="week" aria-label="Daily specials" data-es-aria-label="Platillos del día">
+      <div class="day" data-day="1"><h3><span data-es="Lunes">Monday</span><em data-es="Hoy">Today</em></h3><ul><li>Bistek a la Mexicana</li><li>Costillas en Rojo</li></ul><span class="p">$13.99</span></div>
+      <div class="day" data-day="2"><h3><span data-es="Martes">Tuesday</span><em data-es="Hoy">Today</em></h3><ul><li>Albóndigas</li><li>Bistek en Salsa Verde</li></ul><span class="p">$13.99</span></div>
+      <div class="day" data-day="3"><h3><span data-es="Miércoles">Wednesday</span><em data-es="Hoy">Today</em></h3><ul><li>Camarones a la Diabla</li><li>Camarones al Mojo de Ajo</li></ul><span class="p">$13.99</span></div>
+      <div class="day" data-day="4"><h3><span data-es="Jueves">Thursday</span><em data-es="Hoy">Today</em></h3><ul><li>Caldo de Res</li><li>Chicharrón en Salsa</li></ul><span class="p">$13.99</span></div>
+      <div class="day" data-day="5"><h3><span data-es="Viernes">Friday</span><em data-es="Hoy">Today</em></h3><ul><li>Pescado Dorado</li><li>Caldo de Camarón</li></ul><span class="p">$14.99</span></div>
+      <div class="day" data-day="6"><h3><span data-es="Sáb. y dom.">Sat &amp; Sun</span><em data-es="Hoy">Today</em></h3><ul><li>Menudo</li><li>Barbacoa</li><li>Pollo al Horno</li><li>Birria de Chivo</li><li>Birria de Res</li></ul><span class="p">$14.99</span></div>
     </div>
-    <ol class="week" aria-label="Daily specials this week" data-es-aria-label="Especiales de la semana">
-      <li data-day="1" data-today="Today" data-es-data-today="Hoy"><span class="d" data-es="Lunes">Monday</span><span class="n">Bistek a la Mexicana, Costillas en Rojo</span><span class="p">$13.99</span></li>
-      <li data-day="2" data-today="Today" data-es-data-today="Hoy"><span class="d" data-es="Martes">Tuesday</span><span class="n">Albóndigas, Bistek en Salsa Verde</span><span class="p">$13.99</span></li>
-      <li data-day="3" data-today="Today" data-es-data-today="Hoy"><span class="d" data-es="Miércoles">Wednesday</span><span class="n">Camarones a la Diabla, Camarones al Mojo de Ajo</span><span class="p">$13.99</span></li>
-      <li data-day="4" data-today="Today" data-es-data-today="Hoy"><span class="d" data-es="Jueves">Thursday</span><span class="n">Caldo de Res, Chicharrón en Salsa</span><span class="p">$13.99</span></li>
-      <li data-day="5" data-today="Today" data-es-data-today="Hoy"><span class="d" data-es="Viernes">Friday</span><span class="n">Pescado Dorado, Caldo de Camarón</span><span class="p">$14.99</span></li>
-      <li data-day="6" data-today="Today" data-es-data-today="Hoy"><span class="d" data-es="Sáb. y dom.">Sat &amp; Sun</span><span class="n">Menudo, Barbacoa, Pollo al Horno, Birria de Chivo, Birria de Res</span><span class="p">$14.99</span></li>
-    </ol>
+    <p class="breakfast-line" id="breakfast-line" data-es="Desayunos de lunes a viernes, de 8 AM a 2 PM.">Breakfast Monday to Friday, 8 AM to 2 PM.</p>
   </div>
-</section>
 
-<section class="menu-sec" aria-labelledby="menu-title">
-  <div class="wrap">
-    <div class="sec-head">
-      <h2 id="menu-title" data-es="El menú completo">The full menu</h2>
-      <p class="lead" data-es="Pida en el mostrador, llévelo a casa o pídalo a domicilio por DoorDash.">Order at the counter, take it home, or get it delivered through DoorDash.</p>
-    </div>
-  </div>
-  <nav class="menu-nav" aria-label="Menu sections" data-es-aria-label="Secciones del menú">
-    <div class="wrap">
+  <nav class="tabs" aria-label="Menu sections" data-es-aria-label="Secciones del menú">
+    <div class="wrap"><div class="in">
       <a href="#m-platillos" data-es="Platillos">Platillos</a>
       <a href="#m-desayuno" data-es="Desayunos">Breakfast</a>
       <a href="#m-tacos">Tacos</a>
       <a href="#m-burritos" data-es="Burritos, tortas y quesadillas">Burritos, tortas &amp; quesadillas</a>
-      <a href="#m-tostadas" data-es="Tostadas y mariscos">Tostadas &amp; seafood</a>
+      <a href="#m-tostadas" data-es="Tostadas">Tostadas</a>
       <a href="#m-libra" data-es="Por libra">By the pound</a>
-    </div>
+    </div></div>
   </nav>
-  <div class="wrap">
-    <div class="menu-cols">
 
-      <div class="mcat" id="m-platillos">
-        <div class="mcat-head">
+  <div class="wrap">
+    <div class="cols">
+
+      <div class="plates wide">
+        <figure><img src="img/tacos-500.webp" alt="Carne asada tacos with onion, cilantro, lime and radish" data-es-alt="Tacos de carne asada con cebolla, cilantro, limón y rábano" width="500" height="460" loading="lazy"><figcaption data-es="Tacos de asada">Asada tacos</figcaption></figure>
+        <figure class="p2"><img src="img/pollo-600.webp" srcset="img/pollo-600.webp 600w, img/pollo-900.webp 900w" sizes="(max-width: 760px) 45vw, 33vw" alt="Pollo a la plancha with rice, beans, avocado, tomato and lime" data-es-alt="Pollo a la plancha con arroz, frijoles, aguacate, jitomate y limón" width="600" height="476" loading="lazy"><figcaption>Pollo a la Plancha</figcaption></figure>
+        <figure class="p3"><img src="img/tostadas-470.webp" alt="Shrimp ceviche and aguachile tostadas topped with avocado" data-es-alt="Tostadas de ceviche de camarón y aguachile con aguacate" width="470" height="353" loading="lazy"><figcaption data-es="Tostadas de ceviche">Ceviche tostadas</figcaption></figure>
+      </div>
+
+      <div class="cat" id="m-platillos">
+        <div class="cat-head">
           <div><h3 data-es="Platillos de siempre">Everyday platillos</h3><p data-es="Lunes a domingo">Monday to Sunday</p></div>
-          <span class="tag"><small>$</small>13.99</span>
+          <span class="burst cat-burst" aria-label="$13.99"><span class="marker">13.99</span></span>
         </div>
-        <ul class="items">
-          <li><b>Carne Asada<span class="g en-only">Grilled steak</span></b></li>
-          <li><b>Pollo a la Plancha<span class="g en-only">Grilled chicken</span></b></li>
-          <li><b>Costillas en Salsa Verde<span class="g en-only">Ribs in green salsa</span></b></li>
-          <li><b>Milanesas<span class="g en-only">Breaded cutlets</span></b></li>
-          <li><b>Huevo con Jamón<span class="g en-only">Eggs with ham</span></b></li>
-          <li><b>Chicharrón con Chile<span class="g en-only">Chicharrón in chile sauce</span></b></li>
-          <li><b>Chiles Rellenos<span class="g en-only">Stuffed peppers</span></b></li>
-          <li><b>Carnitas<span class="g en-only">Slow-cooked pork</span></b></li>
+        <ul class="list">
+          <li><span class="n">Carne Asada<span class="g en-only">Grilled steak</span></span></li>
+          <li><span class="n">Pollo a la Plancha<span class="g en-only">Grilled chicken</span></span></li>
+          <li><span class="n">Costillas en Salsa Verde<span class="g en-only">Ribs in green salsa</span></span></li>
+          <li><span class="n">Milanesas<span class="g en-only">Breaded cutlets</span></span></li>
+          <li><span class="n">Huevo con Jamón<span class="g en-only">Eggs with ham</span></span></li>
+          <li><span class="n">Chicharrón con Chile<span class="g en-only">Chicharrón in chile sauce</span></span></li>
+          <li><span class="n">Chiles Rellenos<span class="g en-only">Stuffed peppers</span></span></li>
+          <li><span class="n">Carnitas<span class="g en-only">Slow-cooked pork</span></span></li>
         </ul>
       </div>
 
-      <figure class="mphoto">
-        <img src="img/carne-asada.webp" alt="Carne asada plate with rice, beans, avocado and a roasted chile" data-es-alt="Plato de carne asada con arroz, frijoles, aguacate y chile asado" width="500" height="667" loading="lazy">
-        <figcaption>Carne Asada</figcaption>
-      </figure>
+      <div class="cat" id="m-tacos">
+        <div class="cat-head">
+          <div><h3>Tacos</h3><p data-es="Precio por taco">Priced per taco</p></div>
+          <span class="burst cat-burst" aria-label="$2.50"><span class="marker">2.50</span></span>
+        </div>
+        <ul class="list">
+          <li><span class="n">Asada</span></li>
+          <li><span class="n">Al Pastor</span></li>
+          <li><span class="n">Chorizo</span></li>
+          <li><span class="n">Pollo</span></li>
+          <li><span class="n">Carnitas</span></li>
+          <li><span class="n">Lengua<span class="g en-only">Beef tongue</span></span><span class="lead"></span><span class="x">+$0.50</span></li>
+          <li><span class="n">Tripa<span class="g en-only">Tripe</span></span><span class="lead"></span><span class="x">+$0.50</span></li>
+        </ul>
+      </div>
 
-      <div class="mcat" id="m-desayuno">
-        <div class="mcat-head">
+      <div class="cat" id="m-desayuno">
+        <div class="cat-head">
           <div><h3 data-es="Desayunos">Breakfast</h3><p data-es="8 AM a 2 PM">8 AM to 2 PM</p></div>
         </div>
-        <ul class="items">
-          <li><b><span data-es="Burrito de huevo y bebida">Egg burrito + drink</span><span class="g" data-es="Lunes a viernes. Con chorizo, jamón o salchicha.">Monday to Friday. With chorizo, ham or sausage.</span></b><span class="pr">$9.99</span></li>
-          <li><b>Huevos a la Mexicana<span class="g" data-es="Lunes">Monday</span></b><span class="pr">$13.99</span></li>
-          <li><b>Chilaquiles Rojos<span class="g" data-es="Martes">Tuesday</span></b><span class="pr">$13.99</span></li>
-          <li><b>Huevos Estrellados<span class="g" data-es="Miércoles">Wednesday</span></b><span class="pr">$13.99</span></li>
-          <li><b><span data-es="Tres tacos de huevo">Three egg tacos</span><span class="g" data-es="Jueves. Con chorizo, salchicha o jamón.">Thursday. With chorizo, sausage or ham.</span></b><span class="pr">$10.99</span></li>
+        <ul class="list">
+          <li><span class="n"><span data-es="Burrito de huevo y bebida">Egg burrito + drink</span><span class="g" data-es="Lunes a viernes. Con chorizo, jamón o salchicha.">Monday to Friday. With chorizo, ham or sausage.</span></span><span class="lead"></span><span class="pr">$9.99</span></li>
+          <li><span class="n">Huevos a la Mexicana<span class="g" data-es="Lunes">Monday</span></span><span class="lead"></span><span class="pr">$13.99</span></li>
+          <li><span class="n">Chilaquiles Rojos<span class="g" data-es="Martes">Tuesday</span></span><span class="lead"></span><span class="pr">$13.99</span></li>
+          <li><span class="n">Huevos Estrellados<span class="g" data-es="Miércoles">Wednesday</span></span><span class="lead"></span><span class="pr">$13.99</span></li>
+          <li><span class="n"><span data-es="Tres tacos de huevo">Three egg tacos</span><span class="g" data-es="Jueves. Con chorizo, salchicha o jamón.">Thursday. With chorizo, sausage or ham.</span></span><span class="lead"></span><span class="pr">$10.99</span></li>
         </ul>
       </div>
 
-      <div class="mcat" id="m-tacos">
-        <div class="mcat-head">
-          <div><h3>Tacos</h3><p data-es="Precio por taco">Priced per taco</p></div>
-          <span class="tag"><small>$</small>2.50</span>
+      <div class="cat" id="m-tostadas">
+        <div class="cat-head">
+          <div><h3 data-es="Tostadas de mariscos">Seafood tostadas</h3><p data-es="Una por $4.99. Orden de tres por $12.99.">One for $4.99. Order of three for $12.99.</p></div>
+          <span class="card">$4.99</span>
         </div>
-        <ul class="items">
-          <li><b>Asada</b></li>
-          <li><b>Al Pastor</b></li>
-          <li><b>Chorizo</b></li>
-          <li><b>Pollo</b></li>
-          <li><b>Carnitas</b></li>
-          <li><b>Lengua<span class="g en-only">Beef tongue</span></b><span class="x">+$0.50</span></li>
-          <li><b>Tripa<span class="g en-only">Tripe</span></b><span class="x">+$0.50</span></li>
+        <ul class="list">
+          <li><span class="n">Aguachiles</span></li>
+          <li><span class="n">Ceviche de Camarón<span class="g en-only">Shrimp ceviche</span></span></li>
+          <li><span class="n">Ceviche de Pescado<span class="g en-only">Fish ceviche</span></span></li>
+          <li><span class="n">Ceviche de Camarón y Jaiba<span class="g en-only">Shrimp and crab ceviche</span></span></li>
+          <li><span class="n">Surimi<span class="g" data-es="De temporada">Seasonal</span></span></li>
+          <li><span class="n" data-es="Orden de 3 tostadas">Order of 3 tostadas</span><span class="lead"></span><span class="pr">$12.99</span></li>
         </ul>
       </div>
 
-      <div class="mcat wide" id="m-burritos">
-        <div class="mcat-head">
-          <div><h3 data-es="Burritos, tortas y quesadillas">Burritos, tortas &amp; quesadillas</h3><p data-es="Escoja su carne. Los puntos rojos indican lo disponible.">Pick your filling. Red dots show what's available.</p></div>
+      <div class="cat wide" id="m-burritos">
+        <div class="cat-head">
+          <div><h3 data-es="Burritos, tortas y quesadillas">Burritos, tortas &amp; quesadillas</h3><p data-es="Escoja su carne. El punto amarillo indica lo disponible.">Pick your filling. A yellow dot means it's available.</p></div>
         </div>
         <table class="matrix">
           <thead>
             <tr>
               <td></td>
-              <th scope="col"><span class="mx">Burrito</span><span class="tag"><small>$</small>9.99</span></th>
-              <th scope="col"><span class="mx">Torta</span><span class="tag"><small>$</small>9.99</span></th>
-              <th scope="col"><span class="mx">Quesadilla</span><span class="tag"><small>$</small>9.99</span></th>
+              <th scope="col"><span class="mx">Burrito</span><span class="card">$9.99</span></th>
+              <th scope="col"><span class="mx">Torta</span><span class="card">$9.99</span></th>
+              <th scope="col"><span class="mx">Quesadilla</span><span class="card">$9.99</span></th>
             </tr>
           </thead>
           <tbody>
-            <tr><th scope="row">Asada</th><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
-            <tr><th scope="row">Al Pastor</th><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
-            <tr><th scope="row">Pollo</th><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
-            <tr><th scope="row">Carnitas</th><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
-            <tr><th scope="row">Chorizo</th><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="no" aria-label="No"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
-            <tr><th scope="row">Jamón</th><td><i class="no" aria-label="No"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
-            <tr><th scope="row">Huevo y Chorizo</th><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="no" aria-label="No"></i></td><td><i class="no" aria-label="No"></i></td></tr>
-            <tr><th scope="row">Lengua <span class="x">+$1</span></th><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
-            <tr><th scope="row">Tripa <span class="x">+$1</span></th><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
-            <tr><th scope="row">Milanesa <span class="x">+$1</span></th><td><i class="no" aria-label="No"></i></td><td><i class="dot" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="no" aria-label="No"></i></td></tr>
+            <tr><th scope="row">Asada</th><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
+            <tr><th scope="row">Al Pastor</th><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
+            <tr><th scope="row">Pollo</th><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
+            <tr><th scope="row">Carnitas</th><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
+            <tr><th scope="row">Chorizo</th><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="no" role="img" aria-label="No"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
+            <tr><th scope="row">Jamón</th><td><i class="no" role="img" aria-label="No"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
+            <tr><th scope="row">Huevo y Chorizo</th><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="no" role="img" aria-label="No"></i></td><td><i class="no" role="img" aria-label="No"></i></td></tr>
+            <tr><th scope="row">Lengua <span class="x">+$1</span></th><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
+            <tr><th scope="row">Tripa <span class="x">+$1</span></th><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td></tr>
+            <tr><th scope="row">Milanesa <span class="x">+$1</span></th><td><i class="no" role="img" aria-label="No"></i></td><td><i class="dot" role="img" aria-label="Yes" data-es-aria-label="Sí"></i></td><td><i class="no" role="img" aria-label="No"></i></td></tr>
           </tbody>
         </table>
       </div>
 
-      <div class="mcat" id="m-tostadas">
-        <div class="mcat-head">
-          <div><h3 data-es="Tostadas de mariscos">Seafood tostadas</h3><p data-es="Una por $4.99, orden de tres por $12.99">One for $4.99, order of three for $12.99</p></div>
-          <span class="tag"><small>$</small>4.99</span>
-        </div>
-        <ul class="items">
-          <li><b>Aguachiles</b></li>
-          <li><b>Ceviche de Camarón<span class="g en-only">Shrimp ceviche</span></b></li>
-          <li><b>Ceviche de Pescado<span class="g en-only">Fish ceviche</span></b></li>
-          <li><b>Ceviche de Camarón y Jaiba<span class="g en-only">Shrimp and crab ceviche</span></b></li>
-          <li><b>Surimi<span class="g" data-es="De temporada">Seasonal</span></b></li>
-        </ul>
-        <p class="note" data-es="Orden de 3 tostadas: $12.99">Order of 3 tostadas: $12.99</p>
-      </div>
-
-      <figure class="mphoto">
-        <img src="img/tostadas.webp" alt="Aguachile and ceviche tostadas topped with avocado" data-es-alt="Tostadas de aguachile y ceviche con aguacate" width="500" height="667" loading="lazy" style="object-position:50% 70%">
-        <figcaption data-es="Tostadas de aguachile y ceviche">Aguachile &amp; ceviche tostadas</figcaption>
-      </figure>
-
-      <div class="mcat" id="m-libra">
-        <div class="mcat-head">
+      <div class="cat" id="m-libra">
+        <div class="cat-head">
           <div><h3 data-es="Para llevar, por libra">To go, by the pound</h3><p data-es="Del mostrador frío y la cocina">From the cold case and the kitchen</p></div>
         </div>
-        <ul class="items">
-          <li><b data-es="Frijoles">Beans</b><span class="pr">$3.49<span data-es="/lb">/lb</span></span></li>
-          <li><b data-es="Arroz">Rice</b><span class="pr">$3.99<span data-es="/lb">/lb</span></span></li>
-          <li><b>Pico de Gallo</b><span class="pr">$5.99/lb</span></li>
-          <li><b>Ceviche de Pescado</b><span class="pr">$6.99/lb</span></li>
-          <li><b>Ceviche de Camarón</b><span class="pr">$7.99/lb</span></li>
-          <li><b>Surimi</b><span class="pr">$9.99/lb</span></li>
-          <li><b>Ceviche de Jaiba y Camarón</b><span class="pr">$12.99/lb</span></li>
-          <li><b>Aguachiles</b><span class="pr">$12.99/lb</span></li>
+        <ul class="list">
+          <li><span class="n" data-es="Frijoles">Beans</span><span class="lead"></span><span class="pr">$3.49/lb</span></li>
+          <li><span class="n" data-es="Arroz">Rice</span><span class="lead"></span><span class="pr">$3.99/lb</span></li>
+          <li><span class="n">Pico de Gallo</span><span class="lead"></span><span class="pr">$5.99/lb</span></li>
+          <li><span class="n">Ceviche de Pescado</span><span class="lead"></span><span class="pr">$6.99/lb</span></li>
+          <li><span class="n">Ceviche de Camarón</span><span class="lead"></span><span class="pr">$7.99/lb</span></li>
+          <li><span class="n">Surimi</span><span class="lead"></span><span class="pr">$9.99/lb</span></li>
+          <li><span class="n">Ceviche de Jaiba y Camarón</span><span class="lead"></span><span class="pr">$12.99/lb</span></li>
+          <li><span class="n">Aguachiles</span><span class="lead"></span><span class="pr">$12.99/lb</span></li>
         </ul>
       </div>
 
-      <figure class="mphoto">
-        <img src="img/coldcase.webp" alt="Cold case with ceviche, surimi, crab and aguachiles by the pound" data-es-alt="Vitrina fría con ceviche, surimi, jaiba y aguachiles por libra" width="1000" height="750" loading="lazy">
-        <figcaption data-es="Ceviches y aguachiles por libra">Ceviche &amp; aguachiles by the pound</figcaption>
+      <figure class="cold">
+        <img src="img/coldcase-900.webp" srcset="img/coldcase-900.webp 900w, img/coldcase-1500.webp 1500w" sizes="(max-width: 1260px) 100vw, 1180px" alt="The cold case with trays of ceviche, surimi, crab and aguachiles sold by the pound" data-es-alt="El mostrador frío con charolas de ceviche, surimi, jaiba y aguachiles por libra" width="1500" height="562" loading="lazy">
+        <figcaption data-es="El mostrador frío: ceviches, surimi y aguachiles por libra.">The cold case: ceviches, surimi and aguachiles by the pound.</figcaption>
       </figure>
 
       <div class="weekend wide">
-        <div class="txt">
+        <div>
           <h3 data-es="Fin de semana">Weekends</h3>
           <p data-es="Cada fin de semana hacemos tortillas frescas para nuestro menudo, como las hacía la familia de Antonio allá en casa.">Every weekend we make fresh tortillas for our menudo, just like Antonio's family made back home.</p>
-          <p class="wk-days" data-es="Sábado y domingo">Saturday &amp; Sunday</p>
         </div>
-        <div class="wk-list">
-          <div class="mcat-head"><h3 data-es="Platillos de fin de semana">Weekend platillos</h3><span class="tag"><small>$</small>14.99</span></div>
-          <ul class="items">
-            <li><b>Menudo</b></li>
-            <li><b>Barbacoa</b></li>
-            <li><b>Pollo al Horno<span class="g en-only">Oven-roasted chicken</span></b></li>
-            <li><b>Birria de Chivo<span class="g en-only">Goat birria</span></b></li>
-            <li><b>Birria de Res<span class="g en-only">Beef birria</span></b></li>
+        <div>
+          <div class="cat-head"><h3 data-es="Sábado y domingo">Saturday &amp; Sunday</h3><span class="card">$14.99</span></div>
+          <ul class="list">
+            <li><span class="n">Menudo</span></li>
+            <li><span class="n">Barbacoa</span></li>
+            <li><span class="n">Pollo al Horno<span class="g en-only">Oven-roasted chicken</span></span></li>
+            <li><span class="n">Birria de Chivo<span class="g en-only">Goat birria</span></span></li>
+            <li><span class="n">Birria de Res<span class="g en-only">Beef birria</span></span></li>
           </ul>
         </div>
       </div>
-
     </div>
-    <p class="price-note" data-es="Los precios y platillos pueden cambiar. Llame al (541) 289-7155 si tiene preguntas sobre el menú.">Prices and items subject to change. Call (541) 289-7155 with any menu questions.</p>
-    <div class="hero-cta">
-      <a class="btn btn-navy" href="https://www.doordash.com/store/mercado-san-juan-hermiston-32918577/" target="_blank" rel="noopener" data-es="Pedir a domicilio en DoorDash">Order delivery on DoorDash</a>
-      <a class="btn btn-line" href="tel:+15412897155" data-es="Llamar para pedir">Call to order</a>
+
+    <div class="board-foot">
+      <a class="btn btn-sun" href="https://www.doordash.com/store/mercado-san-juan-hermiston-32918577/" target="_blank" rel="noopener" data-es="Pedir a domicilio en DoorDash">Order delivery on DoorDash</a>
+      <a class="btn btn-ghost" href="tel:+15412897155" data-es="Preguntas sobre el menú">Questions about the menu</a>
+      <p data-es="&lt;b&gt;4.7 de 5&lt;/b&gt; en más de 200 calificaciones en DoorDash. Precios y platillos sujetos a cambio."><b>4.7 out of 5</b> from 200+ ratings on DoorDash. Prices and items subject to change.</p>
     </div>
   </div>
 </section>
 
-<section class="bakery" id="panaderia" aria-labelledby="bakery-title">
-  <div class="wrap bakery-grid">
-    <div>
-      <h2 id="bakery-title" data-es="Pan dulce de nuestro propio horno, todos los días">Pan dulce from our own ovens, every day</h2>
-      <p class="lead" data-es="Nuestra panadería hornea pan dulce fresco a diario, desde las clásicas conchas hasta bolillos suavecitos.">Our in-house panadería bakes fresh pan dulce daily, from classic conchas to soft bolillos.</p>
-      <p class="lead" data-es="Acompañe su comida con un pan calientito o llévese una bolsa para la casa.">Pair one with your meal, or take a bag home for the family.</p>
-      <a class="btn btn-light" href="#visit" data-es="Cómo llegar">Plan your visit</a>
+<section class="pan" id="panaderia" aria-labelledby="pan-title">
+  <div class="wrap pan-in">
+    <div class="pan-copy">
+      <h2 id="pan-title" data-es="Pan dulce de nuestro propio horno">Pan dulce from our own oven</h2>
+      <p data-es="Nuestra panadería hornea todos los días: conchas clásicas, bolillos suavecitos y charolas de pan dulce recién salido del horno. Llévese uno con su comida o una bolsa para la casa.">Our panadería bakes every day: classic conchas, soft bolillos and trays of pan dulce straight from the oven. Grab one with lunch, or a bag for home.</p>
     </div>
-    <div class="pan-stack">
-      <figure class="p1"><img src="img/pan-oven.webp" alt="Tray of fresh bread rolls coming out of the oven" data-es-alt="Charola de pan recién salido del horno" width="900" height="1200" loading="lazy"><figcaption data-es="Recién salido del horno">Fresh from the oven</figcaption></figure>
-      <figure class="p2"><img src="img/cuernitos.webp" alt="Tray of golden baked pastries" data-es-alt="Charola de pan dorado recién horneado" width="900" height="1200" loading="lazy" style="object-position:50% 40%"></figure>
-      <figure class="p3"><img src="img/pan-tray.webp" alt="Freshly baked pan dulce on a sheet tray" data-es-alt="Pan dulce recién horneado en charola" width="900" height="1200" loading="lazy" style="object-position:50% 55%"></figure>
+    <div class="pan-photos">
+      <figure class="a"><img src="img/cuernos-600.webp" srcset="img/cuernos-600.webp 600w, img/cuernos-1000.webp 1000w" sizes="(max-width: 760px) 55vw, 30vw" alt="A sheet tray full of golden, flaky pan fresh from the oven" data-es-alt="Una charola llena de pan dorado y hojaldrado recién horneado" width="1000" height="1276" loading="lazy"></figure>
+      <figure class="b"><img src="img/pan-roles-600.webp" srcset="img/pan-roles-600.webp 600w, img/pan-roles-1000.webp 1000w" sizes="(max-width: 760px) 40vw, 22vw" alt="A tray of glazed pan dulce filled with fruit" data-es-alt="Una charola de pan dulce relleno de fruta" width="1000" height="1013" loading="lazy"></figure>
     </div>
   </div>
 </section>
 
-<section class="sec" id="mercado" aria-labelledby="market-title">
-  <div class="wrap market-grid">
-    <div>
-      <h2 id="market-title" data-es="Un mercado mexicano completo">A full Mexican market</h2>
-      <p class="lead" data-es="Todo lo que necesita para cocinar en casa, con los productos y las marcas que usted conoce.">Everything you need to cook at home, with the brands and ingredients you know from Mexico.</p>
-      <ul class="aisles">
-        <li><b data-es="Carnicería">Carnicería</b><span data-es="Cortes de res y cerdo, chorizo y más en la vitrina.">Beef and pork cuts, chorizo and more in the butcher case.</span></li>
-        <li><b data-es="Frutas y verduras">Fruits &amp; vegetables</b><span data-es="Chiles frescos, jitomate, tomatillo, limones, papaya y mucho más.">Fresh chiles, tomatoes, tomatillos, limes, papaya and plenty more.</span></li>
-        <li><b data-es="Chiles secos y especias">Dried chiles &amp; spices</b><span data-es="Chiles secos, especias, condimentos y tés.">Dried chiles, Mexican seasonings and teas.</span></li>
-        <li><b data-es="Abarrotes">Pantry</b><span data-es="Enlatados, salsas, gelatinas y artículos para el hogar.">Canned goods, salsas, gelatins and household items.</span></li>
-        <li><b data-es="Dulces y bebidas">Candy &amp; drinks</b><span data-es="Dulces mexicanos, refrescos y cerveza fría.">Mexican candy, sodas and cold beer.</span></li>
-      </ul>
-      <p class="wic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-es="Aceptamos WIC">WIC accepted here</span></p>
-    </div>
-    <div class="mosaic">
-      <figure class="m1"><img src="img/fruta.webp" alt="Oranges, lemons and papayas in the produce section" data-es-alt="Naranjas, limones y papayas en la sección de frutas" width="1000" height="563" loading="lazy"><figcaption data-es="Frutas">Fruit</figcaption></figure>
-      <figure class="m2"><img src="img/chiles.webp" alt="Bags of dried chiles on the wall" data-es-alt="Bolsas de chiles secos en la pared" width="500" height="667" loading="lazy"><figcaption data-es="Chiles secos">Dried chiles</figcaption></figure>
-      <figure class="m3"><img src="img/especias.webp" alt="Mexican seasonings and teas" data-es-alt="Especias y tés mexicanos" width="500" height="667" loading="lazy"><figcaption data-es="Especias y tés">Spices &amp; teas</figcaption></figure>
-      <figure class="m4"><img src="img/aisle.webp" alt="Store aisle with produce and drinks under a bright yellow wall" data-es-alt="Pasillo de la tienda con verduras y bebidas junto a la pared amarilla" width="900" height="1200" loading="lazy" style="object-position:50% 45%"></figure>
-    </div>
-  </div>
-</section>
-
-<section class="sec services" id="servicios" aria-labelledby="svc-title">
-  <div class="wrap svc-grid">
-    <figure class="svc-photo"><img src="img/phones.webp" alt="Money transfer phones on a table inside the store" data-es-alt="Teléfonos de envío de dinero en una mesa dentro de la tienda" width="900" height="1200" loading="lazy"></figure>
-    <div>
-      <h2 id="svc-title" data-es="Cambie sus cheques y mande dinero a casa">Cash your checks and send money home</h2>
-      <p class="lead" data-es="Le facilitamos el cambio de cheques y el envío de dinero a sus familiares y amigos en Latinoamérica. Un servicio rápido, seguro y sin complicaciones.">We make it easy to cash your checks and send money to family and friends in Latin America. Fast, secure and hassle-free.</p>
-      <div class="svc-list">
-        <div class="svc-item"><h3 data-es="Cambio de cheques">Check cashing</h3><p data-es="Rápido y confiable, mientras hace sus compras.">Fast and reliable, while you do your shopping.</p></div>
-        <div class="svc-item"><h3 data-es="Envíos de dinero">Money transfers</h3><p data-es="Envíos seguros a Latinoamérica.">Secure transfers to Latin America.</p></div>
+<section class="carne" id="carniceria" aria-labelledby="carne-title">
+  <figure class="carne-photo">
+    <img src="img/butcher-1400.webp" srcset="img/butcher-800.webp 800w, img/butcher-1400.webp 1400w" sizes="100vw" alt="The carnicería case with beef cuts, chorizo and hand-lettered price signs" data-es-alt="La vitrina de la carnicería con cortes de res, chorizo y precios escritos a mano" width="1400" height="976" loading="lazy">
+  </figure>
+  <div class="carne-panel">
+    <div class="wrap">
+      <div class="box">
+        <h2 id="carne-title">Lo mejor en carnes</h2>
+        <p data-es="Así dice el mural de afuera, y la vitrina lo confirma: cortes de res y de puerco, chorizo y más, listos para su carne asada o su caldo.">That's what the mural outside says, and the case backs it up: beef and pork cuts, chorizo and more, ready for your carne asada or your caldo.</p>
       </div>
-      <a class="btn btn-navy" href="tel:+15412897155" data-es="Llame para más información">Call with questions</a>
+    </div>
+  </div>
+  <div class="carne-gap"></div>
+</section>
+
+<section class="abarrotes" id="abarrotes" aria-labelledby="ab-title">
+  <div class="wrap">
+    <div class="ab-head">
+      <h2 id="ab-title" data-es="Todo lo que ocupa para su cocina">Everything for your kitchen</h2>
+      <p data-es="Frutas y verduras frescas, masa y harina para tamales, chiles secos, especias y tés, enlatados y salsas, dulces mexicanos, bebidas frías y artículos para el hogar. &lt;b&gt;Aceptamos WIC.&lt;/b&gt;">Fresh fruit and vegetables, masa and tamal flour, dried chiles, spices and teas, canned goods and salsas, Mexican candy, cold drinks and household basics. <b>WIC accepted.</b></p>
+    </div>
+    <div class="ab-grid">
+      <figure class="m"><img src="img/masa-800.webp" srcset="img/masa-800.webp 800w, img/masa-1300.webp 1300w" sizes="(max-width: 760px) 100vw, 46vw" alt="An aisle stocked with masa harina, tamal flour and Mexican pantry staples" data-es-alt="Un pasillo con masa, harina para tamales y abarrotes mexicanos" width="1300" height="975" loading="lazy"><figcaption data-es="Masa y harina para tamales">Masa and tamal flour</figcaption></figure>
+      <figure class="f"><img src="img/fruta-700.webp" srcset="img/fruta-700.webp 700w, img/fruta-1200.webp 1200w" sizes="(max-width: 760px) 50vw, 34vw" alt="Bins of oranges, lemons and papayas" data-es-alt="Exhibidores con naranjas, limones y papayas" width="1200" height="621" loading="lazy"><figcaption data-es="Fruta fresca">Fresh fruit</figcaption></figure>
+      <figure class="c"><img src="img/chiles-460.webp" alt="A wall of bagged dried chiles" data-es-alt="Una pared de bolsas de chiles secos" width="460" height="614" loading="lazy"><figcaption data-es="Chiles secos">Dried chiles</figcaption></figure>
     </div>
   </div>
 </section>
 
-<section class="sec" id="historia" aria-labelledby="story-title">
-  <div class="wrap story">
-    <figure class="story-photo">
-      <img src="img/building.webp" alt="Mercado San Juan storefront on W Hartley Ave in Hermiston" data-es-alt="Fachada de Mercado San Juan en la W Hartley Ave de Hermiston" width="1200" height="900" loading="lazy">
-      <figcaption data-es="Nuestra tienda en la W Hartley Ave">Our store on W Hartley Ave</figcaption>
+<section class="envios" id="envios" aria-labelledby="env-title">
+  <div class="env-in">
+    <div class="env-photo"><img src="img/phones-700.webp" srcset="img/phones-700.webp 700w, img/phones-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 50vw" alt="Money transfer phones on a table inside the store" data-es-alt="Teléfonos para envíos de dinero en una mesa dentro de la tienda" width="1200" height="736" loading="lazy"></div>
+    <div class="env-copy">
+      <h2 id="env-title"><span data-es="Cambie su cheque.">Cash your check.</span> <span data-es="Mande dinero a casa.">Send money home.</span></h2>
+      <p data-es="Cambio de cheques y envíos de dinero a Latinoamérica, aquí mismo en la tienda. Rápido, seguro y sin complicaciones, mientras hace sus compras.">Check cashing and money transfers to Latin America, right inside the store. Fast, secure and hassle-free, while you do your shopping.</p>
+      <a class="btn btn-sun" href="tel:+15412897155" data-es="Llame para más información">Call with questions</a>
+    </div>
+  </div>
+</section>
+
+<section class="story" id="historia" aria-labelledby="story-title">
+  <div class="wrap">
+    <h2 id="story-title" data-es="De San Juan, Michoacán, a la Hartley Ave">From San Juan, Michoacán, to Hartley Ave</h2>
+    <figure class="story-team">
+      <img src="img/team-1300.webp" srcset="img/team-800.webp 800w, img/team-1300.webp 1300w, img/team-1800.webp 1800w" sizes="(max-width: 1260px) 100vw, 1180px" alt="The Mercado San Juan team in red polo shirts inside the store" data-es-alt="El equipo de Mercado San Juan con sus playeras rojas dentro de la tienda" width="1800" height="1033" loading="lazy">
+      <figcaption data-es="El equipo de Mercado San Juan">The Mercado San Juan team</figcaption>
     </figure>
+    <div class="story-grid">
+      <div class="story-text">
+        <p data-es="Mercado San Juan es un negocio familiar fundado en 2015 por Antonio y Olga Rauda. Somos dueños de negocio de primera generación, y al mudarnos de Hillsboro a Hermiston vimos la oportunidad de traer un pedacito de nuestro pueblo a esta comunidad.">Mercado San Juan is a family-owned business started in 2015 by Antonio and Olga Rauda. As first-generation business owners who moved here from Hillsboro, we saw a chance to bring a little piece of home to Hermiston.</p>
+        <p data-es="El mercado lleva el nombre de San Juan, Michoacán, el pueblo donde nació y creció Antonio, y que todavía visitamos seguido para estar con la familia.">The market is named after San Juan, Michoacán, the pueblo where Antonio was born and raised, and where we still go often to be with family.</p>
+        <p data-es="Para nosotros no se trata solo de comida. Se trata de hacer amistades y de servir a nuestra comunidad. Gracias por ser parte de nuestra historia.">For us it's not just about food. It's about building friendships and serving our community. Thank you for being part of our story.</p>
+        <p class="sig">Antonio y Olga Rauda<small data-es="Fundadores, desde 2015">Founders, since 2015</small></p>
+      </div>
+      <div class="story-side">
+        <figure class="mural"><img src="img/mural-600.webp" srcset="img/mural-600.webp 600w, img/mural-806.webp 806w" sizes="(max-width: 760px) 100vw, 40vw" alt="The red and yellow Mercado San Juan mural on the river rock wall outside: Lo mejor en carnes" data-es-alt="El mural rojo y amarillo de Mercado San Juan en la pared de piedra: Lo mejor en carnes" width="806" height="756" loading="lazy"><figcaption data-es="El mural de afuera, en la W Hartley Ave">The mural out front on W Hartley Ave</figcaption></figure>
+        <div class="quote">
+          <blockquote lang="es">“Exelente servicio y variedad de todo lo que ocupas en tu cosina”</blockquote>
+          <cite data-es="Reseña de Google">Google review</cite>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visit" aria-labelledby="visit-title">
+  <div class="wrap visit-in">
     <div>
-      <h2 id="story-title" data-es="Un pedacito de San Juan, Michoacán, en Hermiston">A little piece of San Juan, Michoacán, in Hermiston</h2>
-      <p data-es="Mercado San Juan es un negocio familiar fundado en 2015 por Antonio y Olga Rauda. Somos dueños de negocio de primera generación, y al mudarnos de Hillsboro a Hermiston vimos la oportunidad de traer un pedacito de nuestro pueblo a esta comunidad.">Mercado San Juan is a family-owned business started in 2015 by Antonio and Olga Rauda. As first-generation business owners who moved here from Hillsboro, we saw a chance to bring a little piece of home to Hermiston.</p>
-      <p data-es="El mercado lleva el nombre de San Juan, Michoacán, el pueblo donde nació y creció Antonio, y que todavía visitamos seguido para estar con la familia.">The market is named after San Juan, Michoacán, the pueblo where Antonio was born and raised, and where we still go often to be with family.</p>
-      <p data-es="Para nosotros no se trata solo de comida. Se trata de hacer amistades y de servir a nuestra comunidad. Gracias por ser parte de nuestra historia.">For us it's not just about food. It's about building friendships and serving our community. Thank you for being part of our story.</p>
-      <p class="sig">Antonio &amp; Olga Rauda<small data-es="Fundadores">Founders</small></p>
-      <div class="since">
-        <div><b>2015</b><span data-es="Abrimos nuestras puertas">Opened our doors</span></div>
-        <div><b data-es="7 días">7 days</b><span data-es="Abierto toda la semana">Open every day</span></div>
+      <h2 id="visit-title" data-es="Visítenos">Come see us</h2>
+      <div class="hours-sign">
+        <div class="d" data-es="Todos los días">Every day</div>
+        <div class="h" data-es="8 AM a 9 PM">8 AM to 9 PM</div>
+        <p data-es="Desayunos de lunes a viernes, 8 AM a 2 PM. En días festivos el horario puede cambiar.">Breakfast Monday to Friday, 8 AM to 2 PM. Holiday hours may vary.</p>
       </div>
+      <ul class="vlist">
+        <li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Mercado+San+Juan,+1150+W+Hartley+Ave+Ste+A,+Hermiston,+OR+97838" target="_blank" rel="noopener">1150 W Hartley Ave, Ste A, Hermiston, OR 97838</a><small data-es="Al oeste de la NW 11th St, con estacionamiento enfrente">Just west of NW 11th St, with parking out front</small></li>
+        <li><a href="tel:+15412897155">(541) 289-7155</a><small data-es="Llámenos">Call us</small></li>
+        <li><a href="mailto:mercadosanjuanllc@gmail.com">mercadosanjuanllc@gmail.com</a><small data-es="Correo electrónico">Email</small></li>
+      </ul>
+      <div class="cta">
+        <a class="btn btn-sun" href="https://www.google.com/maps/dir/?api=1&amp;destination=Mercado+San+Juan,+1150+W+Hartley+Ave+Ste+A,+Hermiston,+OR+97838" target="_blank" rel="noopener" data-es="Cómo llegar">Get directions</a>
+        <a class="btn btn-ghost" href="https://www.doordash.com/store/mercado-san-juan-hermiston-32918577/" target="_blank" rel="noopener" data-es="Pedir en DoorDash">Order on DoorDash</a>
+      </div>
+    </div>
+    <div class="map">
+      <iframe title="Map to Mercado San Juan" data-es-title="Mapa a Mercado San Juan" loading="lazy" src="https://maps.google.com/maps?q=Mercado%20San%20Juan%2C%201150%20W%20Hartley%20Ave%2C%20Hermiston%2C%20OR%2097838&amp;z=15&amp;output=embed"></iframe>
     </div>
   </div>
 </section>
 
-<section class="sec reviews" aria-labelledby="rev-title">
-  <div class="wrap">
-    <div class="sec-head">
-      <h2 id="rev-title" data-es="Lo que dicen nuestros clientes">What our customers say</h2>
-    </div>
-    <div class="rev-grid">
-      <div class="rev big">
-        <div class="stars" aria-label="5 stars" data-es-aria-label="5 estrellas"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.8-5.4 4.9 1.5 7.1L12 17.8 5.7 21.4l1.5-7.1L1.8 9.4 9 8.6z"/></svg></div>
-        <blockquote lang="es">“Exelente servicio y variedad de todo lo que ocupas en tu cosina”</blockquote>
-        <cite data-es="Reseña de Google">Google review</cite>
-      </div>
-      <div class="rev-side">
-        <div class="rev">
-          <div class="rating"><b>4.7</b><span data-es="de 5 estrellas en más de 200 calificaciones en DoorDash">out of 5 stars from 200+ ratings on DoorDash</span></div>
-        </div>
-        <div class="rev">
-          <blockquote lang="en">“The food was absolutely amazing!”</blockquote>
-          <cite data-es="Amanda P., reseña en DoorDash">Amanda P., DoorDash review</cite>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="sec" id="visit" aria-labelledby="visit-title">
-  <div class="wrap">
-    <div class="sec-head">
-      <h2 id="visit-title" data-es="Visítenos en Hermiston">Come see us in Hermiston</h2>
-      <p class="lead" data-es="Estamos en la W Hartley Ave, al oeste de la NW 11th St, con estacionamiento enfrente.">We're on W Hartley Ave just west of NW 11th St, with parking right out front.</p>
-    </div>
-    <div class="visit">
-      <div class="visit-card">
-        <h3 data-es="Horario">Hours</h3>
-        <table class="hours">
-          <tbody>
-            <tr><th scope="row" data-es="Lunes a domingo">Monday to Sunday</th><td data-es="8:00 AM a 9:00 PM">8:00 AM to 9:00 PM</td></tr>
-            <tr><th scope="row" data-es="Desayunos (lun. a vie.)">Breakfast (Mon to Fri)</th><td data-es="8:00 AM a 2:00 PM">8:00 AM to 2:00 PM</td></tr>
-          </tbody>
-        </table>
-        <p class="hours-note" data-es="En días festivos el horario puede cambiar. Llámenos para confirmar.">Holiday hours may vary. Give us a call to confirm.</p>
-        <ul class="contact-list">
-          <li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></i><span><a href="tel:+15412897155">(541) 289-7155</a><small data-es="Pedidos y preguntas">Orders and questions</small></span></li>
-          <li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></i><span><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Mercado+San+Juan,+1150+W+Hartley+Ave+Ste+A,+Hermiston,+OR+97838" target="_blank" rel="noopener">1150 W Hartley Ave, Ste A<br>Hermiston, OR 97838</a><small data-es="Cómo llegar">Get directions</small></span></li>
-          <li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></i><span><a href="mailto:mercadosanjuanllc@gmail.com">mercadosanjuanllc@gmail.com</a><small data-es="Correo electrónico">Email</small></span></li>
-        </ul>
-        <div class="visit-btns">
-          <a class="btn btn-red" href="https://www.google.com/maps/dir/?api=1&amp;destination=Mercado+San+Juan,+1150+W+Hartley+Ave+Ste+A,+Hermiston,+OR+97838" target="_blank" rel="noopener" data-es="Cómo llegar">Get directions</a>
-          <a class="btn btn-line" href="https://www.doordash.com/store/mercado-san-juan-hermiston-32918577/" target="_blank" rel="noopener" data-es="Pedir en DoorDash">Order on DoorDash</a>
-        </div>
-      </div>
-      <div class="map">
-        <iframe title="Map to Mercado San Juan" data-es-title="Mapa a Mercado San Juan" loading="lazy" src="https://maps.google.com/maps?q=Mercado%20San%20Juan%2C%201150%20W%20Hartley%20Ave%2C%20Hermiston%2C%20OR%2097838&amp;z=15&amp;output=embed"></iframe>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="sec reviews" id="contact" aria-labelledby="contact-title">
-  <div class="wrap contact-grid">
+<section class="contact on-light" id="contact" aria-labelledby="contact-title">
+  <div class="wrap contact-in">
     <div>
-      <h2 id="contact-title" data-es="¿Tiene alguna pregunta?">Got a question?</h2>
-      <p class="lead" data-es="Mándenos un mensaje y le contestamos pronto. Para algo rápido, lo mejor es llamar.">Send us a message and we'll get back to you soon. For anything quick, calling is best.</p>
+      <h2 id="contact-title" data-es="¿Preguntas?">Questions?</h2>
+      <p class="lede" data-es="Mándenos un mensaje y le contestamos pronto. Para algo rápido, lo mejor es llamar.">Send us a message and we'll get back to you soon. For anything quick, calling is best.</p>
       <div class="social">
         <a href="https://www.facebook.com/p/Mercado-San-Juan-LLC-100066377386406/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V8.8c0-.5.3-.8.5-.8z"/></svg>Facebook</a>
         <a href="https://www.instagram.com/mercadosanjuanllc/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Instagram</a>
       </div>
     </div>
-    <form class="card" id="contact-form" novalidate>
+    <form class="f" id="contact-form" novalidate>
       <div class="grid2">
         <div class="field"><label for="f-name" data-es="Nombre">Name</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
         <div class="field"><label for="f-phone" data-es="Teléfono">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
@@ -838,7 +790,7 @@ footer{background:var(--navy-d);color:#c3c9de;padding:60px 0 40px;font-size:.96r
         <select id="f-topic" name="topic">
           <option data-es="El menú o la cocina">The menu or kitchen</option>
           <option data-es="Panadería">Bakery</option>
-          <option data-es="Mercado o carnicería">Market or carnicería</option>
+          <option data-es="Carnicería o abarrotes">Butcher or groceries</option>
           <option data-es="Cambio de cheques o envíos de dinero">Check cashing or money transfers</option>
           <option data-es="Otro">Something else</option>
         </select>
@@ -857,8 +809,9 @@ footer{background:var(--navy-d);color:#c3c9de;padding:60px 0 40px;font-size:.96r
   <div class="wrap">
     <div class="foot">
       <div>
-        <a class="foot-logo" href="#main"><img src="img/logo.webp" alt="Mercado San Juan" width="190" height="55" loading="lazy"></a>
-        <p style="margin-top:16px;max-width:30em" data-es="Restaurante, carnicería, panadería y mercado mexicano en Hermiston, Oregón. Negocio familiar desde 2015.">Mexican restaurant, carnicería, panadería and market in Hermiston, Oregon. Family-owned since 2015.</p>
+        <a class="foot-logo" href="#main"><img src="img/logo.webp" alt="Mercado San Juan" width="200" height="58" loading="lazy"></a>
+        <p class="slogan">Donde más barato le dan</p>
+        <p style="margin-top:12px;max-width:30em" data-es="Restaurante, carnicería, panadería y mercado mexicano en Hermiston, Oregón. Negocio familiar desde 2015.">Mexican restaurant, carnicería, panadería and market in Hermiston, Oregon. Family-owned since 2015.</p>
       </div>
       <div><h4 data-es="Visítenos">Visit</h4><p>1150 W Hartley Ave, Ste A<br>Hermiston, OR 97838<br><a href="tel:+15412897155">(541) 289-7155</a><br><a href="mailto:mercadosanjuanllc@gmail.com">mercadosanjuanllc@gmail.com</a></p></div>
       <div><h4 data-es="Horario">Hours</h4><p><span data-es="Todos los días">Every day</span><br><span data-es="8:00 AM a 9:00 PM">8:00 AM to 9:00 PM</span><br><a href="https://www.facebook.com/p/Mercado-San-Juan-LLC-100066377386406/" target="_blank" rel="noopener">Facebook</a> &nbsp;/&nbsp; <a href="https://www.instagram.com/mercadosanjuanllc/" target="_blank" rel="noopener">Instagram</a></p></div>
@@ -872,38 +825,33 @@ footer{background:var(--navy-d);color:#c3c9de;padding:60px 0 40px;font-size:.96r
 
 <nav class="mbar" aria-label="Quick contact" data-es-aria-label="Contacto rápido">
   <a class="btn btn-red" href="tel:+15412897155" data-es="Llamar">Call now</a>
-  <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Mercado+San+Juan,+1150+W+Hartley+Ave+Ste+A,+Hermiston,+OR+97838" target="_blank" rel="noopener" data-es="Cómo llegar">Directions</a>
+  <a class="btn btn-navy" href="https://www.google.com/maps/dir/?api=1&amp;destination=Mercado+San+Juan,+1150+W+Hartley+Ave+Ste+A,+Hermiston,+OR+97838" target="_blank" rel="noopener" data-es="Cómo llegar">Directions</a>
 </nav>
 
 <script>
 (function(){
   var y=document.getElementById('yr'); if(y) y.textContent=new Date().getFullYear();
 
-  /* mobile menu */
   var top=document.querySelector('.top'),mb=document.querySelector('.menu-btn');
-  function closeMenu(){top.classList.remove('open');mb.setAttribute('aria-expanded','false');setAria(mb,false);}
-  function setAria(btn,open){var es=document.documentElement.lang==='es';btn.setAttribute('aria-label',open?(es?'Cerrar menú':'Close menu'):(es?'Abrir menú':'Open menu'));}
-  if(mb){
-    mb.addEventListener('click',function(){var o=top.classList.toggle('open');mb.setAttribute('aria-expanded',String(o));setAria(mb,o);});
-    document.querySelectorAll('#main-nav a').forEach(function(a){a.addEventListener('click',closeMenu);});
-    document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();});
-  }
+  function setAria(open){var es=document.documentElement.lang==='es';mb.setAttribute('aria-label',open?(es?'Cerrar menú':'Close menu'):(es?'Abrir menú':'Open menu'));}
+  function closeMenu(){top.classList.remove('open');mb.setAttribute('aria-expanded','false');setAria(false);}
+  mb.addEventListener('click',function(){var o=top.classList.toggle('open');mb.setAttribute('aria-expanded',String(o));setAria(o);});
+  document.querySelectorAll('#main-nav a').forEach(function(a){a.addEventListener('click',closeMenu);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();});
 
-  /* preview form */
   var f=document.getElementById('contact-form'), n=document.getElementById('form-note');
-  if(f){ f.addEventListener('submit',function(e){ e.preventDefault(); n.classList.add('show'); n.scrollIntoView({behavior:'smooth',block:'nearest'}); }); }
+  f.addEventListener('submit',function(e){ e.preventDefault(); n.classList.add('show'); n.scrollIntoView({behavior:'smooth',block:'nearest'}); });
 
   /* language */
   var META={
     en:{title:document.title,desc:document.querySelector('meta[name="description"]').content},
-    es:{title:'Mercado San Juan | Restaurante, mercado y panadería mexicana en Hermiston, OR',
+    es:{title:'Mercado San Juan | Restaurante, carnicería, panadería y mercado mexicano en Hermiston, OR',
         desc:'Restaurante, carnicería, panadería y mercado mexicano en Hermiston, Oregón, desde 2015. Platillos del día, tacos, pan dulce, cambio de cheques y envíos de dinero. 1150 W Hartley Ave. Llame al (541) 289-7155.'}
   };
-  var ATTRS=['aria-label','alt','title','data-today'];
   var textEls=[].slice.call(document.querySelectorAll('[data-es]'));
   textEls.forEach(function(el){el._en=el.innerHTML;});
   var attrEls=[];
-  ATTRS.forEach(function(a){document.querySelectorAll('[data-es-'+a+']').forEach(function(el){attrEls.push([el,a,el.getAttribute(a),el.getAttribute('data-es-'+a)]);});});
+  ['aria-label','alt','title'].forEach(function(a){document.querySelectorAll('[data-es-'+a+']').forEach(function(el){attrEls.push([el,a,el.getAttribute(a),el.getAttribute('data-es-'+a)]);});});
 
   var lang='en';
   function applyLang(l){
@@ -914,18 +862,18 @@ footer{background:var(--navy-d);color:#c3c9de;padding:60px 0 40px;font-size:.96r
     document.title=META[lang].title;
     document.querySelector('meta[name="description"]').content=META[lang].desc;
     document.querySelectorAll('.lang button').forEach(function(b){b.setAttribute('aria-pressed',String(b.getAttribute('data-lang')===lang));});
-    if(mb) setAria(mb,top.classList.contains('open'));
+    setAria(top.classList.contains('open'));
     renderToday();
   }
 
-  /* today's special, using the weekday in Hermiston (Pacific time) */
+  /* today's special, by the weekday in Hermiston (Pacific time) */
   var SPECIALS={
-    1:{d:['Bistek a la Mexicana','Costillas en Rojo'],p:'13.99'},
-    2:{d:['Albóndigas','Bistek en Salsa Verde'],p:'13.99'},
-    3:{d:['Camarones a la Diabla','Camarones al Mojo de Ajo'],p:'13.99'},
-    4:{d:['Caldo de Res','Chicharrón en Salsa'],p:'13.99'},
-    5:{d:['Pescado Dorado','Caldo de Camarón'],p:'14.99'},
-    6:{d:['Menudo','Barbacoa','Pollo al Horno','Birria de Chivo','Birria de Res'],p:'14.99'}
+    1:{en:'Bistek a la Mexicana or Costillas en Rojo',es:'Bistek a la Mexicana o Costillas en Rojo',p:'13.99'},
+    2:{en:'Albóndigas or Bistek en Salsa Verde',es:'Albóndigas o Bistek en Salsa Verde',p:'13.99'},
+    3:{en:'Camarones a la Diabla or al Mojo de Ajo',es:'Camarones a la Diabla o al Mojo de Ajo',p:'13.99'},
+    4:{en:'Caldo de Res or Chicharrón en Salsa',es:'Caldo de Res o Chicharrón en Salsa',p:'13.99'},
+    5:{en:'Pescado Dorado or Caldo de Camarón',es:'Pescado Dorado o Caldo de Camarón',p:'14.99'},
+    6:{en:'Menudo, barbacoa, birria and more',es:'Menudo, barbacoa, birria y más',p:'14.99'}
   };
   var BREAKFAST={
     1:{en:'Huevos a la Mexicana',es:'Huevos a la Mexicana',p:'13.99'},
@@ -935,31 +883,26 @@ footer{background:var(--navy-d);color:#c3c9de;padding:60px 0 40px;font-size:.96r
   };
   var DAYS={en:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],es:['domingo','lunes','martes','miércoles','jueves','viernes','sábado']};
   function hermistonDay(){
-    try{
-      var s=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());
-      return ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(s);
-    }catch(e){return new Date().getDay();}
+    try{var s=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Los_Angeles'}).format(new Date());return ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(s);}
+    catch(e){return new Date().getDay();}
   }
   function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;');}
   function renderToday(){
     var wd=hermistonDay(); if(wd<0) return;
     var key=(wd===0||wd===6)?6:wd, sp=SPECIALS[key];
-    var label=document.getElementById('today-label'), list=document.getElementById('today-dishes'), price=document.getElementById('today-price'), sub=document.getElementById('today-breakfast');
-    var dayName=DAYS[lang][wd];
-    label.textContent= lang==='es' ? ('Hoy es '+dayName) : ('Today is '+dayName);
-    var orWord= lang==='es'?'o':'or';
-    list.innerHTML=sp.d.map(function(x,i){return '<li>'+esc(x)+(i<sp.d.length-1?' <span class="or">'+(i===sp.d.length-2?orWord:'')+'</span>':'')+'</li>';}).join('');
-    price.hidden=false; price.querySelector('span').textContent=sp.p;
+    document.getElementById('hero-burst-label').textContent= lang==='es' ? ('Hoy, '+DAYS.es[wd]) : ('Today, '+DAYS.en[wd]);
+    document.getElementById('hero-burst-dishes').textContent= sp[lang];
+    document.getElementById('hero-burst-price').textContent='$'+sp.p;
     var b=BREAKFAST[wd], t;
-    if(lang==='es'){
-      t='Todos los días tenemos los platillos de siempre por <b>$13.99</b>.';
-      if(wd>=1&&wd<=5) t+=' Desayuno de hoy, de 8 AM a 2 PM: burrito de huevo con bebida por <b>$9.99</b>'+(b?(' o '+esc(b.es)+' por <b>$'+b.p+'</b>'):'')+'.';
+    if(wd>=1&&wd<=5){
+      t= lang==='es'
+        ? 'Desayuno de hoy, de 8 AM a 2 PM: burrito de huevo con bebida por <b>$9.99</b>'+(b?(', o '+esc(b.es)+' por <b>$'+b.p+'</b>'):'')+'.'
+        : 'Breakfast today, 8 AM to 2 PM: egg burrito with a drink for <b>$9.99</b>'+(b?(', or '+esc(b.en)+' for <b>$'+b.p+'</b>'):'')+'.';
     }else{
-      t='Our everyday platillos are always <b>$13.99</b>.';
-      if(wd>=1&&wd<=5) t+=' Breakfast today, 8 AM to 2 PM: egg burrito with a drink for <b>$9.99</b>'+(b?(', or '+esc(b.en)+' for <b>$'+b.p+'</b>'):'')+'.';
+      t= lang==='es' ? 'Desayunos de lunes a viernes, de 8 AM a 2 PM.' : 'Breakfast Monday to Friday, 8 AM to 2 PM.';
     }
-    sub.innerHTML=t;
-    document.querySelectorAll('.week li').forEach(function(li){li.classList.toggle('is-today',+li.getAttribute('data-day')===key);});
+    document.getElementById('breakfast-line').innerHTML=t;
+    document.querySelectorAll('.week .day').forEach(function(d){d.classList.toggle('is-today',+d.getAttribute('data-day')===key);});
   }
 
   var saved=null;
