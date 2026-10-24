@@ -104,7 +104,8 @@ section{scroll-margin-top:80px}
 .fifty b{font-family:var(--head);font-weight:400;font-size:4.4rem;line-height:.8;color:var(--brass);letter-spacing:-.03em;padding-right:20px;border-right:1px solid var(--night-line)}
 .fifty p{font-size:.98rem;line-height:1.5;color:#cfc8d2}
 .fifty p strong{color:#fff;font-weight:600}
-.hero-cap{position:absolute;right:32px;bottom:22px;font-size:.82rem;color:rgba(255,255,255,.62);text-align:right}
+.hero-cap{position:absolute;right:32px;bottom:12px;font-size:.84rem;color:rgba(255,255,255,.7);text-align:right;text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
+.hero-cap:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
 
 /* floor */
 .floor{padding:132px 0 0}
@@ -115,6 +116,7 @@ section{scroll-margin-top:80px}
 .floor-copy p{font-size:1.1rem;max-width:26em}
 .floor-copy p + p{margin-top:14px}
 .floor-copy .note{font-size:.98rem;color:var(--muted)}
+.floor-copy .btn{margin-top:26px}
 .directory{margin-top:96px;display:grid;grid-template-columns:minmax(0,3fr) repeat(3,minmax(0,3fr));gap:0 40px;padding-top:30px;border-top:1px solid var(--ink)}
 .directory > h3{font-size:1.55rem;line-height:1.2}
 .dir-group h4{font-family:var(--head);font-weight:400;font-size:1.05rem;color:var(--brass-d);margin-bottom:6px}
@@ -124,10 +126,10 @@ section{scroll-margin-top:80px}
 .dir-group a:hover span,.dir-group a:focus-visible span{opacity:1;transform:none}
 .pano{margin-top:110px}
 .pano img{width:100%;aspect-ratio:3.15/1;object-fit:cover}
-.pano-row{display:flex;justify-content:space-between;gap:24px 40px;flex-wrap:wrap;padding:14px 32px 0;max-width:var(--max);margin:0 auto}
+.pano-row{display:flex;justify-content:space-between;gap:4px 40px;flex-wrap:wrap;padding:8px 32px 0;max-width:var(--max);margin:0 auto}
 .pano-row .cap{margin-top:0}
-.brands{font-size:.98rem;color:var(--muted);max-width:44em}
-.brands b{color:var(--ink);font-weight:600}
+.pano-link{font-weight:600;color:var(--ink);text-underline-offset:4px;text-decoration-color:var(--brass);text-decoration-thickness:2px;display:inline-flex;align-items:center;min-height:44px}
+.pano-row{align-items:center}
 
 /* story */
 .story{background:var(--linen);padding:120px 0 128px;margin-top:110px}
@@ -151,6 +153,7 @@ section{scroll-margin-top:80px}
 .outlet-copy{padding:112px 72px 112px max(32px,calc((100vw - var(--max))/2 + 32px));display:flex;flex-direction:column;justify-content:center}
 .outlet h2{color:#fff;margin-bottom:22px}
 .outlet-copy > p{font-size:1.08rem;max-width:28em}
+.outlet-copy > p.dock{margin:14px 0 38px;color:#eee9f0}
 .facts{margin:34px 0 38px;max-width:28em}
 .facts div{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:14px 0;border-top:1px solid var(--night-line)}
 .facts div:last-child{border-bottom:1px solid var(--night-line)}
@@ -269,7 +272,7 @@ footer{background:var(--night);color:#aaa3ae;padding:0 0 40px;font-size:.96rem}
   .hero-media img{object-position:50% 40%}
   .hero-media::after{background:linear-gradient(180deg,rgba(30,28,34,0) 50%,rgba(30,28,34,.75) 80%,var(--night) 100%)}
   .hero .wrap{min-height:0;padding-top:0;padding-bottom:64px;margin-top:-118px;position:relative;z-index:1}
-  .hero-cap{position:static;text-align:left;padding:0 32px 26px;margin-top:-30px;max-width:var(--max);margin-left:auto;margin-right:auto}
+  .hero-cap{position:static;display:flex;text-align:left;padding:0 32px 18px;margin-top:-36px;max-width:var(--max);margin-left:auto;margin-right:auto}
 }
 @media (max-width:760px){
   body{font-size:16px}
@@ -337,7 +340,7 @@ footer{background:var(--night);color:#aaa3ae;padding:0 0 40px;font-size:.96rem}
       <img src="img/logo-white.webp" alt="Greg's Sleep Center, Sofas 'n More" width="480" height="165">
     </a>
     <nav class="nav" id="main-nav" aria-label="Main">
-      <a href="#shop">Shop the floor</a>
+      <a href="catalog/">Catalog</a>
       <a href="#story">Our story</a>
       <a href="#outlet">Mattress Outlet</a>
       <a href="#reviews">Reviews</a>
@@ -369,24 +372,24 @@ footer{background:var(--night);color:#aaa3ae;padding:0 0 40px;font-size:.96rem}
       </div>
       <div class="fifty">
         <b aria-hidden="true">50</b>
-        <p><strong>Fifty years this year.</strong> Greg opened his first sleep shop in The Dalles in 1976. Our 50th Anniversary Sale is on in the store now.</p>
+        <p><strong>Fifty years this year.</strong> It started with Greg's first sleep shop in The Dalles in 1976. Our 50th Anniversary Sale is on in the store now.</p>
       </div>
     </div>
   </div>
-  <p class="hero-cap">Beautyrest Black Hybrid, Series Two, from our mattress catalog.</p>
+  <a class="hero-cap" href="catalog/?p=beautyrest-black-hybrid-series-two">Beautyrest Black Hybrid, Series Two</a>
 </section>
 
 <section class="floor" id="shop" aria-labelledby="shop-title">
   <div class="wrap">
     <div class="floor-top">
       <figure>
-        <img src="img/room-harmony-1600.webp" srcset="img/room-harmony-900.webp 900w, img/room-harmony-1600.webp 1600w" sizes="(max-width:1100px) 100vw, 680px" alt="A Beautyrest mattress on a walnut platform bed in front of a soft blue arched wall" width="1600" height="1280" loading="lazy">
-        <figcaption class="cap">Beautyrest, one of the mattress lines on our floor.</figcaption>
+        <a href="catalog/?cat=mattresses" aria-label="Browse mattresses in the catalog"><img src="img/room-harmony-1600.webp" srcset="img/room-harmony-900.webp 900w, img/room-harmony-1600.webp 1600w" sizes="(max-width:1100px) 100vw, 680px" alt="A Beautyrest mattress on a walnut platform bed in front of a soft blue arched wall" width="1600" height="1280" loading="lazy"></a>
       </figure>
       <div class="floor-copy">
         <h2 id="shop-title">Come in and lie down on a few.</h2>
-        <p>A mattress is personal. So is the recliner you'll sit in every night. The store is set up for trying things, and Patti, Garnet and the team will ask what you want to spend before they show you anything.</p>
-        <p class="note">Browse the catalog online, then come feel it in person. Call for current pricing.</p>
+        <p>A mattress is personal. So is the recliner you'll sit in every night. The floor is set up for trying things, so tell us what you want to spend and we'll help you compare what fits.</p>
+        <p class="note">Brands include Ashley, Beautyrest, Emerald Home, Best Home Furnishings and Malouf. Look through the catalog first, then come try it in person.</p>
+        <a class="btn btn-night" href="catalog/">Browse the catalog</a>
       </div>
     </div>
 
@@ -395,38 +398,38 @@ footer{background:var(--night);color:#aaa3ae;padding:0 0 40px;font-size:.96rem}
       <div class="dir-group">
         <h4>Sleep</h4>
         <ul>
-          <li><a href="https://www.gregssleepcenter.com/mattresses/">Mattresses<span aria-hidden="true">&rarr;</span></a></li>
-          <li><a href="https://www.gregssleepcenter.com/adjustable-bases/">Adjustable bases<span aria-hidden="true">&rarr;</span></a></li>
-          <li><a href="https://www.gregssleepcenter.com/bedding/">Bedding<span aria-hidden="true">&rarr;</span></a></li>
-          <li><a href="https://www.gregssleepcenter.com/bedroom/">Bedroom furniture<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/?cat=mattresses">Mattresses<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/?cat=adjustable-bases">Adjustable bases<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/?cat=bedding">Bedding<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/?cat=bedroom">Bedroom furniture<span aria-hidden="true">&rarr;</span></a></li>
         </ul>
       </div>
       <div class="dir-group">
         <h4>Sit</h4>
         <ul>
-          <li><a href="https://www.gregssleepcenter.com/living-room/">Living room<span aria-hidden="true">&rarr;</span></a></li>
-          <li><a href="https://www.gregssleepcenter.com/recliners/">Recliners<span aria-hidden="true">&rarr;</span></a></li>
-          <li><a href="https://www.gregssleepcenter.com/231763-2/">Lift chairs<span aria-hidden="true">&rarr;</span></a></li>
-          <li><a href="https://www.gregssleepcenter.com/dining/">Dining<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/?cat=living-room">Living room<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/?cat=recliners">Recliners<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/?cat=lift-chairs">Lift chairs<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/?cat=dining">Dining<span aria-hidden="true">&rarr;</span></a></li>
         </ul>
       </div>
       <div class="dir-group">
         <h4>Everything else</h4>
         <ul>
-          <li><a href="https://www.gregssleepcenter.com/kids/">Kids<span aria-hidden="true">&rarr;</span></a></li>
-          <li><a href="https://www.gregssleepcenter.com/office/">Office<span aria-hidden="true">&rarr;</span></a></li>
-          <li><a href="https://www.gregssleepcenter.com/accessories/">Accessories<span aria-hidden="true">&rarr;</span></a></li>
-          <li><a href="https://www.gregssleepcenter.com/shop/">The whole catalog<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/?cat=kids">Kids<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/?cat=office">Office<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/?cat=accessories">Accessories<span aria-hidden="true">&rarr;</span></a></li>
+          <li><a href="catalog/">The whole catalog<span aria-hidden="true">&rarr;</span></a></li>
         </ul>
       </div>
     </div>
   </div>
 
   <figure class="pano">
-    <img src="img/room-sectional-2360.webp" srcset="img/room-sectional-1200.webp 1200w, img/room-sectional-2360.webp 2360w" sizes="100vw" alt="A brown leather reclining sectional with one seat reclined, a lift-top coffee table and two lamps" width="2360" height="750" loading="lazy">
+    <a href="catalog/?cat=living-room" aria-label="Browse living room furniture in the catalog"><img src="img/room-sectional-2360.webp" srcset="img/room-sectional-1200.webp 1200w, img/room-sectional-2360.webp 2360w" sizes="100vw" alt="A brown leather reclining sectional with one seat reclined, a lift-top coffee table and two lamps" width="2360" height="750" loading="lazy"></a>
     <figcaption class="pano-row">
-      <span class="cap">A reclining sectional from Ashley, one of the furniture brands we carry.</span>
-      <span class="brands"><b>Also in our catalog:</b> Beautyrest, Emerald Home, Best Home Furnishings, Malouf, IFD, Perdue, Coaster, Denali Home, Ultimate Power Lift, Mega Motion and Night &amp; Day.</span>
+      <span class="cap">Sofas, sectionals, recliners and lift chairs.</span>
+      <a class="pano-link" href="catalog/?cat=living-room">See the living room catalog</a>
     </figcaption>
   </figure>
 </section>
@@ -435,21 +438,21 @@ footer{background:var(--night);color:#aaa3ae;padding:0 0 40px;font-size:.96rem}
   <div class="wrap">
     <div class="story-copy">
       <h2 id="story-title">Greg and Patti have been at this since the waterbed days.</h2>
-      <p>Greg opened a specialty sleep store in The Dalles in 1976 and was one of the first retailers there to sell waterbeds, right next to the innerspring beds. Three years later he and Patti brought it to Main Street in Hermiston.</p>
-      <p>Waterbeds came and went. The store kept growing, picked up sofas, recliners and dining tables along the way, and in 2004 settled behind Cottage Flowers with a bigger name to match. Sleep is still what they know best.</p>
+      <p>Greg started with a specialty sleep store in The Dalles and was one of the first retailers there to sell waterbeds, right alongside innerspring beds. When he and Patti opened in Hermiston, the store became known for waterbeds and bedroom furniture.</p>
+      <p>Waterbeds came and went. The store grew into living rooms and dining rooms, took on a bigger name to match, and sleep is still what they know best.</p>
       <figure class="pull">
         <blockquote>"We simply won't go anyplace else! Greg, Patty, Garnett and the team are family!"</blockquote>
         <figcaption>Chelle H., on Facebook</figcaption>
       </figure>
     </div>
     <div class="ledger">
-      <h3>Every address since 1976</h3>
+      <h3>Where we've been</h3>
       <ol>
-        <li><span class="yr">1976</span><div><b>The Dalles</b><span>Greg's Sleep Shoppe opens as a specialty sleep store.</span></div></li>
-        <li><span class="yr">1979</span><div><b>Main Street, Hermiston</b><span>A 5,000 square foot store, opened in September.</span></div></li>
-        <li><span class="yr">1993</span><div><b>Hermiston Plaza</b><span>More foot traffic, and more furniture beyond the bedroom.</span></div></li>
-        <li class="now"><span class="yr">2004</span><div><b>Behind Cottage Flowers</b><span>Our home today, as Greg's Sleep Center, Sofas 'n More.</span></div></li>
-        <li><span class="yr">2019</span><div><b>GSC Mattress Outlet</b><span>More room for entry and mid-level mattresses.</span></div></li>
+        <li><span class="yr">1976</span><div><b>The Dalles</b><span>Greg's Sleep Shoppe opens.</span></div></li>
+        <li><span class="yr">1979</span><div><b>Main Street, Hermiston</b><span>Greg and Patti open in September.</span></div></li>
+        <li><span class="yr">1993</span><div><b>Hermiston Plaza</b></div></li>
+        <li class="now"><span class="yr">2004</span><div><b>Behind Cottage Flowers</b><span>Greg's Sleep Center, Sofas 'n More, where you'll find us today.</span></div></li>
+        <li><span class="yr">2019</span><div><b>GSC Mattress Outlet</b><span>More room for mattresses.</span></div></li>
       </ol>
     </div>
   </div>
@@ -458,20 +461,15 @@ footer{background:var(--night);color:#aaa3ae;padding:0 0 40px;font-size:.96rem}
 <section class="outlet" id="outlet" aria-labelledby="outlet-title">
   <div class="outlet-copy">
     <h2 id="outlet-title">The Mattress Outlet</h2>
-    <p>We opened GSC Mattress Outlet in 2019 to put more beds on display at entry and mid-level prices, with plenty of accessories alongside.</p>
-    <dl class="facts">
-      <div><dt>Opened</dt><dd>2019</dd></div>
-      <div><dt>On display</dt><dd>Entry and mid-level mattresses, plus accessories</dd></div>
-      <div><dt>Pickup</dt><dd>Easy dock loading, so you're in and out fast</dd></div>
-    </dl>
+    <p>More mattresses and accessories on display, with a focus on entry and mid-level prices.</p>
+    <p class="dock">Easy dock loading makes picking up your new mattress quick.</p>
     <div class="cta-row">
-      <a class="btn btn-linen" href="tel:+15415671099">Call about the outlet</a>
+      <a class="btn btn-linen" href="tel:+15415671099">Call for outlet directions</a>
       <a class="btn btn-line-l" href="#visit">Store hours</a>
     </div>
   </div>
   <figure class="outlet-media">
     <img src="img/outlet-base-1600.webp" srcset="img/outlet-base-900.webp 900w, img/outlet-base-1600.webp 1600w" sizes="(max-width:1100px) 100vw, 50vw" alt="An adjustable bed base with the head raised, white sheets and pillows, against warm wood paneling" width="1600" height="1280" loading="lazy">
-    <figcaption class="cap">Beautyrest baselogic Gold adjustable base, from our catalog.</figcaption>
   </figure>
 </section>
 
@@ -481,7 +479,7 @@ footer{background:var(--night);color:#aaa3ae;padding:0 0 40px;font-size:.96rem}
       <div class="score" aria-hidden="true">4.7</div>
       <div>
         <h2 id="reviews-title">What the neighbors say</h2>
-        <p>An average of 4.7 out of 5 across 81 reviews on Google and Facebook. Here are a few, in their own words.</p>
+        <p>Rated 4.7 out of 5 by customers on Google and Facebook. A few of them, in their own words.</p>
       </div>
     </div>
     <figure>
@@ -510,7 +508,7 @@ footer{background:var(--night);color:#aaa3ae;padding:0 0 40px;font-size:.96rem}
   <div class="wrap fin">
     <div class="fin-intro">
       <h2 id="financing-title">Take it home now. Pay over time.</h2>
-      <p>Two ways to spread out the cost of a new mattress, sofa or bedroom set. Apply online in a few minutes, or ask us in the store and we'll walk you through it.</p>
+      <p>Two ways to spread out the cost of a new mattress, sofa or bedroom set. Apply online, or ask us in the store and we'll walk you through it.</p>
     </div>
     <div>
       <div class="plan">
@@ -535,7 +533,6 @@ footer{background:var(--night);color:#aaa3ae;padding:0 0 40px;font-size:.96rem}
     <div>
       <h2 id="visit-title">Find us behind Cottage Flowers.</h2>
       <p class="addr">1725 N 1st St #D, Hermiston, OR 97838</p>
-      <p class="near">Just off North 1st Street, the main road through town.</p>
       <table class="hours" aria-label="Store hours">
         <tbody>
           <tr data-d="1"><th scope="row">Monday</th><td>9:30 AM to 6 PM</td></tr>
@@ -601,7 +598,7 @@ footer{background:var(--night);color:#aaa3ae;padding:0 0 40px;font-size:.96rem}
     <div class="foot">
       <div>
         <a class="brand" href="#top"><img src="img/logo-white.webp" alt="Greg's Sleep Center, Sofas 'n More" width="480" height="165" loading="lazy"></a>
-        <p style="margin-top:18px;max-width:30em">Locally owned and operated by Greg and Patti Turner. In Hermiston since 1979, and fifty years since the first store in The Dalles.</p>
+        <p style="margin-top:18px;max-width:30em">Locally owned and operated by Greg and Patti Turner.</p>
       </div>
       <div><h4>Store</h4><p>1725 N 1st St #D<br>Hermiston, OR 97838<br><a href="tel:+15415671099">(541) 567-1099</a><br><a href="mailto:gregssleepcenter@gmail.com">gregssleepcenter@gmail.com</a></p></div>
       <div><h4>Hours</h4><p>Monday to Saturday<br>9:30 AM to 6 PM<br>Sunday: 12 PM to 4 PM</p></div>
@@ -625,6 +622,7 @@ footer{background:var(--night);color:#aaa3ae;padding:0 0 40px;font-size:.96rem}
     document.querySelectorAll('#main-nav a').forEach(function(a){a.addEventListener('click',function(){top.classList.remove('open');mb.setAttribute('aria-expanded','false');mb.setAttribute('aria-label','Open menu');});}); }
   var f=document.getElementById('contact-form'), n=document.getElementById('form-note');
   if(f){ f.addEventListener('submit',function(e){ e.preventDefault(); n.classList.add('show'); n.scrollIntoView({behavior:'smooth',block:'nearest'}); }); }
+  try{var ask=new URLSearchParams(location.search).get('ask'); if(ask){ask=ask.slice(0,140); var m=document.getElementById('f-msg'); if(m&&!m.value){m.value="I'd like to know more about the "+ask+". "; } var tp=document.getElementById('f-topic'); if(tp){tp.value='Something else'; var low=ask.toLowerCase(); [['mattress','A mattress'],['base','An adjustable base'],['recliner','A recliner or lift chair'],['lift','A recliner or lift chair']].some(function(x){if(low.indexOf(x[0])>-1){tp.value=x[1];return true;}});} }}catch(e){}
   var row=document.querySelector('.hours tr[data-d="'+new Date().getDay()+'"]'); if(row){row.classList.add('today');}
   var y=document.getElementById('yr'); if(y){y.textContent=new Date().getFullYear();}
 })();
