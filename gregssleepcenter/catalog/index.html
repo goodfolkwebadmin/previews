@@ -60,8 +60,9 @@ h1,h2,h3{font-family:var(--head);font-weight:400;color:var(--ink);line-height:1.
 .nav a{text-decoration:none;font-weight:500;font-size:.98rem;color:#e8e3ea;padding:8px 0;border-bottom:1px solid transparent;transition:border-color .15s,color .15s}
 .nav a:hover,.nav a[aria-current]{color:#fff;border-bottom-color:var(--brass)}
 .head-cta{display:flex;align-items:center;gap:14px;flex:none}
-.phone{display:flex;align-items:center;gap:10px;text-decoration:none;min-height:44px;color:#fff;font-weight:600;font-size:1.04rem;white-space:nowrap}
-.phone svg{width:18px;height:18px;color:var(--brass);flex:none}
+.phone{display:flex;align-items:center;gap:8px;text-decoration:none;min-height:44px;color:#cfc8d2;font-weight:500;font-size:.98rem;white-space:nowrap}
+.phone:hover{color:#fff}
+.phone svg{width:16px;height:16px;color:#958e9a;flex:none}
 .menu-btn{display:none;align-items:center;justify-content:center;width:46px;height:46px;border:1px solid var(--night-line);border-radius:4px;background:transparent;color:#fff;cursor:pointer}
 .menu-btn svg{width:24px;height:24px}
 .menu-btn .x{display:none}
@@ -147,7 +148,8 @@ dialog.detail::backdrop{background:rgba(20,18,24,.72)}
 .d-info h2{font-size:clamp(1.6rem,2.6vw,2.2rem);margin:6px 0 12px;padding-right:40px}
 .d-cats{font-size:.92rem;color:var(--muted)}
 .d-actions{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 8px}
-.d-price-note{font-size:.9rem;color:var(--muted)}
+.d-price-note{font-size:.95rem;color:var(--muted)}
+.d-price-note a{color:var(--ink);font-weight:600;text-decoration-color:var(--brass);text-underline-offset:3px;display:inline-flex;align-items:center;min-height:44px}
 .d-specs{margin:26px 0 0;border-top:1px solid var(--line)}
 .d-specs div{display:grid;grid-template-columns:110px 1fr;gap:14px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.96rem}
 .d-specs dt{font-weight:600;color:var(--ink)}
@@ -192,7 +194,7 @@ footer{background:var(--night);color:#aaa3ae;padding:56px 0 40px;font-size:.96re
   .top .wrap{height:66px}
   .brand img{width:128px}
   .phone{display:none}
-  .call-icon{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:4px;background:var(--night-2);color:var(--brass)}
+  .call-icon{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:4px;background:var(--night-2);color:#cfc8d2}
   .call-icon svg{width:20px;height:20px}
   .head-cta .btn{display:none}
   .head-cta{gap:10px}
@@ -255,9 +257,8 @@ footer{background:var(--night);color:#aaa3ae;padding:56px 0 40px;font-size:.96re
     <div class="wrap">
       <div>
         <h1 id="cat-title">The catalog</h1>
-        <p>A look at what's on our floor, from mattresses to lamps. Prices change with our sales, so call for today's price, or come in and try it.</p>
+        <p>A look at what's on our floor, from mattresses to lamps. Prices change with our sales, so ask us for today's price, or come in and try it.</p>
       </div>
-      <a class="call" href="tel:+15415671099">Call (541) 567-1099</a>
     </div>
     <div class="tabs">
       <div class="wrap">
@@ -288,8 +289,8 @@ footer{background:var(--night);color:#aaa3ae;padding:56px 0 40px;font-size:.96re
       </div>
       <div class="more-wrap"><button class="btn btn-line" id="more" type="button" hidden>Show more</button></div>
       <div class="note-strip">
-        <p><b>Don't see it?</b> Not everything on our floor is online, and we can often order what you're after. Give us a call.</p>
-        <a class="btn btn-night" href="tel:+15415671099">Call (541) 567-1099</a>
+        <p><b>Don't see it?</b> Not everything on our floor is online, and we can often order what you're after. Tell us what you're looking for.</p>
+        <a class="btn btn-night" href="../#contact">Send us a note</a>
       </div>
     </div>
   </section>
@@ -307,10 +308,9 @@ footer{background:var(--night);color:#aaa3ae;padding:56px 0 40px;font-size:.96re
       <h2 id="d-name"></h2>
       <p class="d-cats" id="d-cats"></p>
       <div class="d-actions">
-        <a class="btn btn-night" href="tel:+15415671099">Call for today's price</a>
-        <a class="btn btn-line" id="d-ask" href="../#contact">Ask about this</a>
+        <a class="btn btn-night" id="d-ask" href="../#contact">Ask about this</a>
       </div>
-      <p class="d-price-note">Or stop in and try it. We're behind Cottage Flowers on North 1st Street.</p>
+      <p class="d-price-note">Or call for today's price: <a href="tel:+15415671099">(541) 567-1099</a></p>
       <dl class="d-specs" id="d-specs"></dl>
       <div class="d-desc" id="d-desc"></div>
     </div>
@@ -335,8 +335,8 @@ footer{background:var(--night);color:#aaa3ae;padding:56px 0 40px;font-size:.96re
 </footer>
 
 <nav class="mbar" aria-label="Quick contact">
-  <a class="btn btn-linen" href="tel:+15415671099">Call now</a>
-  <a class="btn btn-line-l" href="../#visit">Hours &amp; directions</a>
+  <a class="btn btn-linen" href="../#contact">Ask a question</a>
+  <a class="btn btn-line-l" href="../#visit">Visit</a>
 </nav>
 
 <script>
